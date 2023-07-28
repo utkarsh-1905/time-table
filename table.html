@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Primary Meta Tags -->
+    <title>Time Table Generator</title>
+    <meta name="title" content="Time Table Generator" />
+    <meta
+      name="description"
+      content="Quick Time Table Generator for Thapar University Students"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io" />
+    <meta property="og:title" content="Time Table Generator" />
+    <meta
+      property="og:description"
+      content="Quick Time Table Generator for Thapar University Students"
+    />
+    <meta
+      property="og:image"
+      content="https://www.utkarsh.ninja/favicon-32x32.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io" />
+    <meta property="twitter:title" content="Time Table Generator" />
+    <meta
+      property="twitter:description"
+      content="Quick Time Table Generator for Thapar University Students"
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.utkarsh.ninja/favicon-32x32.png"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="https://www.utkarsh.ninja/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thapar Time Table</title>
+  </head>
+  <body>
+    <div class="table-responsive">
+      <table class="table table-stripped table-dark table-bordered table-hover">
+        {{range $a,$b := .}} {{if eq $a 0}}
+        <tr class="table-warning">
+          {{range $k,$v := .}} {{if eq $k 0}}
+          <td class="table-warning">{{$v}}</td>
+          {{else if eq $v "Free"}}
+          <td class="bg-success">{{$v}}</td>
+          {{else}}
+          <td>{{$v}}</td>
+          {{end}} {{end}}
+        </tr>
+        {{else}}
+        <tr>
+          {{range $k,$v := .}} {{if eq $k 0}}
+          <td class="table-warning">{{$v}}</td>
+          {{else if eq $v "Free"}}
+          <td class="bg-success">{{$v}}</td>
+          {{else}}
+          <td>{{$v}}</td>
+          {{end}} {{end}}
+        </tr>
+        {{end}} {{end}}
+      </table>
+    </div>
+    <footer class="footer pt-2 bg-dark">
+      <p style="text-align: center" class="text-danger">
+        Made by Utkarsh Tripathi. &nbsp;
+        <a href="https://github.com/utkarsh-1905">Github</a>,
+        <a href="https://www.linkedin.com/in/utkarsh-tripathi-80a0ab192/"
+          >Linkedin,</a
+        >
+        <a href="https://utkarsh.ninja">Website</a>
+      </p>
+      <p style="text-align: center" class="text-danger">
+        Raise issue for this project <a>here.</a>
+      </p>
+    </footer>
+  </body>
+</html>

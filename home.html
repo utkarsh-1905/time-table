@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Primary Meta Tags -->
+    <title>Time Table Generator</title>
+    <meta name="title" content="Time Table Generator" />
+    <meta
+      name="description"
+      content="Quick Time Table Generator for Thapar University Students"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io" />
+    <meta property="og:title" content="Time Table Generator" />
+    <meta
+      property="og:description"
+      content="Quick Time Table Generator for Thapar University Students"
+    />
+    <meta
+      property="og:image"
+      content="https://www.utkarsh.ninja/favicon-32x32.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io" />
+    <meta property="twitter:title" content="Time Table Generator" />
+    <meta
+      property="twitter:description"
+      content="Quick Time Table Generator for Thapar University Students"
+    />
+    <meta
+      property="twitter:image"
+      content="https://www.utkarsh.ninja/favicon-32x32.png"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="https://www.utkarsh.ninja/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+    <title>Thapar Time Table</title>
+  </head>
+  <body class="bg-dark">
+    <div class="container">
+      <h2 style="text-align: center; margin: 2rem 0" class="text-success">
+        View your Time Table
+      </h2>
+      <div
+        class="card bg-secondary text-white"
+        style="
+          width: 60%;
+          display: flex;
+          flex-direction: columns;
+          justify-content: space-around;
+          align-items: center;
+          text-align: center;
+          margin: 0 auto;
+        "
+      >
+        <form id="form">
+          <div class="form-group" style="padding: 1rem">
+            <label for="sheets">Select Category</label>
+            <select name="sheets" id="sheets" style="margin: 1rem">
+              {{range .Sheets}}
+              <option value="{{.}}">{{.}}</option>
+              {{end}}
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="classes">Select Class</label>
+            <select
+              name="classes"
+              id="classes"
+              style="margin: 1rem; width: 200px"
+            >
+              {{range .Classes}} {{range $k,$v := .}}
+              <option value="{{$k}}">{{$v}}</option>
+              {{end}} {{end}}
+            </select>
+          </div>
+          <input
+            type="submit"
+            value="Get Schedule"
+            class="btn btn-primary"
+            style="margin-bottom: 1rem"
+          />
+        </form>
+      </div>
+    </div>
+    <footer class="footer mt-2">
+      <p style="text-align: center" class="text-danger">
+        Made by Utkarsh Tripathi. &nbsp;
+        <a href="https://github.com/utkarsh-1905">Github</a>,
+        <a href="https://www.linkedin.com/in/utkarsh-tripathi-80a0ab192/"
+          >Linkedin</a
+        >
+      </p>
+      <p style="text-align: center" class="text-danger">
+        Raise issue for this project <a>here.</a>
+      </p>
+    </footer>
+    <script>
+      const form = document.getElementById("form");
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        const sheets = document.getElementById("sheets");
+        const classes = document.getElementById("classes");
+        const sheet = sheets.options[sheets.selectedIndex].value;
+        const class_ = classes.options[classes.selectedIndex].value;
+        window.location.href = `/timetable?sheet=${sheet}&class=${class_}`;
+      });
+    </script>
+  </body>
+</html>
