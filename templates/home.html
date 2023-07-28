@@ -89,7 +89,7 @@
               style="margin: 1rem; width: 200px"
             >
               {{range .Classes}} {{range $k,$v := .}}
-              <option value="{{$k}}">{{$v}}</option>
+              <option value="{{$k}}" data-class="{{$v}}">{{$v}}</option>
               {{end}} {{end}}
             </select>
           </div>
@@ -124,7 +124,9 @@
         const classes = document.getElementById("classes");
         const sheet = sheets.options[sheets.selectedIndex].value;
         const class_ = classes.options[classes.selectedIndex].value;
-        window.location.href = `/timetable?sheet=${sheet}&class=${class_}`;
+        const classname =
+          classes.options[classes.selectedIndex].dataset["class"];
+        window.location.href = `/timetable?sheet=${sheet}&class=${class_}&classname=${classname}`;
       });
     </script>
   </body>

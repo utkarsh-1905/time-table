@@ -23,8 +23,9 @@ func main() {
 		}
 	}()
 
-	table, _ := template.ParseFiles("./table.html")
-	home, _ := template.ParseFiles("./home.html")
+	table, _ := template.ParseFiles("./templates/table.html")
+	home, _ := template.ParseFiles("./templates/home.html")
+	errorPage, _ := template.ParseFiles("./templates/error.html")
 
 	type HomeData struct {
 		Sheets  []string
@@ -63,6 +64,34 @@ func main() {
 	http.HandleFunc("/timetable", func(w http.ResponseWriter, r *http.Request) {
 		class, _ := strconv.Atoi(r.URL.Query().Get("class"))
 		sheet := r.URL.Query().Get("sheet")
+		classname := r.URL.Query().Get("classname")
+
+		ind := -1
+		for i, d := range sheets {
+			if d == sheet {
+				ind = i
+				break
+			}
+		}
+		if ind == -1 {
+			errorPage.Execute(w, nil)
+			return
+		}
+		flag := true
+		for i, d := range classes {
+			if i == ind {
+				for _, k := range d {
+					if classname == k {
+						flag = false
+					}
+				}
+				break
+			}
+		}
+		if flag {
+			errorPage.Execute(w, nil)
+			return
+		}
 		table.Execute(w, GetTableData(sheet, class, f))
 	})
 
