@@ -29,31 +29,35 @@ func main() {
 
 	type HomeData struct {
 		Sheets  []string
-		Classes []map[int]string
+		Classes map[string]map[int]string
 	}
 
 	var sheets []string
-	var classes []map[int]string
+	classes := make(map[string]map[int]string)
 	sheets = f.GetSheetList()
 	for _, sheet := range sheets {
 		temp := make(map[int]string)
 		cols, err := f.GetRows(sheet)
 		for i, d := range cols {
 			if i == 3 {
-				for j := range d {
-					if d[j] != "" && d[j] != "DAY" && d[j] != "HOURS" && d[j] != "SR NO" && d[j] != "SR.NO" {
-						temp[j+1] = d[j]
+				for j, k := range d {
+					if k != "" && k != "DAY" && k != "HOURS" && k != "SR NO" && k != "SR.NO" {
+						temp[j+1] = k
 					}
 				}
 			}
 		}
-		classes = append(classes, temp)
+		classes[sheet] = temp
 		if err != nil {
 			panic(err)
 		}
 	}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		if r.URL.Path != "/" {
+			errorPage.Execute(w, "This page is under construction !!(404)")
+			return
+		}
 		h := HomeData{
 			Sheets:  sheets,
 			Classes: classes,
@@ -66,20 +70,9 @@ func main() {
 		sheet := r.URL.Query().Get("sheet")
 		classname := r.URL.Query().Get("classname")
 
-		ind := -1
-		for i, d := range sheets {
-			if d == sheet {
-				ind = i
-				break
-			}
-		}
-		if ind == -1 {
-			errorPage.Execute(w, nil)
-			return
-		}
 		flag := true
 		for i, d := range classes {
-			if i == ind {
+			if i == sheet {
 				for _, k := range d {
 					if classname == k {
 						flag = false
@@ -89,7 +82,7 @@ func main() {
 			}
 		}
 		if flag {
-			errorPage.Execute(w, nil)
+			errorPage.Execute(w, "Invalid category/class combination")
 			return
 		}
 		table.Execute(w, GetTableData(sheet, class, f))

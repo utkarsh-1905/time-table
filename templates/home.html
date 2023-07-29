@@ -76,6 +76,9 @@
           <div class="form-group" style="padding: 1rem">
             <label for="sheets">Select Category</label>
             <select name="sheets" id="sheets" style="margin: 1rem">
+              <option value="-1" class="default" selected>
+                ---Select a Category---
+              </option>
               {{range .Sheets}}
               <option value="{{.}}">{{.}}</option>
               {{end}}
@@ -88,9 +91,16 @@
               id="classes"
               style="margin: 1rem; width: 200px"
             >
-              {{range .Classes}} {{range $k,$v := .}}
-              <option value="{{$k}}" data-class="{{$v}}">{{$v}}</option>
-              {{end}} {{end}}
+              <option value="-1" class="default-class" selected>
+                ---Select a Class---
+              </option>
+              {{range $a,$b := .Classes}}
+              <optgroup label="{{$a}}">
+                {{range $k,$v := .}}
+                <option value="{{$k}}" data-class="{{$v}}">{{$v}}</option>
+                {{end}}
+              </optgroup>
+              {{end}}
             </select>
           </div>
           <input
@@ -118,12 +128,36 @@
     </footer>
     <script>
       const form = document.getElementById("form");
+      const sheets = document.getElementById("sheets");
+      const classes = document.getElementById("classes");
+      const optgrps = classes.getElementsByTagName("optgroup");
+      const defaultClass = classes.querySelector(".default-class");
+
+      sheets.addEventListener("change", (e) => {
+        const sheet = sheets.options[sheets.selectedIndex].value;
+        for (let i = 0; i < optgrps.length; i++) {
+          const optgrp = optgrps[i];
+          if (optgrp.label === sheet) {
+            optgrp.style.display = "block";
+          } else {
+            hideOptGroup(optgrp);
+          }
+        }
+        defaultClass.selected = true;
+      });
+
+      function hideOptGroup(optgroup) {
+        optgroup.style.display = "none";
+      }
+
       form.addEventListener("submit", (e) => {
         e.preventDefault();
-        const sheets = document.getElementById("sheets");
-        const classes = document.getElementById("classes");
         const sheet = sheets.options[sheets.selectedIndex].value;
         const class_ = classes.options[classes.selectedIndex].value;
+        if (sheet === "-1" || class_ === "-1") {
+          alert("Please select a valid option");
+          return;
+        }
         const classname =
           classes.options[classes.selectedIndex].dataset["class"];
         window.location.href = `/timetable?sheet=${sheet}&class=${class_}&classname=${classname}`;
