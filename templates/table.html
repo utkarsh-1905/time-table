@@ -55,30 +55,16 @@
   <body>
     <div class="table-responsive">
       <table class="table table-stripped table-dark table-bordered table-hover">
-        {{range $a,$b := .}} {{if eq $a 0}}
-        <tr class="table-warning">
-          {{range $k,$v := .}} {{if eq $k 0}}
-          <td class="table-warning">{{$v}}</td>
-          {{else if eq $v "Free"}}
-          <td class="bg-success">{{$v}}</td>
-          {{else}}
-          <td>{{$v}}</td>
-          {{end}} {{end}}
-        </tr>
-        {{else}}
+        {{range .}}
         <tr>
-          {{range $k,$v := .}} {{if eq $k 0}}
-          <td class="table-warning">{{$v}}</td>
-          {{else if eq $v "Free"}}
-          <td class="bg-success">{{$v}}</td>
-          {{else}}
-          <td>{{$v}}</td>
-          {{end}} {{end}}
+          {{range .}}
+          <td class="bg-{{.Color}}">{{.Course}}</td>
+          {{end}}
         </tr>
-        {{end}} {{end}}
+        {{end}}
       </table>
     </div>
-    <footer class="footer pt-2 bg-dark">
+    <footer class="footer mt-2 mb-2 pb-2 pt-2 bg-dark">
       <p style="text-align: center" class="text-danger">
         Made by Utkarsh Tripathi. &nbsp;
         <a href="https://github.com/utkarsh-1905">Github</a>,
@@ -86,6 +72,10 @@
           >Linkedin,</a
         >
         <a href="https://utkarsh.ninja">Website</a>
+      </p>
+      <p style="text-align: center" class="text-warning">
+        Don't forget to star the project
+        <a href="https://github.com/utkarsh-1905/time-table">here.</a>
       </p>
       <p style="text-align: center" class="text-danger">
         Raise issue for this project
