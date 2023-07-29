@@ -62,7 +62,9 @@ func main() {
 		}
 		home.Execute(w, h)
 	})
-
+	// fd := utils.GetTableData("3RD YEAR B", 56, f)
+	// fdu, _ := json.MarshalIndent(fd, "", "	")
+	// fmt.Println(string(fdu))
 	http.HandleFunc("/timetable", func(w http.ResponseWriter, r *http.Request) {
 		class, _ := strconv.Atoi(r.URL.Query().Get("class"))
 		sheet := r.URL.Query().Get("sheet")
@@ -90,5 +92,3 @@ func main() {
 	err = http.ListenAndServe(":3000", nil)
 	utils.HandleError(err)
 }
-
-// /^[A-Z]{3}[0-9]{3}/gm
