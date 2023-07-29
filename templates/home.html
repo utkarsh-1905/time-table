@@ -107,24 +107,43 @@
             style="margin-bottom: 1rem"
           />
         </form>
+        <button class="btn btn-warning btn-md text-light mb-4 save">
+          Save Class
+        </button>
+        <div class="saved-urls container mb-4">
+          <p class="text-lg" style="text-align: center">Saved Timetables</p>
+          <ul class="saved-list bg-dark list-group"></ul>
+        </div>
       </div>
     </div>
     <footer class="footer mt-2 mb-2 pb-2 pt-2 bg-dark">
       <p style="text-align: center" class="text-danger">
-        Made by Utkarsh Tripathi. &nbsp;
-        <a href="https://github.com/utkarsh-1905">Github</a>,
-        <a href="https://www.linkedin.com/in/utkarsh-tripathi-80a0ab192/"
-          >Linkedin,</a
+        Made by Utkarsh Tripathi &nbsp;
+        <a href="https://github.com/utkarsh-1905" class="badge badge-success"
+          >Github</a
         >
-        <a href="https://utkarsh.ninja">Website</a>
+        <a
+          href="https://www.linkedin.com/in/utkarsh-tripathi-80a0ab192/"
+          class="badge badge-primary"
+          >Linkedin</a
+        >
+        <a href="https://utkarsh.ninja" class="badge badge-dark">Website</a>
       </p>
       <p style="text-align: center" class="text-warning">
         Don't forget to star the project
-        <a href="https://github.com/utkarsh-1905/time-table">here.</a>
+        <a
+          href="https://github.com/utkarsh-1905/time-table"
+          class="badge badge-warning badge-pill"
+          >here</a
+        >
       </p>
       <p style="text-align: center" class="text-danger">
-        Raise issue for this project
-        <a href="https://github.com/utkarsh-1905/time-table/issues">here.</a>
+        Raise an issue for this project
+        <a
+          href="https://github.com/utkarsh-1905/time-table/issues"
+          class="badge badge-danger badge-pill"
+          >here</a
+        >
       </p>
     </footer>
     <script>
@@ -133,6 +152,65 @@
       const classes = document.getElementById("classes");
       const optgrps = classes.getElementsByTagName("optgroup");
       const defaultClass = classes.querySelector(".default-class");
+      const save = document.querySelector(".save");
+
+      function renderLinks() {
+        const savedUrls = localStorage.getItem("urls");
+        //first delete any li in ul
+        const savedList = document.querySelector(".saved-list");
+        while (savedList.firstChild) {
+          savedList.removeChild(savedList.firstChild);
+        }
+        if (savedUrls) {
+          const urls = JSON.parse(savedUrls);
+          urls.forEach((url) => {
+            const a = document.createElement("a");
+            a.href = url.url;
+            a.target = "_blank";
+            a.innerText = url.classname;
+            a.classList.add("list-group-item");
+            a.classList.add("list-group-item-action");
+            a.classList.add("text-primary");
+            savedList.appendChild(a);
+          });
+        }
+      }
+
+      renderLinks();
+
+      save.addEventListener("click", (e) => {
+        e.preventDefault();
+        const sheet = sheets.options[sheets.selectedIndex].value;
+        const class_ = classes.options[classes.selectedIndex].value;
+        if (sheet === "-1" || class_ === "-1") {
+          alert("Please select a valid option");
+          return;
+        }
+        const classname =
+          classes.options[classes.selectedIndex].dataset["class"];
+        const url = {
+          url: `https://timetable.mlsctiet.com/timetable?sheet=${sheet}&class=${class_}&classname=${classname}`,
+          classname,
+        };
+
+        //save this url in an array in localstorage with max 3 urls in array at a time
+        let urls = localStorage.getItem("urls");
+        if (urls) {
+          urls = JSON.parse(urls);
+          if (urls.length < 3) {
+            urls.push(url);
+            localStorage.setItem("urls", JSON.stringify(urls));
+          } else {
+            urls.shift();
+            urls.push(url);
+            localStorage.setItem("urls", JSON.stringify(urls));
+          }
+        } else {
+          urls = [url];
+          localStorage.setItem("urls", JSON.stringify(urls));
+        }
+        renderLinks();
+      });
 
       sheets.addEventListener("change", (e) => {
         const sheet = sheets.options[sheets.selectedIndex].value;
