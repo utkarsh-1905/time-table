@@ -21,6 +21,13 @@
             <br />
             <sub><b>Utkarsh Tripathi</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/nimishmedatwal">
+            <img src="https://avatars.githubusercontent.com/u/91622060?v=4" width="100;" alt="nimishmedatwal"/>
+            <br />
+            <sub><b>Nimish Medatwal</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
