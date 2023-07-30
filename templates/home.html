@@ -58,7 +58,7 @@
         View your Time Table
       </h2>
       <div
-        class="card bg-secondary text-white"
+        class="card text-white"
         style="
           width: 60%;
           display: flex;
@@ -67,29 +67,34 @@
           align-items: center;
           text-align: center;
           margin: 0 auto;
+          background-color: #222222;
+          border: 0px;
         "
       >
         <form id="form">
-          <div class="form-group" style="padding: 1rem">
+          <div class="form-group mt-4" style="padding: 1rem">
             <label for="sheets">Select Category</label>
-            <select name="sheets" id="sheets" style="margin: 1rem">
-              <option value="-1" class="default" selected>
-                ---Select a Category---
+            <select name="sheets" id="sheets"  class="dropdown btn btn-secondary dropdown-toggle" style="margin-left: 1em !important; width: 200px">
+              <option value="-1" class="default dropdown-item" selected>
+                Select a Category
               </option>
               {{range .Sheets}}
-              <option value="{{.}}">{{.}}</option>
+              <option class="dropdown-item" value="{{.}}">{{.}}</option>
               {{end}}
             </select>
           </div>
+
+          
           <div class="form-group">
             <label for="classes">Select Class</label>
             <select
               name="classes"
+              class="dropdown btn btn-secondary dropdown-toggle"
               id="classes"
               style="margin: 1rem; width: 200px"
             >
               <option value="-1" class="default-class" selected>
-                ---Select a Class---
+                Select a Class
               </option>
               {{range $a,$b := .Classes}}
               <optgroup label="{{$a}}">
@@ -100,16 +105,18 @@
               {{end}}
             </select>
           </div>
+          <div class="mb-3">
           <input
             type="submit"
             value="Get Schedule"
             class="btn btn-primary"
-            style="margin-bottom: 1rem"
+            style="margin-right: 1rem"
           />
         </form>
-        <button class="btn btn-warning btn-md text-light mb-4 save">
+        <button class="btn btn-outline-secondary text-light save">
           Save Class
         </button>
+      </div>
         <div class="saved-urls container mb-4">
           <p class="text-lg" style="text-align: center">Saved Timetables</p>
           <ul class="saved-list bg-dark list-group"></ul>
