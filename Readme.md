@@ -13,6 +13,16 @@
 ![GitHub License](https://img.shields.io/github/license/utkarsh-1905/time-table)
 
 <!-- readme: contributors -start -->
+<table>
+<tr>
+    <td align="center">
+        <a href="https://github.com/utkarsh-1905">
+            <img src="https://avatars.githubusercontent.com/u/83540694?v=4" width="100;" alt="utkarsh-1905"/>
+            <br />
+            <sub><b>Utkarsh Tripathi</b></sub>
+        </a>
+    </td></tr>
+</table>
 <!-- readme: contributors -end -->
 
 ### How to use
