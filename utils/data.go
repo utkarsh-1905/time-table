@@ -79,7 +79,6 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 			cell, _ := f.GetCellValue(sheet, cellId)
 			if cell != "" {
 				if temp.Course != "" && strings.Trim(cell, " ") == strings.Trim(temp.Course, " ") {
-					fmt.Println("same cell")
 					continue
 				}
 				temp.Append(cell + " ")
