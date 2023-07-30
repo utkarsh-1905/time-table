@@ -78,13 +78,16 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 			cellId := fmt.Sprintf("%s%d", col, i+j)
 			cell, _ := f.GetCellValue(sheet, cellId)
 			if cell != "" {
-				temp.Append(cell + "	")
+				if temp.Course != "" && strings.Trim(cell, " ") == strings.Trim(temp.Course, " ") {
+					continue
+				}
+				temp.Append(cell + " ")
 			} else {
 				// algo to get venue in a merged cell situation
 				// fmt.Println("empty cell", j, temp.Course)
 				if temp.Course != "" && j == 1 {
 					tcell := ""
-					maxIter := 20 //to prevent infinite loop
+					maxIter := 35 //to prevent infinite loop
 					for tcell == "" && maxIter > 0 {
 						tclass--
 						col, err := excelize.ColumnNumberToName(tclass)
