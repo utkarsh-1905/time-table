@@ -12,6 +12,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/utkarsh-1905/time-table)
 ![GitHub License](https://img.shields.io/github/license/utkarsh-1905/time-table)
 
+### Collaborators
+
 <!-- readme: contributors -start -->
 <table>
 <tr>
