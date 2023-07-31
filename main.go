@@ -1,9 +1,11 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"html/template"
 	"net/http"
+	"os"
 	"strconv"
 
 	"github.com/utkarsh-1905/thapar-time-table/utils"
@@ -62,9 +64,7 @@ func main() {
 		}
 		home.Execute(w, h)
 	})
-	// fd := utils.GetTableData("3RD YEAR B", 56, f)
-	// fdu, _ := json.MarshalIndent(fd, "", "	")
-	// fmt.Println(string(fdu))
+
 	http.HandleFunc("/timetable", func(w http.ResponseWriter, r *http.Request) {
 		class, _ := strconv.Atoi(r.URL.Query().Get("class"))
 		sheet := r.URL.Query().Get("sheet")
@@ -88,7 +88,26 @@ func main() {
 		table.Execute(w, utils.GetTableData(sheet, class, f))
 	})
 
-	fmt.Println("Starting server at http://localhost:3000")
+	ExcelToJson(classes, f)
+	fmt.Println("Server Running at http://localhost:3000")
 	err = http.ListenAndServe(":3000", nil)
+	utils.HandleError(err)
+}
+
+func ExcelToJson(classes map[string]map[int]string, f *excelize.File) {
+	file, err := os.OpenFile("./data.json", os.O_TRUNC|os.O_CREATE, 0777)
+	utils.HandleError(err)
+	defer file.Close()
+	data := make(map[string]map[string][][]utils.Data)
+	for i, d := range classes {
+		temp := make(map[string][][]utils.Data)
+		for j, k := range d {
+			tc := utils.GetTableData(i, j, f)
+			temp[k] = tc
+		}
+		data[i] = temp
+	}
+	dj, _ := json.MarshalIndent(data, "", "	")
+	_, err = file.Write(dj)
 	utils.HandleError(err)
 }
