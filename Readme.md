@@ -1,6 +1,6 @@
 # Timetable Generator
 
- This tool is designed to make it easier for students to view and manage their class schedules by extracting data from an Excel sheet and displaying it in a user-friendly manner. With this project, students can quickly see their timetables and save their classes for easy access.
+This tool is designed to make it easier for students to view and manage their class schedules by extracting data from an Excel sheet and displaying it in a user-friendly manner. With this project, students can quickly see their timetables and save their classes for easy access.
 ---
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/utkarsh-1905/time-table?style=social)
@@ -43,7 +43,7 @@
 4. [Contribution](#contribution)
 5. [License](#license)
 
-### How to use
+## How to use
 
 1. Go to [this](https://timetable.mlsctiet.com) link.
 2. Select your branch category and section.
