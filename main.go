@@ -13,36 +13,10 @@ import (
 	"log"
 
 	"github.com/utkarsh-1905/thapar-time-table/utils"
-	"github.com/xuri/excelize/v2"
 )
 
 func init() {
 	fmt.Println("Initializing server...")
-	// f, err := excelize.OpenFile("timetable.xlsx")
-	// defer func() {
-	// 	if err = f.Close(); err != nil {
-	// 		panic(err)
-	// 	}
-	// }()
-	// utils.HandleError(err)
-	// sheets := f.GetSheetList()
-	// classes := make(map[string]map[int]string)
-	// for _, sheet := range sheets {
-	// 	temp := make(map[int]string)
-	// 	cols, err := f.GetRows(sheet)
-	// 	for i, d := range cols {
-	// 		if i == 3 {
-	// 			for j, k := range d {
-	// 				if k != "" && k != "DAY" && k != "HOURS" && k != "SR NO" && k != "SR.NO" {
-	// 					temp[j+1] = k
-	// 				}
-	// 			}
-	// 		}
-	// 	}
-	// 	classes[sheet] = temp
-	// 	utils.HandleError(err)
-	// }
-	// ExcelToJson(classes, f)
 	fmt.Println("Server initialized")
 }
 
@@ -116,23 +90,5 @@ func main() {
 
 	fmt.Println("Server Running at http://localhost:3000")
 	err := http.ListenAndServe(":3000", nil)
-	utils.HandleError(err)
-}
-
-func ExcelToJson(classes map[string]map[int]string, f *excelize.File) {
-	file, err := os.OpenFile("./data.json", os.O_TRUNC|os.O_WRONLY, os.ModeAppend)
-	utils.HandleError(err)
-	defer file.Close()
-	data := make(map[string]map[string][][]utils.Data)
-	for i, d := range classes {
-		temp := make(map[string][][]utils.Data)
-		for j, k := range d {
-			tc := utils.GetTableData(i, j, f)
-			temp[strings.Trim(k, " ")] = tc
-		}
-		data[strings.Trim(i, " ")] = temp
-	}
-	dj, _ := json.MarshalIndent(data, "", "	")
-	_, err = file.Write(dj)
 	utils.HandleError(err)
 }
