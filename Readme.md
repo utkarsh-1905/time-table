@@ -109,4 +109,4 @@ This project is licensed under the GNU General Public License - see the [LICENSE
 
 ---
 
-Note: Post any discrepency about the timetable [here](https://github.com/utkarsh-1905/time-table/discussions/12).x
+Note: Post any discrepency about the timetable [here](https://github.com/utkarsh-1905/time-table/discussions/12).
