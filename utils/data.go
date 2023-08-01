@@ -24,7 +24,7 @@ func (d *Data) Append(cell string) {
 	if lres {
 		d.Color = "danger"
 	} else if tres {
-		d.Color = "warning"
+		d.Color = "primary"
 	} else if eres {
 		d.Color = "info"
 	}
@@ -36,7 +36,7 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 	startCol := 5
 	endCol := 144
 	timings := [][]Data{}
-	freeTime := Data{Course: "Free", Color: "success"}
+	freeTime := Data{Course: "", Color: "success"}
 	dayofweek := []string{
 		"Timings",
 		"Monday",
@@ -49,7 +49,7 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 	for _, d := range dayofweek {
 		temp := Data{
 			Course: d,
-			Color:  "primary",
+			Color:  "dark",
 		}
 		Days = append(Days, temp)
 	}
@@ -120,7 +120,7 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 	newtimings = append(newtimings, Days)
 	for i := 0; i < 14; i++ {
 		temp := []Data{}
-		temp = append(temp, Data{timeValue[i], "primary"})
+		temp = append(temp, Data{timeValue[i], "dark"})
 		for _, d := range timings {
 			temp = append(temp, d[i])
 		}
