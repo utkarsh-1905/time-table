@@ -68,11 +68,16 @@
   </script>
   <body>
     <div class="table-responsive">
-      <table class="table table-stripped table-dark table-bordered table-hover">
+      <table class="table table-dark table-bordered table-hover">
         {{range .}}
-        <tr>
+        <tr class="row">
           {{range .}}
-          <td class="bg-{{.Color}}">{{.Course}}</td>
+          <td
+            class="bg-{{.Color}} col"
+            style="overflow-x: auto; text-align: center"
+          >
+            {{.Course}}
+          </td>
           {{end}}
         </tr>
         {{end}}
