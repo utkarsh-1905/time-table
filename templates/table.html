@@ -67,14 +67,45 @@
     gtag("config", "G-SSECP1SFQX");
   </script>
   <body>
-    <div class="table-responsive">
-      <table class="table table-dark table-bordered table-hover">
+    <style>
+      body{
+        background-image: url('https://res.cloudinary.com/dcvqnyvvt/image/upload/v1690888410/HD_wallpaper__wallpaper_night_space_sagittarius_stars_star_-_space_astronomy_ilz5wn.jpg');
+        background-size: cover;
+      }
+      .table-responsive{
+        padding:3%;
+      }
+      ::-webkit-scrollbar {
+        width: 3px;
+        height: 3px;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #494949;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+      .opacity-75:hover{
+        opacity: 100%;
+      }
+    </style>
+    <div class="table-responsive ">
+      <table class="table table-dark table-hover">
         {{range .}}
         <tr class="row">
           {{range .}}
           <td
-            class="bg-{{.Color}} col"
-            style="overflow-x: auto; text-align: center"
+            class="bg-{{.Color}} col opacity-75"
+            style="overflow-x: auto; text-align: center; margin: 0rem 0.3rem 0.5rem 0.3rem; border-radius: 0.5rem;"
           >
             {{.Course}}
           </td>
