@@ -15,31 +15,31 @@ import (
 
 func init() {
 	fmt.Println("Initializing server...")
-	// f, err := excelize.OpenFile("timetable.xlsx")
-	// defer func() {
-	// 	if err = f.Close(); err != nil {
-	// 		panic(err)
-	// 	}
-	// }()
-	// utils.HandleError(err)
-	// sheets := f.GetSheetList()
-	// classes := make(map[string]map[int]string)
-	// for _, sheet := range sheets {
-	// 	temp := make(map[int]string)
-	// 	cols, err := f.GetRows(sheet)
-	// 	for i, d := range cols {
-	// 		if i == 3 {
-	// 			for j, k := range d {
-	// 				if k != "" && k != "DAY" && k != "HOURS" && k != "SR NO" && k != "SR.NO" {
-	// 					temp[j+1] = k
-	// 				}
-	// 			}
-	// 		}
-	// 	}
-	// 	classes[sheet] = temp
-	// 	utils.HandleError(err)
-	// }
-	// ExcelToJson(classes, f)
+	f, err := excelize.OpenFile("timetable.xlsx")
+	defer func() {
+		if err = f.Close(); err != nil {
+			panic(err)
+		}
+	}()
+	utils.HandleError(err)
+	sheets := f.GetSheetList()
+	classes := make(map[string]map[int]string)
+	for _, sheet := range sheets {
+		temp := make(map[int]string)
+		cols, err := f.GetRows(sheet)
+		for i, d := range cols {
+			if i == 3 {
+				for j, k := range d {
+					if k != "" && k != "DAY" && k != "HOURS" && k != "SR NO" && k != "SR.NO" {
+						temp[j+1] = k
+					}
+				}
+			}
+		}
+		classes[sheet] = temp
+		utils.HandleError(err)
+	}
+	ExcelToJson(classes, f)
 	fmt.Println("Server initialized")
 }
 
