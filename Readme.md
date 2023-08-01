@@ -69,7 +69,7 @@ Before you start, make sure you have the following prerequisites installed on yo
 
 ### Installation
 
-1. Clone the repository: ```git clone https://github.com/your-username/timetable-generator.git```
+1. Clone the repository: ```git clone https://github.com/utkarsh-1905/time-table```
 2. Build the project: ``` go build```
 3. Run the project: `go run main.go`
 ## Contribution
