@@ -1,7 +1,6 @@
-## Time Table Generator
+# Timetable Generator
 
-#### Only for Thapar Students
-
+ This tool is designed to make it easier for students to view and manage their class schedules by extracting data from an Excel sheet and displaying it in a user-friendly manner. With this project, students can quickly see their timetables and save their classes for easy access.
 ---
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/utkarsh-1905/time-table?style=social)
@@ -34,13 +33,80 @@
 </table>
 <!-- readme: contributors -end -->
 
+## Table of Contents
+1. [How to Use](#how-to-use)
+1. [Features](#features)
+2. [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+3. [Usage](#usage)
+4. [Contribution](#contribution)
+5. [License](#license)
+
 ### How to use
 
 1. Go to [this](https://timetable.mlsctiet.com) link.
-2. Enter your branch category and section.
-3. Click on the Get button.
+2. Select your branch category and section.
+3. Click on the Get Schedule button.
 4. Alternatively, you can save that data and see the timetable next time without selecting the branch and section again.
+
+
+## Features
+
+- Import class data from an Excel sheet.
+- Display the class schedule in a clear and organized format.
+- Save and load class schedules for easy access.
+- Intuitive and user-friendly interface.
+
+## Getting Started
+
+### Prerequisites
+
+Before you start, make sure you have the following prerequisites installed on your system:
+
+- Go programming language (at least Go 1.14)
+- Git
+
+### Installation
+
+1. Clone the repository: ```git clone https://github.com/your-username/timetable-generator.git```
+2. Build the project: ``` go build```
+3. Run the project: `go run main.go`
+## Contribution
+
+We welcome contributions from the community to enhance and improve the Timetable Generator project. If you want to contribute, follow these steps:
+
+1. Fork the repository.
+
+2. Create a new branch with a descriptive name for your feature or bug fix.
+
+3. Make your changes and ensure they follow the project's coding guidelines.
+
+4. Write tests to cover your changes, if applicable.
+
+5. Run existing tests and make sure everything passes.
+
+6. Commit your changes and push the branch to your fork.
+
+7. Open a pull request against the main repository's `main` branch.
+
+Our team will review your contribution, and once it meets our criteria, we will merge it into the project.
+
+### Coding Guidelines
+
+- Follow the Go language conventions and idioms.
+- Use meaningful names for variables, functions, and types.
+- Write clear and concise comments to explain complex logic.
+- Keep the code modular and well-organized.
+
+### Bug Reports and Feature Requests
+
+If you encounter any bugs or have ideas for new features, please open an issue in the project's issue tracker. Be sure to provide sufficient details to reproduce the problem or understand the proposed feature.
+
+## License
+
+This project is licensed under the GNU General Public License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-Note: Post any discrepency about the timetable [here](https://github.com/utkarsh-1905/time-table/discussions/12).
+Note: Post any discrepency about the timetable [here](https://github.com/utkarsh-1905/time-table/discussions/12).x
