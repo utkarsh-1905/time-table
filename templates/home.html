@@ -81,15 +81,28 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #555;
       }
+      @media (max-width:576px){
+        .form-group{
+          text-align: center !important;
+          display: flex;
+          flex-direction: column ;
+          justify-content: center;
+          align-items: center;
+      }
+        #custom-card {
+          width: 80% !important;
+        }
+      }
     </style>
     <div class="container">
       <h2 style="text-align: center; margin: 2rem 0" class="text-success">
         View your Time Table
       </h2>
       <div
+      id="custom-card"
         class="card text-white"
         style="
-          width: 70%;
+          width: 65%;
           display: flex;
           flex-direction: columns;
           justify-content: space-around;
@@ -102,7 +115,7 @@
       >
         <form id="form">
           <div class="form-group mt-4" style="padding: 1rem; text-align: right;">
-            <label for="sheets">Category </label>
+            <label for="sheets" class="category-label pb-2" >Category</label>
             <select name="sheets" id="sheets"  class="dropdown btn btn-secondary dropdown-toggle" style="margin-left: 1em !important; width: 200px">
               <option value="-1" class="default-sheet dropdown-item" selected>
                 Select a Category
@@ -115,7 +128,7 @@
 
           
           <div class="form-group" style="text-align: right;">
-            <label for="classes">Class </label>
+            <label for="classes" class="class-label">Class </label>
             <select
               name="classes"
               class="dropdown btn btn-secondary dropdown-toggle"
@@ -147,7 +160,7 @@
         </button>
       </div>
       <!-- remove the alert later on -->
-      <div class="alert alert-warning" role="alert">There are breaking changes, please re-save all classes!</div>
+      <div class="alert alert-warning m-3" role="alert">There are breaking changes, please re-save all classes!</div>
         <div class="saved-urls container mb-4">
           <p class="text-lg" style="text-align: center">Saved Timetables</p>
           <ul class="saved-list bg-dark list-group"></ul>
