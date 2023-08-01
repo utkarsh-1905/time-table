@@ -12,6 +12,8 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/utkarsh-1905/time-table)
 ![GitHub License](https://img.shields.io/github/license/utkarsh-1905/time-table)
 
+### Collaborators
+
 <!-- readme: contributors -start -->
 <table>
 <tr>
@@ -20,6 +22,13 @@
             <img src="https://avatars.githubusercontent.com/u/83540694?v=4" width="100;" alt="utkarsh-1905"/>
             <br />
             <sub><b>Utkarsh Tripathi</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/nimishmedatwal">
+            <img src="https://avatars.githubusercontent.com/u/91622060?v=4" width="100;" alt="nimishmedatwal"/>
+            <br />
+            <sub><b>Nimish Medatwal</b></sub>
         </a>
     </td></tr>
 </table>

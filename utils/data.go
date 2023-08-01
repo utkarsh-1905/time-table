@@ -22,9 +22,9 @@ func (d *Data) Append(cell string) {
 	tres := tut.MatchString(cell)
 	eres := elective.MatchString(cell)
 	if lres {
-		d.Color = "primary"
-	} else if tres {
 		d.Color = "danger"
+	} else if tres {
+		d.Color = "warning"
 	} else if eres {
 		d.Color = "info"
 	}
@@ -49,7 +49,7 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 	for _, d := range dayofweek {
 		temp := Data{
 			Course: d,
-			Color:  "warning",
+			Color:  "primary",
 		}
 		Days = append(Days, temp)
 	}
@@ -120,7 +120,7 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 	newtimings = append(newtimings, Days)
 	for i := 0; i < 14; i++ {
 		temp := []Data{}
-		temp = append(temp, Data{timeValue[i], "warning"})
+		temp = append(temp, Data{timeValue[i], "primary"})
 		for _, d := range timings {
 			temp = append(temp, d[i])
 		}
