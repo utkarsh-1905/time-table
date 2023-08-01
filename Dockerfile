@@ -16,8 +16,9 @@ CMD [ "./main.exe" ]
 
 FROM scratch
 WORKDIR /app
-COPY --from=build /app ./
-COPy timetable.xlsx ./
+COPY --from=build /app/main.exe ./
+COPY --from=build /app/data.json ./
+COPY --from=build /app/timetable.xlsx ./
 # if deployed on personal server
 LABEL traefik.port=80
 LABEL traefik.http.routers.network.rule="Host(`timetable.utkarsh.ninja`)"

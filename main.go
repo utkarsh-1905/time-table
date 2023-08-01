@@ -113,7 +113,7 @@ func main() {
 }
 
 func ExcelToJson(classes map[string]map[int]string, f *excelize.File) {
-	file, err := os.OpenFile("./data.json", os.O_TRUNC|os.O_CREATE, 0777)
+	file, err := os.OpenFile("./data.json", os.O_TRUNC|os.O_WRONLY, os.ModeAppend)
 	utils.HandleError(err)
 	defer file.Close()
 	data := make(map[string]map[string][][]utils.Data)
