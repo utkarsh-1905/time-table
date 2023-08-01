@@ -69,8 +69,8 @@
   <body>
     <style>
       body{
-        background-image: url('https://res.cloudinary.com/dcvqnyvvt/image/upload/v1690888410/HD_wallpaper__wallpaper_night_space_sagittarius_stars_star_-_space_astronomy_ilz5wn.jpg');
-        background-size: cover;
+        background-image: url('https://res.cloudinary.com/dcvqnyvvt/image/upload/v1690892076/download_q1pycb.png');
+        background-size: no-repeat;
       }
       .table-responsive{
         padding:3%;
@@ -94,7 +94,10 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #555;
       }
-      .opacity-75:hover{
+      .tablemain{
+        opacity: 80%;
+      }
+      .tablemain:hover{
         opacity: 100%;
       }
     </style>
@@ -104,7 +107,7 @@
         <tr class="row">
           {{range .}}
           <td
-            class="bg-{{.Color}} col opacity-75"
+            class="bg-{{.Color}} col  tablemain"
             style="overflow-x: auto; text-align: center; margin: 0rem 0.3rem 0.5rem 0.3rem; border-radius: 0.5rem;"
           >
             {{.Course}}
