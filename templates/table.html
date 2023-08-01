@@ -68,12 +68,12 @@
   </script>
   <body>
     <style>
-      body{
-        background-image: url('https://res.cloudinary.com/dcvqnyvvt/image/upload/v1690892076/download_q1pycb.png');
+      body {
+        background-image: url("/static/table-background.png");
         background-size: no-repeat;
       }
-      .table-responsive{
-        padding:3%;
+      .table-responsive {
+        padding: 3%;
       }
       ::-webkit-scrollbar {
         width: 3px;
@@ -94,21 +94,26 @@
       ::-webkit-scrollbar-thumb:hover {
         background: #555;
       }
-      .tablemain{
+      .tablemain {
         opacity: 80%;
       }
-      .tablemain:hover{
+      .tablemain:hover {
         opacity: 100%;
       }
     </style>
-    <div class="table-responsive ">
+    <div class="table-responsive">
       <table class="table table-dark table-hover">
         {{range .}}
         <tr class="row">
           {{range .}}
           <td
             class="bg-{{.Color}} col  tablemain"
-            style="overflow-x: auto; text-align: center; margin: 0rem 0.3rem 0.5rem 0.3rem; border-radius: 0.5rem;"
+            style="
+              overflow-x: auto;
+              text-align: center;
+              margin: 0rem 0.3rem 0.5rem 0.3rem;
+              border-radius: 0.5rem;
+            "
           >
             {{.Course}}
           </td>

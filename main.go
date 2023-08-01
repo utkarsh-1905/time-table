@@ -88,6 +88,9 @@ func main() {
 		table.Execute(w, data[sheet][class])
 	})
 
+	fs := http.FileServer(http.Dir("assets/"))
+	http.Handle("/static/", http.StripPrefix("/static/", fs))
+
 	fmt.Println("Server Running at http://localhost:3000")
 	err := http.ListenAndServe(":3000", nil)
 	utils.HandleError(err)
