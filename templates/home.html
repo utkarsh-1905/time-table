@@ -60,7 +60,7 @@
       <div
         class="card text-white"
         style="
-          width: 60%;
+          width: 70%;
           display: flex;
           flex-direction: columns;
           justify-content: space-around;
@@ -72,10 +72,10 @@
         "
       >
         <form id="form">
-          <div class="form-group mt-4" style="padding: 1rem">
-            <label for="sheets">Select Category</label>
+          <div class="form-group mt-4" style="padding: 1rem; text-align: right;">
+            <label for="sheets">Category </label>
             <select name="sheets" id="sheets"  class="dropdown btn btn-secondary dropdown-toggle" style="margin-left: 1em !important; width: 200px">
-              <option value="-1" class="default dropdown-item" selected>
+              <option value="-1" class="default-sheet dropdown-item" selected>
                 Select a Category
               </option>
               {{range .Sheets}}
@@ -85,8 +85,8 @@
           </div>
 
           
-          <div class="form-group">
-            <label for="classes">Select Class</label>
+          <div class="form-group" style="text-align: right;">
+            <label for="classes">Class </label>
             <select
               name="classes"
               class="dropdown btn btn-secondary dropdown-toggle"
@@ -98,8 +98,8 @@
               </option>
               {{range $a,$b := .Classes}}
               <optgroup label="{{$a}}">
-                {{range $k,$v := .}}
-                <option value="{{$k}}" data-class="{{$v}}">{{$v}}</option>
+                {{range $b}}
+                <option value="{{.}}">{{.}}</option>
                 {{end}}
               </optgroup>
               {{end}}
@@ -117,6 +117,8 @@
           Save Class
         </button>
       </div>
+      <!-- remove the alert later on -->
+      <div class="alert alert-warning" role="alert">There are breaking changes, please re-save all classes!</div>
         <div class="saved-urls container mb-4">
           <p class="text-lg" style="text-align: center">Saved Timetables</p>
           <ul class="saved-list bg-dark list-group"></ul>
@@ -173,7 +175,6 @@
           urls.forEach((url) => {
             const a = document.createElement("a");
             a.href = url.url;
-            a.target = "_blank";
             a.innerText = url.classname;
             a.classList.add("list-group-item");
             a.classList.add("list-group-item-action");
@@ -188,15 +189,13 @@
       save.addEventListener("click", (e) => {
         e.preventDefault();
         const sheet = sheets.options[sheets.selectedIndex].value;
-        const class_ = classes.options[classes.selectedIndex].value;
-        if (sheet === "-1" || class_ === "-1") {
+        const classname = classes.options[classes.selectedIndex].value;
+        if (sheet === "-1" || classname === "-1") {
           alert("Please select a valid option");
           return;
         }
-        const classname =
-          classes.options[classes.selectedIndex].dataset["class"];
         const url = {
-          url: `https://timetable.mlsctiet.com/timetable?sheet=${sheet}&class=${class_}&classname=${classname}`,
+          url: `https://timetable.mlsctiet.com/timetable?sheet=${sheet}&classname=${classname}`,
           classname,
         };
 
@@ -204,7 +203,7 @@
         let urls = localStorage.getItem("urls");
         if (urls) {
           urls = JSON.parse(urls);
-          if (urls.length < 3) {
+          if (urls.length < 5) {
             urls.push(url);
             localStorage.setItem("urls", JSON.stringify(urls));
           } else {
@@ -221,32 +220,32 @@
 
       sheets.addEventListener("change", (e) => {
         const sheet = sheets.options[sheets.selectedIndex].value;
+        showClass(sheet);
+      });
+      
+      function showClass(sheet) {
+        if (sheet === "-1") {
+          defaultClass.selected = true;
+        }
         for (let i = 0; i < optgrps.length; i++) {
           const optgrp = optgrps[i];
-          if (optgrp.label === sheet) {
+          if (optgrp.label.trim() === sheet.trim()) {
             optgrp.style.display = "block";
           } else {
-            hideOptGroup(optgrp);
+            optgrp.style.display = "none";
           }
         }
-        defaultClass.selected = true;
-      });
-
-      function hideOptGroup(optgroup) {
-        optgroup.style.display = "none";
       }
 
       form.addEventListener("submit", (e) => {
         e.preventDefault();
         const sheet = sheets.options[sheets.selectedIndex].value;
-        const class_ = classes.options[classes.selectedIndex].value;
-        if (sheet === "-1" || class_ === "-1") {
+        const classname = classes.options[classes.selectedIndex].value;
+        if (sheet === "-1" || classname === "-1") {
           alert("Please select a valid option");
           return;
         }
-        const classname =
-          classes.options[classes.selectedIndex].dataset["class"];
-        window.location.href = `/timetable?sheet=${sheet}&class=${class_}&classname=${classname}`;
+        window.location.href = `/timetable?sheet=${sheet}&classname=${classname}`;
       });
     </script>
   </body>

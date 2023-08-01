@@ -6,22 +6,48 @@ import (
 	"html/template"
 	"net/http"
 	"os"
-	"strconv"
+	"sort"
+	"strings"
 
 	"github.com/utkarsh-1905/thapar-time-table/utils"
 	"github.com/xuri/excelize/v2"
 )
 
+func init() {
+	fmt.Println("Initializing server...")
+	// f, err := excelize.OpenFile("timetable.xlsx")
+	// defer func() {
+	// 	if err = f.Close(); err != nil {
+	// 		panic(err)
+	// 	}
+	// }()
+	// utils.HandleError(err)
+	// sheets := f.GetSheetList()
+	// classes := make(map[string]map[int]string)
+	// for _, sheet := range sheets {
+	// 	temp := make(map[int]string)
+	// 	cols, err := f.GetRows(sheet)
+	// 	for i, d := range cols {
+	// 		if i == 3 {
+	// 			for j, k := range d {
+	// 				if k != "" && k != "DAY" && k != "HOURS" && k != "SR NO" && k != "SR.NO" {
+	// 					temp[j+1] = k
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// 	classes[sheet] = temp
+	// 	utils.HandleError(err)
+	// }
+	// ExcelToJson(classes, f)
+	fmt.Println("Server initialized")
+}
+
 func main() {
-	f, err := excelize.OpenFile("timetable.xlsx")
 
-	utils.HandleError(err)
-
-	defer func() {
-		if err = f.Close(); err != nil {
-			panic(err)
-		}
-	}()
+	dataJson, _ := os.ReadFile("./data.json")
+	data := make(map[string]map[string][][]utils.Data)
+	json.Unmarshal(dataJson, &data)
 
 	table, _ := template.ParseFiles("./templates/table.html")
 	home, _ := template.ParseFiles("./templates/home.html")
@@ -29,28 +55,22 @@ func main() {
 
 	type HomeData struct {
 		Sheets  []string
-		Classes map[string]map[int]string
+		Classes map[string][]string
 	}
 
-	sheets := f.GetSheetList()
-
-	classes := make(map[string]map[int]string)
-
-	//finding all classes in a sheet
-	for _, sheet := range sheets {
-		temp := make(map[int]string)
-		cols, err := f.GetRows(sheet)
-		for i, d := range cols {
-			if i == 3 {
-				for j, k := range d {
-					if k != "" && k != "DAY" && k != "HOURS" && k != "SR NO" && k != "SR.NO" {
-						temp[j+1] = k
-					}
-				}
-			}
+	var sheets []string
+	for i := range data {
+		sheets = append(sheets, strings.Trim(i, " "))
+	}
+	sort.StringSlice(sheets).Sort()
+	classes := make(map[string][]string)
+	for i, d := range data {
+		temp := make([]string, 0)
+		for j := range d {
+			temp = append(temp, strings.Trim(j, " "))
 		}
-		classes[sheet] = temp
-		utils.HandleError(err)
+		sort.StringSlice(temp).Sort()
+		classes[i] = temp
 	}
 
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
@@ -66,15 +86,14 @@ func main() {
 	})
 
 	http.HandleFunc("/timetable", func(w http.ResponseWriter, r *http.Request) {
-		class, _ := strconv.Atoi(r.URL.Query().Get("class"))
+		class := r.URL.Query().Get("classname")
 		sheet := r.URL.Query().Get("sheet")
-		classname := r.URL.Query().Get("classname")
 
 		flag := true
 		for i, d := range classes {
-			if i == sheet {
+			if strings.Trim(i, " ") == strings.Trim(sheet, " ") {
 				for _, k := range d {
-					if classname == k {
+					if class == k {
 						flag = false
 					}
 				}
@@ -85,12 +104,11 @@ func main() {
 			errorPage.Execute(w, "Invalid category/class combination")
 			return
 		}
-		table.Execute(w, utils.GetTableData(sheet, class, f))
+		table.Execute(w, data[sheet][class])
 	})
 
-	ExcelToJson(classes, f)
 	fmt.Println("Server Running at http://localhost:3000")
-	err = http.ListenAndServe(":3000", nil)
+	err := http.ListenAndServe(":3000", nil)
 	utils.HandleError(err)
 }
 
@@ -103,9 +121,9 @@ func ExcelToJson(classes map[string]map[int]string, f *excelize.File) {
 		temp := make(map[string][][]utils.Data)
 		for j, k := range d {
 			tc := utils.GetTableData(i, j, f)
-			temp[k] = tc
+			temp[strings.Trim(k, " ")] = tc
 		}
-		data[i] = temp
+		data[strings.Trim(i, " ")] = temp
 	}
 	dj, _ := json.MarshalIndent(data, "", "	")
 	_, err = file.Write(dj)
