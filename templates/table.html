@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Time Table Generator</title>
+    <title>{{.ClassName}} Time Table</title>
     <meta name="title" content="Time Table Generator" />
     <meta
       name="description"
@@ -50,7 +50,6 @@
       crossorigin="anonymous"
     ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Time Table</title>
   </head>
   <!-- Google tag (gtag.js) -->
   <script
@@ -108,7 +107,7 @@
     </style>
     <div class="table-responsive">
       <table class="table table-dark table-hover" id="table">
-        {{range .}}
+        {{range .Data}}
         <tr class="row">
           {{range .}}
           <td

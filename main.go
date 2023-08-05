@@ -66,6 +66,11 @@ func main() {
 		}
 	})
 
+	type TimeTableData struct {
+		Data      [][]utils.Data
+		ClassName string
+	}
+
 	http.HandleFunc("/timetable", func(w http.ResponseWriter, r *http.Request) {
 		class := r.URL.Query().Get("classname")
 		sheet := r.URL.Query().Get("sheet")
@@ -85,7 +90,11 @@ func main() {
 			errorPage.Execute(w, "Invalid category/class combination")
 			return
 		}
-		table.Execute(w, data[sheet][class])
+		data := TimeTableData{
+			Data:      data[sheet][class],
+			ClassName: class,
+		}
+		table.Execute(w, data)
 	})
 
 	fs := http.FileServer(http.Dir("assets/"))
