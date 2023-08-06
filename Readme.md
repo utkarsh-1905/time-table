@@ -29,6 +29,13 @@ This tool is designed to make it easier for students to view and manage their cl
             <br />
             <sub><b>Nimish Medatwal</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/michaelmuthomi">
+            <img src="https://avatars.githubusercontent.com/u/108736931?v=4" width="100;" alt="michaelmuthomi"/>
+            <br />
+            <sub><b>Michael</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: contributors -end -->
