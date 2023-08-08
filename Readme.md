@@ -1,7 +1,6 @@
 # Timetable Generator
 
-This tool is designed to make it easier for students to view and manage their class schedules by extracting data from an Excel sheet and displaying it in a user-friendly manner. With this project, students can quickly see their timetables and save their classes for easy access.
----
+## This tool is designed to make it easier for students to view and manage their class schedules by extracting data from an Excel sheet and displaying it in a user-friendly manner. With this project, students can quickly see their timetables and save their classes for easy access.
 
 ![GitHub Repo stars](https://img.shields.io/github/stars/utkarsh-1905/time-table?style=social)
 ![GitHub issues](https://img.shields.io/github/issues/utkarsh-1905/time-table)
@@ -13,7 +12,7 @@ This tool is designed to make it easier for students to view and manage their cl
 
 ### Collaborators
 
-<!-- readme: contributors -start -->
+<!-- readme: utkarsh-1905,nimishmedatwal,dgbkn,contributors -start -->
 <table>
 <tr>
     <td align="center">
@@ -38,17 +37,18 @@ This tool is designed to make it easier for students to view and manage their cl
         </a>
     </td></tr>
 </table>
-<!-- readme: contributors -end -->
+<!-- readme: utkarsh-1905,nimishmedatwal,dgbkn,contributors -end -->
 
 ## Table of Contents
+
 1. [How to Use](#how-to-use)
 1. [Features](#features)
-2. [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Installation](#installation)
-3. [Usage](#usage)
-4. [Contribution](#contribution)
-5. [License](#license)
+1. [Getting Started](#getting-started)
+   - [Prerequisites](#prerequisites)
+   - [Installation](#installation)
+1. [Usage](#usage)
+1. [Contribution](#contribution)
+1. [License](#license)
 
 ## How to use
 
@@ -56,7 +56,6 @@ This tool is designed to make it easier for students to view and manage their cl
 2. Select your branch category and section.
 3. Click on the Get Schedule button.
 4. Alternatively, you can save that data and see the timetable next time without selecting the branch and section again.
-
 
 ## Features
 
@@ -76,9 +75,10 @@ Before you start, make sure you have the following prerequisites installed on yo
 
 ### Installation
 
-1. Clone the repository: ```git clone https://github.com/utkarsh-1905/time-table```
-2. Build the project: ``` go build```
+1. Clone the repository: `git clone https://github.com/utkarsh-1905/time-table`
+2. Build the project: ` go build`
 3. Run the project: `go run main.go`
+
 ## Contribution
 
 We welcome contributions from the community to enhance and improve the Timetable Generator project. If you want to contribute, follow these steps:
