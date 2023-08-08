@@ -20,8 +20,8 @@ func GenerateJson() {
 	classes := make(map[string]map[int]string)
 	for _, sheet := range sheets {
 		temp := make(map[int]string)
-		cols, err := f.GetRows(sheet)
-		for i, d := range cols {
+		rows, err := f.GetRows(sheet)
+		for i, d := range rows {
 			if i == 3 {
 				for j, k := range d {
 					if k != "" && k != "DAY" && k != "HOURS" && k != "SR NO" && k != "SR.NO" {

@@ -33,8 +33,8 @@ func (d *Data) Append(cell string) {
 // /^[A-Z]{3}[0-9]{3}/gm
 
 func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
-	startCol := 5
-	endCol := 144
+	startRow := 5
+	endRow := 144
 	timings := [][]Data{}
 	freeTime := Data{Course: "", Color: "success"}
 	dayofweek := []string{
@@ -67,7 +67,8 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 
 	tempMap := []Data{}
 
-	for i := startCol; i < endCol; i += 2 {
+	check := ""
+	for i := startRow; i < endRow; i += 2 {
 		timeCell := fmt.Sprintf("C%d", i)
 		time, _ := f.GetCellValue(sheet, timeCell)
 		time = strings.ToLower(time)
@@ -77,14 +78,21 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 		for j := 0; j < 2; j++ {
 			cellId := fmt.Sprintf("%s%d", col, i+j)
 			cell, _ := f.GetCellValue(sheet, cellId)
+			if check == cell && check != "" && cell != "" {
+				cell = "Lab Continue"
+			} else {
+				check = cell
+			}
 			if cell != "" {
 				if temp.Course != "" && strings.Trim(cell, " ") == strings.Trim(temp.Course, " ") {
+					continue
+				}
+				if j == 1 && cell == "Lab Continue" {
 					continue
 				}
 				temp.Append(cell + " ")
 			} else {
 				// algo to get venue in a merged cell situation
-				// fmt.Println("empty cell", j, temp.Course)
 				if temp.Course != "" && j == 1 {
 					tcell := ""
 					maxIter := 35 //to prevent infinite loop
