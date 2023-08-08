@@ -13,14 +13,18 @@ type Data struct {
 	Color  string `json:"color"`
 }
 
-func (d *Data) Append(cell string) {
-	lecture, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}\s?L`)
-	tut, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}\s?T`)
-	elective, _ := regexp.Compile(`^([A-Z]{3}[0-9]{3}(\/[A-Z]{3}[0-9]{3})+)\s?L`)
-	d.Course += cell
-	lres := lecture.MatchString(cell)
-	tres := tut.MatchString(cell)
-	eres := elective.MatchString(cell)
+func (d *Data) Append(cell string, regex *Regexs) {
+	cellbyte := regex.Sub.ReplaceAllStringFunc(cell, func(data string) string {
+		res := GetSubjectName(strings.Trim(data, " "))
+		if res != "" {
+			return res
+		} else {
+			return data
+		}
+	})
+	lres := regex.Lecture.MatchString(cell)
+	tres := regex.Tut.MatchString(cell)
+	eres := regex.Elective.MatchString(cell)
 	if lres {
 		d.Color = "danger"
 	} else if tres {
@@ -28,11 +32,27 @@ func (d *Data) Append(cell string) {
 	} else if eres {
 		d.Color = "info"
 	}
+	cell = cellbyte
+	d.Course += cell
 }
 
-// /^[A-Z]{3}[0-9]{3}/gm
+type Regexs struct {
+	Lecture  *regexp.Regexp
+	Tut      *regexp.Regexp
+	Elective *regexp.Regexp
+	Sub      *regexp.Regexp
+}
 
 func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
+	// regexs
+	GetSubjectMapping()
+	lecture, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}\s?L`)
+	tut, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}\s?T`)
+	elective, _ := regexp.Compile(`^([A-Z]{3}[0-9]{3}(\/[A-Z]{3}[0-9]{3})+)\s?L`)
+	subSelect, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}`)
+
+	regex := Regexs{lecture, tut, elective, subSelect}
+
 	startCol := 5
 	endCol := 144
 	timings := [][]Data{}
@@ -81,7 +101,7 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 				if temp.Course != "" && strings.Trim(cell, " ") == strings.Trim(temp.Course, " ") {
 					continue
 				}
-				temp.Append(cell + " ")
+				temp.Append(cell+" ", &regex)
 			} else {
 				// algo to get venue in a merged cell situation
 				// fmt.Println("empty cell", j, temp.Course)
@@ -96,13 +116,13 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 						tcell, err = f.GetCellValue(sheet, cellId)
 						HandleError(err)
 						if tcell != "" {
-							temp.Append(tcell)
+							temp.Append(tcell, &regex)
 							break
 						}
 						maxIter--
 					}
 				}
-				temp.Append("")
+				temp.Append("", &regex)
 			}
 		}
 		if temp.Course == "" {

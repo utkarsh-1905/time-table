@@ -1,0 +1,6011 @@
+{
+    "UES009": {
+        "sno": "1",
+        "name": "MECHANICS",
+        "subjectCode": "UES009",
+        "credit": "2.5",
+        "isCore": "True"
+    },
+    "UEN002": {
+        "sno": "2",
+        "name": "ENERGY AND ENVIRONMENT",
+        "subjectCode": "UEN002",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UMA010": {
+        "sno": "3",
+        "name": "MATHEMATICS I",
+        "subjectCode": "UMA010",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UTA003": {
+        "sno": "4",
+        "name": "COMPUTER PROGRAMMING",
+        "subjectCode": "UTA003",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCB008": {
+        "sno": "5",
+        "name": "APPLIED CHEMISTRY",
+        "subjectCode": "UCB008",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEE001": {
+        "sno": "6",
+        "name": "ELECTRICAL ENGINEERING",
+        "subjectCode": "UEE001",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEC533": {
+        "sno": "1",
+        "name": "COMPUTER AND COMMUNICATION NETWORKS",
+        "subjectCode": "UEC533",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UTA016": {
+        "sno": "2",
+        "name": "ENGINEERING DESIGN PROJECT-I (MANGONEL)",
+        "subjectCode": "UTA016",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UEC310": {
+        "sno": "3",
+        "name": "INFORMATION AND COMMUNICATION THEORY",
+        "subjectCode": "UEC310",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UMA011": {
+        "sno": "4",
+        "name": "NUMERICAL ANALYSIS",
+        "subjectCode": "UMA011",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC301": {
+        "sno": "5",
+        "name": "ANALOG ELECTRONIC CIRCUITS",
+        "subjectCode": "UEC301",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEC612": {
+        "sno": "6",
+        "name": "DIGITAL SYSTEM DESIGN",
+        "subjectCode": "UEC612",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UES012": {
+        "sno": "7",
+        "name": "ENGINEERING MATERIALS",
+        "subjectCode": "UES012",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UHU003": {
+        "sno": "1",
+        "name": "PROFESSIONAL COMMUNICATION",
+        "subjectCode": "UHU003",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UMA004": {
+        "sno": "2",
+        "name": "MATHEMATICS - II",
+        "subjectCode": "UMA004",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UTA015": {
+        "sno": "3",
+        "name": "ENGINEERING DRAWING",
+        "subjectCode": "UTA015",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UTA018": {
+        "sno": "4",
+        "name": "OBJECT ORIENTED PROGRAMMING",
+        "subjectCode": "UTA018",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UPH004": {
+        "sno": "5",
+        "name": "APPLIED PHYSICS",
+        "subjectCode": "UPH004",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEC001": {
+        "sno": "6",
+        "name": "ELECTRONIC ENGINEERING",
+        "subjectCode": "UEC001",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UHU005": {
+        "sno": "1",
+        "name": "HUMANITIES FOR ENGINEERS",
+        "subjectCode": "UHU005",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UEC734": {
+        "sno": "2",
+        "name": "QUANTUM COMPUTING",
+        "subjectCode": "UEC734",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UEC715": {
+        "sno": "3",
+        "name": "IOT BASED SYSTEMS",
+        "subjectCode": "UEC715",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC797": {
+        "sno": "4",
+        "name": "CAPSTONE PROJECT",
+        "subjectCode": "UEC797",
+        "credit": "8",
+        "isCore": "True"
+    },
+    "UCS613": {
+        "sno": "1",
+        "name": "DATA STRUCTURES AND ALGORITHMS",
+        "subjectCode": "UCS613",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC716": {
+        "sno": "2",
+        "name": "DATABASE MANAGEMENT SYSTEMS",
+        "subjectCode": "UEC716",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UMA035": {
+        "sno": "3",
+        "name": "OPTIMIZATION TECHNIQUES",
+        "subjectCode": "UMA035",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS547": {
+        "sno": "4",
+        "name": "EDGE AI AND ROBOTICS: ACCELERATED DATA SCIENCE",
+        "subjectCode": "UCS547",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEC509": {
+        "sno": "1",
+        "name": "COMPUTER ARCHITECTURE",
+        "subjectCode": "UEC509",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCS616": {
+        "sno": "2",
+        "name": "ADVANCED DATA STRUCTURES AND ALGORITHMS",
+        "subjectCode": "UCS616",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC642": {
+        "sno": "3",
+        "name": "DEEP LEARNING AND APPLICATIONS",
+        "subjectCode": "UEC642",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC750": {
+        "sno": "4",
+        "name": "MOS CIRCUIT DESIGN",
+        "subjectCode": "UEC750",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEC404": {
+        "sno": "1",
+        "name": "SIGNALS & SYSTEMS",
+        "subjectCode": "UEC404",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCS411": {
+        "sno": "1",
+        "name": "ARTIFICIAL INTELLIGENCE",
+        "subjectCode": "UCS411",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS303": {
+        "sno": "3",
+        "name": "OPERATING SYSTEMS",
+        "subjectCode": "UCS303",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC639": {
+        "sno": "4",
+        "name": "DIGITAL COMMUNICATION",
+        "subjectCode": "UEC639",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEC502": {
+        "sno": "5",
+        "name": "DIGITAL SIGNAL PROCESSING",
+        "subjectCode": "UEC502",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UTA025": {
+        "sno": "1",
+        "name": "INNOVATION AND ENTREPRENEURSHIP",
+        "subjectCode": "UTA025",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UTA024": {
+        "sno": "1",
+        "name": "ENGINEERING DESIGN PROJECT - II",
+        "subjectCode": "UTA024",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UES018": {
+        "sno": "3",
+        "name": "MANUFACTURING TECHNIQUES",
+        "subjectCode": "UES018",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UEC513": {
+        "sno": "5",
+        "name": "EMBEDDED SYSTEMS",
+        "subjectCode": "UEC513",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEN006": {
+        "sno": "8",
+        "name": "TECHNOLOGIES FOR SUSTAINABLE DEVELOPMENT",
+        "subjectCode": "UEN006",
+        "credit": "2",
+        "isCore": "False"
+    },
+    "UEC735": {
+        "sno": "5",
+        "name": "BIG DATA ANALYTICS",
+        "subjectCode": "UEC735",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEC635": {
+        "sno": "5",
+        "name": "BLOCKCHAIN TECHNOLOGY",
+        "subjectCode": "UEC635",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEC634": {
+        "sno": "6",
+        "name": "CLOUD COMPUTING TECHNOLOGY",
+        "subjectCode": "UEC634",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS538": {
+        "sno": "6",
+        "name": "DATA SCIENCE FUNDAMENTALS",
+        "subjectCode": "UCS538",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UTD002": {
+        "sno": "8",
+        "name": "EMPLOYABILITY DEVELOPMENT SKILLS",
+        "subjectCode": "UTD002",
+        "credit": "2",
+        "isCore": "False"
+    },
+    "UHU018": {
+        "sno": "8",
+        "name": "INTRODUCTION TO CORPORATE FINANCE",
+        "subjectCode": "UHU018",
+        "credit": "2",
+        "isCore": "False"
+    },
+    "UCS002": {
+        "sno": "3",
+        "name": "INTRODUCTION TO CYBER SECURITY",
+        "subjectCode": "UCS002",
+        "credit": "2",
+        "isCore": "False"
+    },
+    "UCS655": {
+        "sno": "5",
+        "name": "AI APPLICATIONS - NLP, COMPUTER VISION, IOT",
+        "subjectCode": "UCS655",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UME707": {
+        "sno": "1",
+        "name": "MACHINE DESIGN -II",
+        "subjectCode": "UME707",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UME720": {
+        "sno": "2",
+        "name": "HEAT TRANSFER",
+        "subjectCode": "UME720",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UME719": {
+        "sno": "3",
+        "name": "REFRIGERATION AND AIR CONDITIONING",
+        "subjectCode": "UME719",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UME727": {
+        "sno": "4",
+        "name": "FUEL CELL TECHNOLOGY",
+        "subjectCode": "UME727",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UME307": {
+        "sno": "1",
+        "name": "ENGINEERING FLUID MECHANICS",
+        "subjectCode": "UME307",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UME404": {
+        "sno": "2",
+        "name": "MECHANICS OF DEFORMABLE BODIES",
+        "subjectCode": "UME404",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UES004": {
+        "sno": "3",
+        "name": "THERMODYNAMICS",
+        "subjectCode": "UES004",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UES017": {
+        "sno": "4",
+        "name": "SOLIDS AND STRUCTURES",
+        "subjectCode": "UES017",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UME699": {
+        "sno": "1",
+        "name": "PROJECT SEMESTER",
+        "subjectCode": "UME699",
+        "credit": "15",
+        "isCore": "True"
+    },
+    "UME517": {
+        "sno": "1",
+        "name": "MATERIALS ENGINEERING AND METALLURGY",
+        "subjectCode": "UME517",
+        "credit": "2.5",
+        "isCore": "True"
+    },
+    "UME511": {
+        "sno": "2",
+        "name": "AUTOMOBILE ENGINEERING",
+        "subjectCode": "UME511",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UME718": {
+        "sno": "3",
+        "name": "APPLIED THERMODYNAMICS",
+        "subjectCode": "UME718",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UME408": {
+        "sno": "4",
+        "name": "MACHINE DESIGN-I",
+        "subjectCode": "UME408",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UME509": {
+        "sno": "5",
+        "name": "MANUFACTURING TECHNOLOGY",
+        "subjectCode": "UME509",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UME524": {
+        "sno": "6",
+        "name": "ADDITIVE MANUFACTURING",
+        "subjectCode": "UME524",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UHU016": {
+        "sno": "7",
+        "name": "INTRODUCTORY COURSE IN FRENCH",
+        "subjectCode": "UHU016",
+        "credit": "2",
+        "isCore": "False"
+    },
+    "UMA034": {
+        "sno": "6",
+        "name": "OPTIMIZATION METHODS",
+        "subjectCode": "UMA034",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UMC743": {
+        "sno": "5",
+        "name": "QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE",
+        "subjectCode": "UMC743",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEC633": {
+        "sno": "5",
+        "name": "CRYPTOGRAPHY",
+        "subjectCode": "UEC633",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEC821": {
+        "sno": "6",
+        "name": "VIDEO SIGNAL PROCESSING",
+        "subjectCode": "UEC821",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS758": {
+        "sno": "5",
+        "name": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT",
+        "subjectCode": "UCS758",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS412": {
+        "sno": "6",
+        "name": "SOFTWARE ENGINEERING",
+        "subjectCode": "UCS412",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS622": {
+        "sno": "5",
+        "name": "CONVERSATIONAL AI: ACCELERATED DATA SCIENCE [ADVANCED]",
+        "subjectCode": "UCS622",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS664": {
+        "sno": "6",
+        "name": "CONVERSATIONAL AI: NATURAL LANGUAGE PROCESSING",
+        "subjectCode": "UCS664",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS546": {
+        "sno": "6",
+        "name": "CONVERSATIONAL AI: ACCELERATED DATA SCIENCE [BASICS]",
+        "subjectCode": "UCS546",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS658": {
+        "sno": "5",
+        "name": "DERIVATIVES PRICING, TRADING AND STRATEGIES",
+        "subjectCode": "UCS658",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS657": {
+        "sno": "6",
+        "name": "FINANCIAL AND DERIVATIVE MARKETS",
+        "subjectCode": "UCS657",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS539": {
+        "sno": "5",
+        "name": "FINANCE ACCOUNTING AND VALUATION",
+        "subjectCode": "UCS539",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS414": {
+        "sno": "2",
+        "name": "COMPUTER NETWORKS",
+        "subjectCode": "UCS414",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UTA026": {
+        "sno": "4",
+        "name": "MANUFACTURING PROCESSES",
+        "subjectCode": "UTA026",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCS310": {
+        "sno": "7",
+        "name": "DATABASE MANAGEMENT SYSTEM",
+        "subjectCode": "UCS310",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS415": {
+        "sno": "9",
+        "name": "DESIGN AND ANALYSIS OF ALGORITHMS",
+        "subjectCode": "UCS415",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UES035": {
+        "sno": "10",
+        "name": "MEASUREMENT SCIENCE AND TECHNIQUES",
+        "subjectCode": "UES035",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS311": {
+        "sno": "1",
+        "name": "PRACTICAL COMPUTING",
+        "subjectCode": "UCS311",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UCS405": {
+        "sno": "3",
+        "name": "DISCRETE MATHEMATICAL STRUCTURES",
+        "subjectCode": "UCS405",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCS301": {
+        "sno": "5",
+        "name": "DATA STRUCTURES",
+        "subjectCode": "UCS301",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UES013": {
+        "sno": "6",
+        "name": "ELECTRICAL & ELECTRONIC ENGINEERING",
+        "subjectCode": "UES013",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCS316": {
+        "sno": "1",
+        "name": "COMPUTER ARCHITECTURE AND ORGANIZATION",
+        "subjectCode": "UCS316",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCS712": {
+        "sno": "1",
+        "name": "COGNITIVE COMPUTING",
+        "subjectCode": "UCS712",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UCS802": {
+        "sno": "3",
+        "name": "COMPILER CONSTRUCTION",
+        "subjectCode": "UCS802",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS797": {
+        "sno": "4",
+        "name": "CAPSTONE PROJECT",
+        "subjectCode": "UCS797",
+        "credit": "8",
+        "isCore": "True"
+    },
+    "UCS745": {
+        "sno": "5",
+        "name": "CLOUD & DEVOPS",
+        "subjectCode": "UCS745",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS701": {
+        "sno": "1",
+        "name": "THEORY OF COMPUTATION",
+        "subjectCode": "UCS701",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCS505": {
+        "sno": "2",
+        "name": "COMPUTER GRAPHICS",
+        "subjectCode": "UCS505",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS619": {
+        "sno": "3",
+        "name": "QUANTUM COMPUTING",
+        "subjectCode": "UCS619",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS677": {
+        "sno": "4",
+        "name": "DATA ENGINEERING",
+        "subjectCode": "UCS677",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS662": {
+        "sno": "5",
+        "name": "TEST AUTOMATION",
+        "subjectCode": "UCS662",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS531": {
+        "sno": "1",
+        "name": "CLOUD COMPUTING",
+        "subjectCode": "UCS531",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCS413": {
+        "sno": "2",
+        "name": "NETWORK PROGRAMMING",
+        "subjectCode": "UCS413",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UML501": {
+        "sno": "3",
+        "name": "MACHINE LEARNING",
+        "subjectCode": "UML501",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS410": {
+        "sno": "4",
+        "name": "PROBABILITY AND STATISTICS",
+        "subjectCode": "UCS410",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS542": {
+        "sno": "5",
+        "name": "UI & UX SPECIALIST",
+        "subjectCode": "UCS542",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS503": {
+        "sno": "6",
+        "name": "SOFTWARE ENGINEERING",
+        "subjectCode": "UCS503",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS761": {
+        "sno": "5",
+        "name": "DEEP LEARNING",
+        "subjectCode": "UCS761",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS672": {
+        "sno": "4",
+        "name": "DATA SCIENCE APPLICATIONS: NLP, COMPUTER VISION AND IOT",
+        "subjectCode": "UCS672",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS654": {
+        "sno": "5",
+        "name": "PREDICTIVE ANALYTICS USING STATISTICS",
+        "subjectCode": "UCS654",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS548": {
+        "sno": "5",
+        "name": "FOUNDATIONS OF DATA SCIENCE",
+        "subjectCode": "UCS548",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UMA069": {
+        "sno": "6",
+        "name": "GRAPH THEORY AND APPLICATIONS",
+        "subjectCode": "UMA069",
+        "credit": "2",
+        "isCore": "False"
+    },
+    "UCS749": {
+        "sno": "5",
+        "name": "CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS",
+        "subjectCode": "UCS749",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS752": {
+        "sno": "5",
+        "name": "AUGMENTED AND VIRTUAL REALITY",
+        "subjectCode": "UCS752",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS636": {
+        "sno": "4",
+        "name": "3D MODELLING AND ANIMATION",
+        "subjectCode": "UCS636",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS646": {
+        "sno": "5",
+        "name": "GAME DESIGN AND DEVELOPMENT",
+        "subjectCode": "UCS646",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS532": {
+        "sno": "5",
+        "name": "COMPUTER VISION",
+        "subjectCode": "UCS532",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UMC742": {
+        "sno": "5",
+        "name": "COMPUTATIONAL NUMBER THEORY",
+        "subjectCode": "UMC742",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UMC632": {
+        "sno": "4",
+        "name": "FINANCIAL MATHEMATICS",
+        "subjectCode": "UMC632",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UMC622": {
+        "sno": "5",
+        "name": "MATRIX COMPUTATION",
+        "subjectCode": "UMC622",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UMC512": {
+        "sno": "5",
+        "name": "MATHEMATIC MODELING AND SIMULATION",
+        "subjectCode": "UMC512",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UHU043": {
+        "sno": "1",
+        "name": "FINANCIAL & COST ACCOUNTING",
+        "subjectCode": "UHU043",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UHU044": {
+        "sno": "2",
+        "name": "BUSINESS COMMUNICATION & VALUE SCIENCE-IV",
+        "subjectCode": "UHU044",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCT603": {
+        "sno": "3",
+        "name": "ARTIFICIAL INTELLIGENCE",
+        "subjectCode": "UCT603",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT601": {
+        "sno": "4",
+        "name": "COMPUTER NETWORKS",
+        "subjectCode": "UCT601",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT602": {
+        "sno": "5",
+        "name": "INFORMATION SECURITY",
+        "subjectCode": "UCT602",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT642": {
+        "sno": "6",
+        "name": "ENTERPRISE SYSTEMS",
+        "subjectCode": "UCT642",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCT632": {
+        "sno": "7",
+        "name": "MODERN WEB APPLICATIONS",
+        "subjectCode": "UCT632",
+        "credit": "4",
+        "isCore": "False"
+    },
+    "UCT591": {
+        "sno": "1",
+        "name": "MINI PROJECT",
+        "subjectCode": "UCT591",
+        "credit": "1",
+        "isCore": "True"
+    },
+    "UHU042": {
+        "sno": "2",
+        "name": "BUSINESS COMMUNICATION & VALUE SCIENCE-III",
+        "subjectCode": "UHU042",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UHU030": {
+        "sno": "3",
+        "name": "BUSINESS STRATEGY",
+        "subjectCode": "UHU030",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UHU029": {
+        "sno": "4",
+        "name": "FUNDAMENTALS OF MANAGEMENT",
+        "subjectCode": "UHU029",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UCT502": {
+        "sno": "5",
+        "name": "COMPILER DESIGN",
+        "subjectCode": "UCT502",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT501": {
+        "sno": "6",
+        "name": "DESIGN AND ANALYSIS OF ALGORITHMS",
+        "subjectCode": "UCT501",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT512": {
+        "sno": "7",
+        "name": "CLOUD, MICROSERVICES AND APPLICATION",
+        "subjectCode": "UCT512",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UHU026": {
+        "sno": "8",
+        "name": "BEHAVIOURAL ECNOMICS",
+        "subjectCode": "UHU026",
+        "credit": "4",
+        "isCore": "False"
+    },
+    "UHU025": {
+        "sno": "1",
+        "name": "MARKETING RESEARCH & MARKETING MANAGEMENT",
+        "subjectCode": "UHU025",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UHU024": {
+        "sno": "2",
+        "name": "DESIGN THINKING",
+        "subjectCode": "UHU024",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UHU023": {
+        "sno": "3",
+        "name": "INTRODUCTION TO INNOVATION, IP MANAGEMENT & ENTREPRENEURSHIP",
+        "subjectCode": "UHU023",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCT403": {
+        "sno": "4",
+        "name": "SOFTWARE DESIGN WITH UML",
+        "subjectCode": "UCT403",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCT402": {
+        "sno": "5",
+        "name": "DATABASE MANAGEMENT SYSTEMS",
+        "subjectCode": "UCT402",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT401": {
+        "sno": "6",
+        "name": "OPERATING SYSTEMS",
+        "subjectCode": "UCT401",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UMA019": {
+        "sno": "7",
+        "name": "OPERATIONS RESEARCH",
+        "subjectCode": "UMA019",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT301": {
+        "sno": "1",
+        "name": "FORMAL LANGUAGE AND AUTOMATA THEORY",
+        "subjectCode": "UCT301",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCT304": {
+        "sno": "2",
+        "name": "COMPUTATIONAL STATISTICS",
+        "subjectCode": "UCT304",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT302": {
+        "sno": "3",
+        "name": "COMPUTER ORGANIZATION & ARCHITECTURE",
+        "subjectCode": "UCT302",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT303": {
+        "sno": "4",
+        "name": "OBJECT ORIENTED PROGRAMMING",
+        "subjectCode": "UCT303",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT305": {
+        "sno": "5",
+        "name": "SOFTWARE ENGINEERING",
+        "subjectCode": "UCT305",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UHU012": {
+        "sno": "1",
+        "name": "BUSINESS COMMUNICATION & VALUE SCIENCE-II",
+        "subjectCode": "UHU012",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UEN007": {
+        "sno": "2",
+        "name": "ENVIRONMENTAL SCIENCES",
+        "subjectCode": "UEN007",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UHU007": {
+        "sno": "3",
+        "name": "FUNDAMENTALS OF ECONOMICS",
+        "subjectCode": "UHU007",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UCT201": {
+        "sno": "4",
+        "name": "LINEAR ALGEBRA",
+        "subjectCode": "UCT201",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCT203": {
+        "sno": "5",
+        "name": "DATA STRUCTURES AND ALGORITHMS",
+        "subjectCode": "UCT203",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC002": {
+        "sno": "6",
+        "name": "PRINCIPLES OF ELECTRONICS",
+        "subjectCode": "UEC002",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT202": {
+        "sno": "7",
+        "name": "STATISTICAL MODELING",
+        "subjectCode": "UCT202",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UHU011": {
+        "sno": "1",
+        "name": "BUSINESS COMMUNICATION & VALUE SCIENCE-I",
+        "subjectCode": "UHU011",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UCT102": {
+        "sno": "2",
+        "name": "PROBABILITY & STATISTICS",
+        "subjectCode": "UCT102",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCT101": {
+        "sno": "3",
+        "name": "DISCRETE MATHEMATICS",
+        "subjectCode": "UCT101",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCT104": {
+        "sno": "4",
+        "name": "FUNDAMENTALS OF COMPUTER SCIENCE",
+        "subjectCode": "UCT104",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEE002": {
+        "sno": "5",
+        "name": "PRINCIPLES OF ELECTRICAL ENGINEERING",
+        "subjectCode": "UEE002",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UPH009": {
+        "sno": "6",
+        "name": "FUNDAMENTALS OF PHYSICS",
+        "subjectCode": "UPH009",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCT633": {
+        "sno": "7",
+        "name": "DATA MINING & ANALYTICS",
+        "subjectCode": "UCT633",
+        "credit": "4",
+        "isCore": "False"
+    },
+    "UCT513": {
+        "sno": "7",
+        "name": "MACHINE LEARNING",
+        "subjectCode": "UCT513",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UHU028": {
+        "sno": "8",
+        "name": "INDUSTRIAL PSYCHOLOGY",
+        "subjectCode": "UHU028",
+        "credit": "4",
+        "isCore": "False"
+    },
+    "UCS520": {
+        "sno": "3",
+        "name": "COMPUTER NETWORKS",
+        "subjectCode": "UCS520",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS540": {
+        "sno": "4",
+        "name": "DATA STRUCTURE AND ALGORITHMS",
+        "subjectCode": "UCS540",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEE505": {
+        "sno": "5",
+        "name": "ANALOG AND DIGITAL SYSTEMS",
+        "subjectCode": "UEE505",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEE409": {
+        "sno": "6",
+        "name": "NETWORK THEORY",
+        "subjectCode": "UEE409",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "ULC701": {
+        "sno": "1",
+        "name": "SMART ELECTRIC GRID AND ENERGY MANAGEMENT",
+        "subjectCode": "ULC701",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "ULC691": {
+        "sno": "3",
+        "name": "CAPSTONE PROJECT",
+        "subjectCode": "ULC691",
+        "credit": "8",
+        "isCore": "True"
+    },
+    "ULC602": {
+        "sno": "2",
+        "name": "DIGITAL MEASUREMENT AND PROTECTION",
+        "subjectCode": "ULC602",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "ULC603": {
+        "sno": "3",
+        "name": "ELECTRIC VEHICLE AND REAL TIME SYSTEMS",
+        "subjectCode": "ULC603",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "ULC601": {
+        "sno": "4",
+        "name": "MACHINE LEARNING TECHNIQUES",
+        "subjectCode": "ULC601",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEE511": {
+        "sno": "2",
+        "name": "EMBEDDED SYSTEM DESIGN AND IOT",
+        "subjectCode": "UEE511",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS541": {
+        "sno": "3",
+        "name": "FOUNDATION OF ARTIFICIAL INTELLIGENCE",
+        "subjectCode": "UCS541",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UMA028": {
+        "sno": "4",
+        "name": "MATHEMATICS FOR DATA SCIENCE",
+        "subjectCode": "UMA028",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEE508": {
+        "sno": "5",
+        "name": "LINEAR CONTROL SYSTEMS",
+        "subjectCode": "UEE508",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEE512": {
+        "sno": "6",
+        "name": "POWER CONVERTERS AND DRIVES",
+        "subjectCode": "UEE512",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "ULC401": {
+        "sno": "1",
+        "name": "COMPUTER SYSTEM DESIGN",
+        "subjectCode": "ULC401",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "ULC402": {
+        "sno": "3",
+        "name": "FUNDAMENTALS OF SIGNAL PROCESSING",
+        "subjectCode": "ULC402",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEE413": {
+        "sno": "5",
+        "name": "ELECTRIC MACHINERY",
+        "subjectCode": "UEE413",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEE414": {
+        "sno": "6",
+        "name": "PRINCIPLES OF POWER SYSTEM ENGINEERING",
+        "subjectCode": "UEE414",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCS704": {
+        "sno": "1",
+        "name": "EMBEDDED SYSTEMS DESIGN",
+        "subjectCode": "UCS704",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCS510": {
+        "sno": "1",
+        "name": "COMPUTER ARCHITECTURE AND ORGANIZATION",
+        "subjectCode": "UCS510",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCS617": {
+        "sno": "3",
+        "name": "MICROPROCESSOR-BASED SYSTEMS DESIGN",
+        "subjectCode": "UCS617",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS659": {
+        "sno": "6",
+        "name": "BUILD AND RELEASE MANAGEMENT",
+        "subjectCode": "UCS659",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS660": {
+        "sno": "7",
+        "name": "CONTINUOUS INTEGRATION AND CONTINUOUS DEPLOYMENT",
+        "subjectCode": "UCS660",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS537": {
+        "sno": "6",
+        "name": "SOURCE CODE MANAGEMENT",
+        "subjectCode": "UCS537",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UMT802": {
+        "sno": "2",
+        "name": "INDUSTRIAL AUTOMATION",
+        "subjectCode": "UMT802",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UPE803": {
+        "sno": "3",
+        "name": "MICRO MACHINING PROCESSES",
+        "subjectCode": "UPE803",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UPE802": {
+        "sno": "4",
+        "name": "WELDING AND JOINING PROCESSES",
+        "subjectCode": "UPE802",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UPE893": {
+        "sno": "5",
+        "name": "CAPSTONE PROJECT",
+        "subjectCode": "UPE893",
+        "credit": "8",
+        "isCore": "True"
+    },
+    "UPE832": {
+        "sno": "6",
+        "name": "MANAGEMENT INFORMATION SYSTEMS",
+        "subjectCode": "UPE832",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UTD001": {
+        "sno": "7",
+        "name": "EMPLOYABILITY DEVELOPMENT SKILLS",
+        "subjectCode": "UTD001",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UPE705": {
+        "sno": "1",
+        "name": "COMPUTER AIDED MANUFACTURING",
+        "subjectCode": "UPE705",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UME717": {
+        "sno": "2",
+        "name": "RAPID MANUFACTURING",
+        "subjectCode": "UME717",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UPE706": {
+        "sno": "3",
+        "name": "CASTING PROCESSES",
+        "subjectCode": "UPE706",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UME805": {
+        "sno": "5",
+        "name": "ROBOTICS ENGINEERING",
+        "subjectCode": "UME805",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UPE694": {
+        "sno": "1",
+        "name": "PROJECT SEMESTER",
+        "subjectCode": "UPE694",
+        "credit": "15",
+        "isCore": "True"
+    },
+    "UPE503": {
+        "sno": "2",
+        "name": "LEAN AND AGILE MANUFACTURING",
+        "subjectCode": "UPE503",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UME516": {
+        "sno": "3",
+        "name": "MECHANICAL ENGINEERING MATERIALS",
+        "subjectCode": "UME516",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UPE703": {
+        "sno": "4",
+        "name": "METAL FORMING",
+        "subjectCode": "UPE703",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UME413": {
+        "sno": "5",
+        "name": "INSPECTION AND QUALITY CONTROL",
+        "subjectCode": "UME413",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UPE502": {
+        "sno": "7",
+        "name": "METAL CUTTING",
+        "subjectCode": "UPE502",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UPE401": {
+        "sno": "1",
+        "name": "OPERATION MANAGEMENT",
+        "subjectCode": "UPE401",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UPE501": {
+        "sno": "3",
+        "name": "WORK STUDY AND ERGONOMICS ENGINEERING",
+        "subjectCode": "UPE501",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UME412": {
+        "sno": "6",
+        "name": "COMPUTER AIDED DESIGN & ANALYSIS",
+        "subjectCode": "UME412",
+        "credit": "5.5",
+        "isCore": "True"
+    },
+    "UME308": {
+        "sno": "4",
+        "name": "MECHANICS OF MACHINES",
+        "subjectCode": "UME308",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UTA014": {
+        "sno": "7",
+        "name": "ENGINEERING DESIGN PROJECT - II",
+        "subjectCode": "UTA014",
+        "credit": "6",
+        "isCore": "True"
+    },
+    "UTA013": {
+        "sno": "7",
+        "name": "ENGINEERING DESIGN PROJECT - I",
+        "subjectCode": "UTA013",
+        "credit": "5",
+        "isCore": "True"
+    },
+    "UME841": {
+        "sno": "1",
+        "name": "MODERN AUTOMOBILE ENGINEERING",
+        "subjectCode": "UME841",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UME722": {
+        "sno": "2",
+        "name": "SYSTEM MODELLING AND SIMULATION",
+        "subjectCode": "UME722",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UME836": {
+        "sno": "1",
+        "name": "OPERATIONS MANAGEMENT",
+        "subjectCode": "UME836",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UME515": {
+        "sno": "1",
+        "name": "INDUSTRIAL ENGINEERING",
+        "subjectCode": "UME515",
+        "credit": "2.5",
+        "isCore": "True"
+    },
+    "UME410": {
+        "sno": "4",
+        "name": "MECHATRONIC SYSTEMS",
+        "subjectCode": "UME410",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "IES010": {
+        "sno": "7",
+        "name": "SOLIDS AND STRUCTURES",
+        "subjectCode": "IES010",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UES010": {
+        "sno": "8",
+        "name": "SOLIDS AND STRUCTURES",
+        "subjectCode": "UES010",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UES011": {
+        "sno": "9",
+        "name": "THERMO-FLUIDS",
+        "subjectCode": "UES011",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "2TA026": {
+        "sno": "2",
+        "name": "MANUFACTURING PROCESSES",
+        "subjectCode": "2TA026",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "2CS310": {
+        "sno": "5",
+        "name": "DATABASE MANAGEMENT SYSTEM",
+        "subjectCode": "2CS310",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC898": {
+        "sno": "1",
+        "name": "PROJECT SEMESTER",
+        "subjectCode": "UEC898",
+        "credit": "15",
+        "isCore": "True"
+    },
+    "UEC707": {
+        "sno": "2",
+        "name": "NETWORK VIRTUALIZATION AND SOFTWARE DEFINED NETWORKING",
+        "subjectCode": "UEC707",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UEC732": {
+        "sno": "6",
+        "name": "NATURAL LANGUAGE PROCESSING AND APPLICATIONS",
+        "subjectCode": "UEC732",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEC610": {
+        "sno": "1",
+        "name": "COMPUTER ARCHITECTURE",
+        "subjectCode": "UEC610",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UEC713": {
+        "sno": "2",
+        "name": "MACHINE LEARNING",
+        "subjectCode": "UEC713",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC609": {
+        "sno": "3",
+        "name": "MOS CIRCUIT DESIGN",
+        "subjectCode": "UEC609",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS523": {
+        "sno": "5",
+        "name": "COMPUTER & NETWORK SECURITY",
+        "subjectCode": "UCS523",
+        "credit": "4",
+        "isCore": "False"
+    },
+    "UEC516": {
+        "sno": "1",
+        "name": "THEORY OF COMPUTATION",
+        "subjectCode": "UEC516",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UEC607": {
+        "sno": "3",
+        "name": "DIGITAL COMMUNICATION",
+        "subjectCode": "UEC607",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS501": {
+        "sno": "5",
+        "name": "ALGORITHM ANALYSIS AND DESIGN",
+        "subjectCode": "UCS501",
+        "credit": "4",
+        "isCore": "False"
+    },
+    "UHU008": {
+        "sno": "6",
+        "name": "INTRODUCTION TO CORPORATE FINANCE",
+        "subjectCode": "UHU008",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS642": {
+        "sno": "5",
+        "name": "AUGMENTED AND VIRTUAL REALITY",
+        "subjectCode": "UCS642",
+        "credit": "4",
+        "isCore": "False"
+    },
+    "UHU006": {
+        "sno": "6",
+        "name": "INTRODUCTORY COURSE IN  FRENCH",
+        "subjectCode": "UHU006",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEC620": {
+        "sno": "3",
+        "name": "DEEP LEARNING FOR COMPUTER VISION",
+        "subjectCode": "UEC620",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEC823": {
+        "sno": "4",
+        "name": "SOFT COMPUTING",
+        "subjectCode": "UEC823",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS667": {
+        "sno": "5",
+        "name": "FINANCE ACCOUNTING AND VALUATION",
+        "subjectCode": "UCS667",
+        "credit": "4",
+        "isCore": "False"
+    },
+    "UCS001": {
+        "sno": "6",
+        "name": "INTRODUCTION TO CYBER SECURITY",
+        "subjectCode": "UCS001",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS898": {
+        "sno": "1",
+        "name": "PROJECT SEMESTER",
+        "subjectCode": "UCS898",
+        "credit": "15",
+        "isCore": "True"
+    },
+    "UCS751": {
+        "sno": "5",
+        "name": "SIMULATION AND MODELLING",
+        "subjectCode": "UCS751",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS635": {
+        "sno": "6",
+        "name": "GPU COMPUTING",
+        "subjectCode": "UCS635",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS645": {
+        "sno": "7",
+        "name": "PARALLEL & DISTRIBUTED COMPUTING",
+        "subjectCode": "UCS645",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEC897": {
+        "sno": "1",
+        "name": "PROJECT",
+        "subjectCode": "UEC897",
+        "credit": "9",
+        "isCore": "True"
+    },
+    "UEC824": {
+        "sno": "2",
+        "name": "ASIC AND FPGA",
+        "subjectCode": "UEC824",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEC752": {
+        "sno": "3",
+        "name": "IC FABRICATION TECHNOLOGY",
+        "subjectCode": "UEC752",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS746": {
+        "sno": "5",
+        "name": "CONVERSATIONAL AI: SPEECH PROCESSING",
+        "subjectCode": "UCS746",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS663": {
+        "sno": "4",
+        "name": "CONVERSATIONAL AI: DATA SCIENCE",
+        "subjectCode": "UCS663",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS543": {
+        "sno": "5",
+        "name": "CONVERSATIONAL AI: DATA ANALYTICS",
+        "subjectCode": "UCS543",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UTA002": {
+        "sno": "2",
+        "name": "MANUFACTURING PROCESSES",
+        "subjectCode": "UTA002",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCS747": {
+        "sno": "5",
+        "name": "EDGE AI AND ROBOTICS: RL & CONVERSATIONAL AI",
+        "subjectCode": "UCS747",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS666": {
+        "sno": "4",
+        "name": "EDGE AI AND ROBOTICS: ADVANCED COMPUTER VISION",
+        "subjectCode": "UCS666",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS665": {
+        "sno": "5",
+        "name": "EDGE AI AND ROBOTICS: BASIC COMPUTER VISION",
+        "subjectCode": "UCS665",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UMA066": {
+        "sno": "6",
+        "name": "GRAPH THEORY AND APPLICATIONS",
+        "subjectCode": "UMA066",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS544": {
+        "sno": "5",
+        "name": "EDGE AI AND ROBOTICS: DATA SCIENCE",
+        "subjectCode": "UCS544",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS661": {
+        "sno": "4",
+        "name": "DATABASE ENGINEER MONGO DB",
+        "subjectCode": "UCS661",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS813": {
+        "sno": "1",
+        "name": "SOCIAL NETWORK ANALYSIS",
+        "subjectCode": "UCS813",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCS806": {
+        "sno": "2",
+        "name": "ETHICAL HACKING",
+        "subjectCode": "UCS806",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS890": {
+        "sno": "3",
+        "name": "CAPSTONE PROJECT II",
+        "subjectCode": "UCS890",
+        "credit": "8",
+        "isCore": "True"
+    },
+    "UBT509": {
+        "sno": "6",
+        "name": "BIOLOGY FOR ENGINEERS",
+        "subjectCode": "UBT509",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS754": {
+        "sno": "5",
+        "name": "BLOCKCHAIN TECHNOLOGY AND APPLICATIONS",
+        "subjectCode": "UCS754",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS648": {
+        "sno": "4",
+        "name": "CYBER FORENSICS",
+        "subjectCode": "UCS648",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS638": {
+        "sno": "5",
+        "name": "SECURE CODING",
+        "subjectCode": "UCS638",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS534": {
+        "sno": "5",
+        "name": "COMPUTER & NETWORK SECURITY",
+        "subjectCode": "UCS534",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS757": {
+        "sno": "5",
+        "name": "BUILDING INNOVATIVE SYSTEMS",
+        "subjectCode": "UCS757",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEN004": {
+        "sno": "6",
+        "name": "TECHNOLOGIES FOR SUSTAINABLE DEVELOPMENT",
+        "subjectCode": "UEN004",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCT891": {
+        "sno": "1",
+        "name": "PROJECT SEMESTER",
+        "subjectCode": "UCT891",
+        "credit": "15",
+        "isCore": "True"
+    },
+    "UCT702": {
+        "sno": "1",
+        "name": "IT WORKSHOP SKYLAB/MATLAB",
+        "subjectCode": "UCT702",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UHU047": {
+        "sno": "2",
+        "name": "FINANCIAL MANAGEMENT",
+        "subjectCode": "UHU047",
+        "credit": "2.5",
+        "isCore": "True"
+    },
+    "UHU048": {
+        "sno": "3",
+        "name": "HUMAN RESOURCE MANAGEMENT",
+        "subjectCode": "UHU048",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCT701": {
+        "sno": "4",
+        "name": "USABILITY DESIGN OF SOFTWARE APPLICATIONS",
+        "subjectCode": "UCT701",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCT703": {
+        "sno": "5",
+        "name": "IT PROJECT MANAGEMENT",
+        "subjectCode": "UCT703",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UHU049": {
+        "sno": "6",
+        "name": "SERVICES SCIENCE & SERVICE OPERATIONAL MANAGEMENT",
+        "subjectCode": "UHU049",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCT732": {
+        "sno": "7",
+        "name": "ADVANCED SOCIAL, TEXT AND MEDIA ANALYTICS",
+        "subjectCode": "UCT732",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCT723": {
+        "sno": "8",
+        "name": "CRYPTOLOGY",
+        "subjectCode": "UCT723",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UHU046": {
+        "sno": "6",
+        "name": "ADVANCE FINANCE",
+        "subjectCode": "UHU046",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCT103": {
+        "sno": "2",
+        "name": "FUNDAMENTALS OF COMPUTER SCIENCE",
+        "subjectCode": "UCT103",
+        "credit": "5",
+        "isCore": "True"
+    },
+    "UCT893": {
+        "sno": "1",
+        "name": "CAPSTONE PROJECT",
+        "subjectCode": "UCT893",
+        "credit": "15",
+        "isCore": "True"
+    },
+    "UCT722": {
+        "sno": "8",
+        "name": "INTRODUCTION TO IOT",
+        "subjectCode": "UCT722",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UME723": {
+        "sno": "3",
+        "name": "FLUID MACHINES",
+        "subjectCode": "UME723",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UME513": {
+        "sno": "3",
+        "name": "DYNAMICS AND VIBRATIONS",
+        "subjectCode": "UME513",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UME793": {
+        "sno": "4",
+        "name": "CAPSTONE PROJECT",
+        "subjectCode": "UME793",
+        "credit": "8",
+        "isCore": "True"
+    },
+    "UME737": {
+        "sno": "4",
+        "name": "CONDITIONING MONITORING OF ROTATING MACHINES",
+        "subjectCode": "UME737",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UME735": {
+        "sno": "5",
+        "name": "MACHINING SCIENCE",
+        "subjectCode": "UME735",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UME832": {
+        "sno": "6",
+        "name": "FINITE ELEMENT METHODS",
+        "subjectCode": "UME832",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UCH801": {
+        "sno": "2",
+        "name": "PROCESS ENGINEERING AND PLANT DESIGN",
+        "subjectCode": "UCH801",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCH604": {
+        "sno": "3",
+        "name": "BIOCHEMICAL ENGINEERING",
+        "subjectCode": "UCH604",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCH893": {
+        "sno": "4",
+        "name": "CAPSTONE PROJECT",
+        "subjectCode": "UCH893",
+        "credit": "8",
+        "isCore": "True"
+    },
+    "UCH866": {
+        "sno": "5",
+        "name": "ENHANCED OIL RECOVERY TECHNIQUES",
+        "subjectCode": "UCH866",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCH850": {
+        "sno": "6",
+        "name": "PETROLEUM AND PETROCHEMICALS",
+        "subjectCode": "UCH850",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCH796": {
+        "sno": "1",
+        "name": "PROJECT SEMESTER",
+        "subjectCode": "UCH796",
+        "credit": "15",
+        "isCore": "True"
+    },
+    "UCH404": {
+        "sno": "1",
+        "name": "CHEMICAL PROCESS INDUSTRIES",
+        "subjectCode": "UCH404",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCH601": {
+        "sno": "2",
+        "name": "CHEMICAL REACTION ENGINEERING-II",
+        "subjectCode": "UCH601",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCH605": {
+        "sno": "3",
+        "name": "PROCESS UTILITY AND INDUSTRIAL SAFETY",
+        "subjectCode": "UCH605",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCH603": {
+        "sno": "4",
+        "name": "TRANSPORT PHENOMENA",
+        "subjectCode": "UCH603",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCH802": {
+        "sno": "5",
+        "name": "PROCESS MODELING AND SIMULATION",
+        "subjectCode": "UCH802",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCH608": {
+        "sno": "6",
+        "name": "MASS TRANSFER-II",
+        "subjectCode": "UCH608",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCM009": {
+        "sno": "1",
+        "name": "DESIGN AND ANALYSIS OF ALGORITHMS",
+        "subjectCode": "UCM009",
+        "credit": "0",
+        "isCore": "True"
+    },
+    "UCM008": {
+        "sno": "2",
+        "name": "MACHINE LEARNING",
+        "subjectCode": "UCM008",
+        "credit": "0",
+        "isCore": "True"
+    },
+    "UCH501": {
+        "sno": "3",
+        "name": "CHEMICAL REACTION ENGINEERING-I",
+        "subjectCode": "UCH501",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCH405": {
+        "sno": "4",
+        "name": "ENERGY RESOURCES",
+        "subjectCode": "UCH405",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCH401": {
+        "sno": "5",
+        "name": "FLUID AND PARTICLE MECHANICS",
+        "subjectCode": "UCH401",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCH503": {
+        "sno": "6",
+        "name": "INDUSTRIAL POLLUTION ABATEMENT",
+        "subjectCode": "UCH503",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCH506": {
+        "sno": "7",
+        "name": "PROCESS INSTRUMENTATION AND CONTROL",
+        "subjectCode": "UCH506",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCM001": {
+        "sno": "1",
+        "name": "COMPUTER NETWORKS",
+        "subjectCode": "UCM001",
+        "credit": "0",
+        "isCore": "True"
+    },
+    "UCM004": {
+        "sno": "2",
+        "name": "DATA STRUCTURE & ALGORITHMS",
+        "subjectCode": "UCM004",
+        "credit": "0",
+        "isCore": "True"
+    },
+    "UCM003": {
+        "sno": "3",
+        "name": "DATABASE MANAGEMENT SYSTEMS",
+        "subjectCode": "UCM003",
+        "credit": "0",
+        "isCore": "True"
+    },
+    "UCM002": {
+        "sno": "4",
+        "name": "OPERATING SYSTEMS",
+        "subjectCode": "UCM002",
+        "credit": "0",
+        "isCore": "True"
+    },
+    "UCH408": {
+        "sno": "6",
+        "name": "CHEMICAL ENGINEERING THERMODYNAMICS-II",
+        "subjectCode": "UCH408",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCH402": {
+        "sno": "9",
+        "name": "HEAT TRANSFER",
+        "subjectCode": "UCH402",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCH302": {
+        "sno": "10",
+        "name": "PROCESS FLUID MECHANICS",
+        "subjectCode": "UCH302",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCH305": {
+        "sno": "2",
+        "name": "CHEMICAL ENGINEERING THERMODYNAMICS-I",
+        "subjectCode": "UCH305",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCH502": {
+        "sno": "3",
+        "name": "MASS TRANSFER-I",
+        "subjectCode": "UCH502",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCH301": {
+        "sno": "4",
+        "name": "MATERIAL AND ENERGY BALANCES",
+        "subjectCode": "UCH301",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UBT007": {
+        "sno": "5",
+        "name": "INTRODUCTION TO BIOLOGY",
+        "subjectCode": "UBT007",
+        "credit": "2",
+        "isCore": "False"
+    },
+    "UNC504": {
+        "sno": "1",
+        "name": "ARTIFICIAL INTELLIGENCE",
+        "subjectCode": "UNC504",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC538": {
+        "sno": "5",
+        "name": "ALGORITHM ANALYSIS AND DESIGN",
+        "subjectCode": "UEC538",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEC518": {
+        "sno": "5",
+        "name": "NETWORK SECURITY",
+        "subjectCode": "UEC518",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UCS550": {
+        "sno": "5",
+        "name": "NETWORK DEFENCE",
+        "subjectCode": "UCS550",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEN003": {
+        "sno": "2",
+        "name": "ENVIRONMENTAL STUDIES",
+        "subjectCode": "UEN003",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UMA015": {
+        "sno": "3",
+        "name": "CALCULUS-I",
+        "subjectCode": "UMA015",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCB028": {
+        "sno": "4",
+        "name": "GENERAL CHEMISTRY-I",
+        "subjectCode": "UCB028",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UPH010": {
+        "sno": "5",
+        "name": "PHYSICS WITH CALCULUS -I",
+        "subjectCode": "UPH010",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UMA017": {
+        "sno": "6",
+        "name": "DIFFERENTIAL EQUATION",
+        "subjectCode": "UMA017",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCS317": {
+        "sno": "2",
+        "name": "DATA STRUCTURES (WITH JAVA)",
+        "subjectCode": "UCS317",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UMA020": {
+        "sno": "6",
+        "name": "MULTIVARIATE CALCULUS",
+        "subjectCode": "UMA020",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "SLA101": {
+        "sno": "1",
+        "name": "INTRODUCTION TO FORMAL LOGIC",
+        "subjectCode": "SLA101",
+        "credit": "2",
+        "isCore": "True"
+    },
+    "UTA028": {
+        "sno": "4",
+        "name": "OBJECT ORIENTED PROGRAMMING",
+        "subjectCode": "UTA028",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UMA016": {
+        "sno": "5",
+        "name": "CALCULUS-II",
+        "subjectCode": "UMA016",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UPH011": {
+        "sno": "7",
+        "name": "PHYSICS WITH CALCULUS -II",
+        "subjectCode": "UPH011",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCE512": {
+        "sno": "2",
+        "name": "DESIGN OF STEEL STRUCTURES",
+        "subjectCode": "UCE512",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCE401": {
+        "sno": "3",
+        "name": "HYDROLOGY AND GROUND WATER",
+        "subjectCode": "UCE401",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCE511": {
+        "sno": "4",
+        "name": "TRANSPORTATION ENGINEERING - I",
+        "subjectCode": "UCE511",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UCE592": {
+        "sno": "5",
+        "name": "SURVEY PROJECT",
+        "subjectCode": "UCE592",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCE501": {
+        "sno": "6",
+        "name": "SOIL MECHANICS",
+        "subjectCode": "UCE501",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCE861": {
+        "sno": "7",
+        "name": "INFRASTRUCTURE PLANNING & DESIGN",
+        "subjectCode": "UCE861",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UCE406": {
+        "sno": "1",
+        "name": "DESIGN OF CONCRETE STRUCTURES",
+        "subjectCode": "UCE406",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UMA012": {
+        "sno": "2",
+        "name": "NUMERICAL AND STATISTICAL COMPUTATIONS",
+        "subjectCode": "UMA012",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCE303": {
+        "sno": "4",
+        "name": "STRUCTURAL ANALYSIS",
+        "subjectCode": "UCE303",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCE405": {
+        "sno": "5",
+        "name": "SURVEYING",
+        "subjectCode": "UCE405",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UCE309": {
+        "sno": "1",
+        "name": "BUILDING MATERIALS",
+        "subjectCode": "UCE309",
+        "credit": "2.5",
+        "isCore": "True"
+    },
+    "UCE306": {
+        "sno": "2",
+        "name": "ARCHITECTURE  DRAWING & BUILDING CONSTRUCTION",
+        "subjectCode": "UCE306",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UCE310": {
+        "sno": "5",
+        "name": "FLUID MECHANICS",
+        "subjectCode": "UCE310",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UTA027": {
+        "sno": "5",
+        "name": "ARTIFICIAL INTELLIGENCE",
+        "subjectCode": "UTA027",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC512": {
+        "sno": "3",
+        "name": "LINEAR INTEGRATED CIRCUITS AND APPLICATIONS",
+        "subjectCode": "UEC512",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEC401": {
+        "sno": "4",
+        "name": "ANALOG COMMUNICATION SYSTEMS",
+        "subjectCode": "UEC401",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEC531": {
+        "sno": "6",
+        "name": "AUDIO AND SPEECH PROCESSING",
+        "subjectCode": "UEC531",
+        "credit": "4",
+        "isCore": "False"
+    },
+    "UEC867": {
+        "sno": "1",
+        "name": "MODERN CONTROL THEORY",
+        "subjectCode": "UEC867",
+        "credit": "2.5",
+        "isCore": "True"
+    },
+    "UEC403": {
+        "sno": "2",
+        "name": "CIRCUIT ANALYSIS AND SYNTHESIS",
+        "subjectCode": "UEC403",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UEC307": {
+        "sno": "3",
+        "name": "ELECTROMAGNETIC FIELD THEORY AND TRANSMISSION LINES",
+        "subjectCode": "UEC307",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UNC501": {
+        "sno": "6",
+        "name": "OPERATING SYSTEMS",
+        "subjectCode": "UNC501",
+        "credit": "4",
+        "isCore": "False"
+    },
+    "UCS318": {
+        "sno": "6",
+        "name": "SOFTWARE ENGINEERING",
+        "subjectCode": "UCS318",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UNC303": {
+        "sno": "1",
+        "name": "COMPUTER AND COMMUNICATION NETWORKS",
+        "subjectCode": "UNC303",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UMA033": {
+        "sno": "4",
+        "name": "NUMERICAL AND STATISTICAL METHODS",
+        "subjectCode": "UMA033",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEE301": {
+        "sno": "6",
+        "name": "DIRECT CURRENT MACHINES AND TRANSFORMERS",
+        "subjectCode": "UEE301",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEI305": {
+        "sno": "4",
+        "name": "MEASUREMENT SCIENCE",
+        "subjectCode": "UEI305",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UEI407": {
+        "sno": "5",
+        "name": "SIGNALS AND SYSTEMS",
+        "subjectCode": "UEI407",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UMA013": {
+        "sno": "6",
+        "name": "PROBABILITY AND STATISTICS METHODS",
+        "subjectCode": "UMA013",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UCS313": {
+        "sno": "4",
+        "name": "DATA STRUCTURES",
+        "subjectCode": "UCS313",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEI505": {
+        "sno": "5",
+        "name": "SIGNAL CONDITIONING AND DATA ACQUISITION SYSTEM",
+        "subjectCode": "UEI505",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UMT305": {
+        "sno": "6",
+        "name": "APPLIED THERMAL AND FLUID ENGINEERING",
+        "subjectCode": "UMT305",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UMT304": {
+        "sno": "7",
+        "name": "THEORY OF MACHINES",
+        "subjectCode": "UMT304",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UMA301": {
+        "sno": "3",
+        "name": "DISCRETE MATHEMATICAL STRUCTURES",
+        "subjectCode": "UMA301",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "ULC301": {
+        "sno": "5",
+        "name": "DATA STRUCTURES",
+        "subjectCode": "ULC301",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEE502": {
+        "sno": "3",
+        "name": "HIGH VOLTAGE ENGINEERING",
+        "subjectCode": "UEE502",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEI501": {
+        "sno": "4",
+        "name": "CONTROL SYSTEMS",
+        "subjectCode": "UEI501",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEE504": {
+        "sno": "5",
+        "name": "POWER ELECTRONICS",
+        "subjectCode": "UEE504",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEE509": {
+        "sno": "6",
+        "name": "POWER SYSTEM ANALYSIS",
+        "subjectCode": "UEE509",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEE525": {
+        "sno": "7",
+        "name": "DATA ANALYTICAL METHODS",
+        "subjectCode": "UEE525",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEE411": {
+        "sno": "1",
+        "name": "MEASUREMENT AND TRANSDUCERS",
+        "subjectCode": "UEE411",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UEE304": {
+        "sno": "2",
+        "name": "TRANSMISSION AND DISTRIBUTION OF ELECTRIC POWER",
+        "subjectCode": "UEE304",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UEI610": {
+        "sno": "3",
+        "name": "FUNDAMENTALS OF MICROPROCESSORS AND MICROCONTROLLERS",
+        "subjectCode": "UEI610",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEE401": {
+        "sno": "5",
+        "name": "ALTERNATING CURRENT MACHINES",
+        "subjectCode": "UEE401",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEE527": {
+        "sno": "7",
+        "name": "RESTRUCTURED POWER SYSTEMS",
+        "subjectCode": "UEE527",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UEI608": {
+        "sno": "1",
+        "name": "BIO-MEDICAL INSTRUMENTATION",
+        "subjectCode": "UEI608",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEI607": {
+        "sno": "3",
+        "name": "DIGITAL SIGNAL PROCESSING AND APPLICATIONS",
+        "subjectCode": "UEI607",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEI509": {
+        "sno": "4",
+        "name": "DIGITAL SYSTEMS",
+        "subjectCode": "UEI509",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEI601": {
+        "sno": "5",
+        "name": "INDUSTRIAL INSTRUMENTATION",
+        "subjectCode": "UEI601",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEE503": {
+        "sno": "2",
+        "name": "NETWORK ANALYSIS AND SYNTHESIS",
+        "subjectCode": "UEE503",
+        "credit": "3.5",
+        "isCore": "True"
+    },
+    "UEI408": {
+        "sno": "4",
+        "name": "ANALOG DEVICES AND CIRCUITS",
+        "subjectCode": "UEI408",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEI403": {
+        "sno": "6",
+        "name": "ELECTRICAL AND ELECTRONIC MEASUREMENTS",
+        "subjectCode": "UEI403",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UES401": {
+        "sno": "2",
+        "name": "BASICS OF MATERIAL SCIENCE",
+        "subjectCode": "UES401",
+        "credit": "3",
+        "isCore": "True"
+    },
+    "UME839": {
+        "sno": "6",
+        "name": "RENEWABLE ENERGY SYSTEMS",
+        "subjectCode": "UME839",
+        "credit": "3.5",
+        "isCore": "False"
+    },
+    "UEC515": {
+        "sno": "4",
+        "name": "ANALOG AND DIGITAL CIRCUIT DESIGN",
+        "subjectCode": "UEC515",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEI508": {
+        "sno": "5",
+        "name": "SENSORS AND ACTUATORS",
+        "subjectCode": "UEI508",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEC514": {
+        "sno": "6",
+        "name": "SIGNALS, SYSTEMS AND THEIR PROCESSING",
+        "subjectCode": "UEC514",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UEI514": {
+        "sno": "7",
+        "name": "IOT BASED SYSTEMS",
+        "subjectCode": "UEI514",
+        "credit": "3",
+        "isCore": "False"
+    },
+    "UMT403": {
+        "sno": "2",
+        "name": "STRESS ANALYSIS AND MECHANICAL DESIGN",
+        "subjectCode": "UMT403",
+        "credit": "4",
+        "isCore": "True"
+    },
+    "UEE408": {
+        "sno": "3",
+        "name": "AUTOMATIC CONTROL SYSTEMS",
+        "subjectCode": "UEE408",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "UMT303": {
+        "sno": "6",
+        "name": "APPLIED THERMAL ENGINEERING",
+        "subjectCode": "UMT303",
+        "credit": "4.5",
+        "isCore": "True"
+    },
+    "AC5202": {
+        "name": "MANAGERIAL ACCOUNTING",
+        "subjectCode": "AC5202"
+    },
+    "AC5302": {
+        "name": "FINANCIAL ACCOUNTING AND REPORTING",
+        "subjectCode": "AC5302"
+    },
+    "BA5201": {
+        "name": "BUSINESS MODELLING WITH SPREADSHEET - I",
+        "subjectCode": "BA5201"
+    },
+    "BA5301": {
+        "name": "BUSINESS STATISTICS AND ANALYTICS",
+        "subjectCode": "BA5301"
+    },
+    "DCB001": {
+        "name": "SELECTED TOPICS IN CHEMISTRY",
+        "subjectCode": "DCB001"
+    },
+    "DCB003": {
+        "name": "ADVANCED INSTRUMENTATION TECHNIQUES",
+        "subjectCode": "DCB003"
+    },
+    "DMC001": {
+        "name": "ADVANCED NUMBER THEORY",
+        "subjectCode": "DMC001"
+    },
+    "DMC003": {
+        "name": "ADVANCED FUZZY OPTIMIZATION",
+        "subjectCode": "DMC003"
+    },
+    "DMC007": {
+        "name": "RESEARCH METHODOLOGY",
+        "subjectCode": "DMC007"
+    },
+    "DMC008": {
+        "name": "METRIC FIXED POINT THEORY",
+        "subjectCode": "DMC008"
+    },
+    "DMC013": {
+        "name": "RESEARCH METHODOLOGY",
+        "subjectCode": "DMC013"
+    },
+    "DPM001": {
+        "name": "MATERIALS CHARACTERIZATION AND MEASUREMENT TECHNIQ",
+        "subjectCode": "DPM001"
+    },
+    "DPM003": {
+        "name": "THEORETICAL PHYSICS",
+        "subjectCode": "DPM003"
+    },
+    "DSS003": {
+        "name": "GLOBAL MARKETING AND E-BUSINESS",
+        "subjectCode": "DSS003"
+    },
+    "DSS005": {
+        "name": "RESEARCH METHODOLOGY",
+        "subjectCode": "DSS005"
+    },
+    "DSS006": {
+        "name": "FINANCIAL ANALYSIS",
+        "subjectCode": "DSS006"
+    },
+    "DSS007": {
+        "name": "STRATEGIC HR IN GLOBAL ENVIRONMENT",
+        "subjectCode": "DSS007"
+    },
+    "DSS008": {
+        "name": "ADVANCES IN APPLIED PSYCHOLOGY",
+        "subjectCode": "DSS008"
+    },
+    "DSS009": {
+        "name": "RESEARCH SKILLS AND ACADEMIC READING AND WRITING",
+        "subjectCode": "DSS009"
+    },
+    "DSS010": {
+        "name": "LITERARY HISTORIOGRAPHY",
+        "subjectCode": "DSS010"
+    },
+    "DSS011": {
+        "name": "RESEARCH AND PUBLICATION ETHICS",
+        "subjectCode": "DSS011"
+    },
+    "ES6206": {
+        "name": "ENVIRONMENT AND SUSTAINABILITY AUDIT",
+        "subjectCode": "ES6206"
+    },
+    "ES6207": {
+        "name": "CLEAN DEVELOPMENT MECHANISM AND GREEN TECHNOLOGIES",
+        "subjectCode": "ES6207"
+    },
+    "ET5201": {
+        "name": "SOCIAL AND COMMERCIAL ENTREPRENEURSHIP",
+        "subjectCode": "ET5201"
+    },
+    "ET6305": {
+        "name": "SCALING ENTREPRENEURIAL VENTURES",
+        "subjectCode": "ET6305"
+    },
+    "FB6201": {
+        "name": "RETAIL BANKING OPERATIONS & FINANCING",
+        "subjectCode": "FB6201"
+    },
+    "FN5301": {
+        "name": "FINANCIAL MANAGEMENT",
+        "subjectCode": "FN5301"
+    },
+    "FN6204": {
+        "name": "PROJECT AND INFRASTRUCTURE FINANCE",
+        "subjectCode": "FN6204"
+    },
+    "FN6205": {
+        "name": "WEALTH MANAGEMENT AND PERSONAL FINANCIAL PLANNING",
+        "subjectCode": "FN6205"
+    },
+    "FN6209": {
+        "name": "SECURITY ANALYSIS AND PORTFOLIO MANAGEMENT",
+        "subjectCode": "FN6209"
+    },
+    "FN6215": {
+        "name": "INVESTMENT BANKING",
+        "subjectCode": "FN6215"
+    },
+    "FN6217": {
+        "name": "FINTECH",
+        "subjectCode": "FN6217"
+    },
+    "FN6218": {
+        "name": "CORPORATE VALUATION AND FINANCIAL MODELING",
+        "subjectCode": "FN6218"
+    },
+    "FN7201": {
+        "name": "FINANCIAL ECONOMETRICS",
+        "subjectCode": "FN7201"
+    },
+    "GM5101": {
+        "name": "WRITING TO COMMUNICATE",
+        "subjectCode": "GM5101"
+    },
+    "HE6202": {
+        "name": "HIGHER EDUCATION SYSTEMS AND ACCREDITATION",
+        "subjectCode": "HE6202"
+    },
+    "HE6204": {
+        "name": "ADMINISTRATION AND LEADERSHIP IN HIGHER EDUCATION",
+        "subjectCode": "HE6204"
+    },
+    "HR5201": {
+        "name": "MANAGING HUMAN RESOURCE",
+        "subjectCode": "HR5201"
+    },
+    "HR6202": {
+        "name": "STRATEGIC HUMAN RESOURCE MANAGEMENT",
+        "subjectCode": "HR6202"
+    },
+    "HR6206": {
+        "name": "INDUSTRIAL RELATIONS AND LABOUR LAWS",
+        "subjectCode": "HR6206"
+    },
+    "HR6212": {
+        "name": "HUMAN RESOURCE METRICS AND ANALYTICS",
+        "subjectCode": "HR6212"
+    },
+    "HR6215": {
+        "name": "NEGOTIATION STRATEGIES",
+        "subjectCode": "HR6215"
+    },
+    "IM6202": {
+        "name": "SUSTAINABLE BUSINESS STRATEGIES",
+        "subjectCode": "IM6202"
+    },
+    "IM6206": {
+        "name": "TECHNOLOGY AND INNOVATION STRATEGY",
+        "subjectCode": "IM6206"
+    },
+    "IS5301": {
+        "name": "MANAGING INFORMATION FOR BUSINESS",
+        "subjectCode": "IS5301"
+    },
+    "IS6202": {
+        "name": "ERP MANAGEMENT",
+        "subjectCode": "IS6202"
+    },
+    "IS6203": {
+        "name": "INFORMATION SYSTEMS ANALYSIS & DESIGN",
+        "subjectCode": "IS6203"
+    },
+    "IS6206": {
+        "name": "E-BUSINESS SYSTEMS",
+        "subjectCode": "IS6206"
+    },
+    "IS6207": {
+        "name": "BUSINESS INTELLIGENCE FOR MANAGERS",
+        "subjectCode": "IS6207"
+    },
+    "IS6210": {
+        "name": "BIG DATA FOR MANAGERS",
+        "subjectCode": "IS6210"
+    },
+    "MCA101": {
+        "name": "COMPUTER GRAPHICS",
+        "subjectCode": "MCA101"
+    },
+    "MCA102": {
+        "name": "DATA BASE MANAGEMENT SYSTEM",
+        "subjectCode": "MCA102"
+    },
+    "MCA103": {
+        "name": "OPERATING SYSTEMS",
+        "subjectCode": "MCA103"
+    },
+    "MCA104": {
+        "name": "COMPUTER NETWORKS",
+        "subjectCode": "MCA104"
+    },
+    "MCA105": {
+        "name": "DATA STRUCTURES",
+        "subjectCode": "MCA105"
+    },
+    "MCA106": {
+        "name": "PRACTICAL COMPUTING",
+        "subjectCode": "MCA106"
+    },
+    "MCA107": {
+        "name": "COMPUTER PROGRAMMMING (BRIDGE COURSE)",
+        "subjectCode": "MCA107"
+    },
+    "MCA201": {
+        "name": "THEORY OF COMPUTATION",
+        "subjectCode": "MCA201"
+    },
+    "MCA202": {
+        "name": "SOFTWARE ENGINEERING",
+        "subjectCode": "MCA202"
+    },
+    "MCA203": {
+        "name": "BIG DATA ANALYTICS AND BUSINESS INTELLIGENCE",
+        "subjectCode": "MCA203"
+    },
+    "MCA204": {
+        "name": "ARTIFICIAL INTELLIGENCE",
+        "subjectCode": "MCA204"
+    },
+    "MCA205": {
+        "name": "DESIGN AND ANALYSIS OF ALGORITHMS",
+        "subjectCode": "MCA205"
+    },
+    "MCA206": {
+        "name": "STATISTICAL AND NUMERICAL METHODS (BRIDGE COURSE)",
+        "subjectCode": "MCA206"
+    },
+    "MCA207": {
+        "name": "MACHINE LEARNING",
+        "subjectCode": "MCA207"
+    },
+    "MCA209": {
+        "name": "SOURCE CODE MANAGEMENT",
+        "subjectCode": "MCA209"
+    },
+    "MCA210": {
+        "name": "FUNDAMENTALS OF OBJECT ORIENTED PARADIGMS",
+        "subjectCode": "MCA210"
+    },
+    "MCA301": {
+        "name": "MOBILE APPLICATION DEVELOPMENT",
+        "subjectCode": "MCA301"
+    },
+    "MCA303": {
+        "name": "IT PROJECT MANAGEMENT",
+        "subjectCode": "MCA303"
+    },
+    "MCA304": {
+        "name": "NATURAL LANGUAGE PROCESSING",
+        "subjectCode": "MCA304"
+    },
+    "MCA305": {
+        "name": "SECURE CODING",
+        "subjectCode": "MCA305"
+    },
+    "MCA306": {
+        "name": "BUILD AND RELEASE MANAGEMENT",
+        "subjectCode": "MCA306"
+    },
+    "MCA307": {
+        "name": "PROBLEM SOLVING APPROACHES FOR OBJECT ORIENTED PAR",
+        "subjectCode": "MCA307"
+    },
+    "MCA308": {
+        "name": "DATA ANALYTICS AND VISUALIZATION",
+        "subjectCode": "MCA308"
+    },
+    "MCA309": {
+        "name": "CYBER FORENSICS",
+        "subjectCode": "MCA309"
+    },
+    "MCA310": {
+        "name": "CONTINUOUS INTEGRATION AND CONTINUOUS DEPLOYMENT",
+        "subjectCode": "MCA310"
+    },
+    "MCA311": {
+        "name": "ADVANCED ALGORITHMS",
+        "subjectCode": "MCA311"
+    },
+    "MCA402": {
+        "name": "HUMAN COMPUTER INTERACTION",
+        "subjectCode": "MCA402"
+    },
+    "MCA403": {
+        "name": "AGILE SOFTWARE DEVELOPMENT",
+        "subjectCode": "MCA403"
+    },
+    "MCA404": {
+        "name": "ENTERPRISE RESOURCE PLANNING",
+        "subjectCode": "MCA404"
+    },
+    "ME017": {
+        "name": "INSPECTION & QUALITY CONTROL",
+        "subjectCode": "ME017"
+    },
+    "MK5301": {
+        "name": "MARKETING MANAGEMENT",
+        "subjectCode": "MK5301"
+    },
+    "MK5303": {
+        "name": "MARKETING MANAGEMENT",
+        "subjectCode": "MK5303"
+    },
+    "MK6102": {
+        "name": "DIGITAL MARKETING",
+        "subjectCode": "MK6102"
+    },
+    "MK6203": {
+        "name": "SALES AND DISTRIBUTION MANAGEMENT",
+        "subjectCode": "MK6203"
+    },
+    "MK6205": {
+        "name": "B2B MARKETING",
+        "subjectCode": "MK6205"
+    },
+    "MK6206": {
+        "name": "INTERNATIONAL MARKETING",
+        "subjectCode": "MK6206"
+    },
+    "MK6207": {
+        "name": "MARKETING RESEARCH",
+        "subjectCode": "MK6207"
+    },
+    "MK6208": {
+        "name": "SERVICES MARKETING AND RETAIL MANAGEMENT ",
+        "subjectCode": "MK6208"
+    },
+    "MK6209": {
+        "name": "DIGITAL MARKETING",
+        "subjectCode": "MK6209"
+    },
+    "OB5301": {
+        "name": "ORGANIZING, MANAGING AND LEADING",
+        "subjectCode": "OB5301"
+    },
+    "OP5206": {
+        "name": "BUSINESS ANALYTICS AND RESEARCH",
+        "subjectCode": "OP5206"
+    },
+    "OP5304": {
+        "name": "FUNDAMENTALS OF BUSINESS ANALYTICS",
+        "subjectCode": "OP5304"
+    },
+    "OP5305": {
+        "name": "OPERATIONS MANAGEMENT",
+        "subjectCode": "OP5305"
+    },
+    "OP5306": {
+        "name": "EXCEL MODELING FOR DECISION-MAKING",
+        "subjectCode": "OP5306"
+    },
+    "OP6203": {
+        "name": "SUPPLY CHAIN MANAGEMENT",
+        "subjectCode": "OP6203"
+    },
+    "OP6204": {
+        "name": "PROJECT MANAGEMENT",
+        "subjectCode": "OP6204"
+    },
+    "OP6206": {
+        "name": "TOTAL QUALITY MANAGEMENT",
+        "subjectCode": "OP6206"
+    },
+    "OP6209": {
+        "name": "BUSINESS PROCESS SIMULATION",
+        "subjectCode": "OP6209"
+    },
+    "PBC103": {
+        "name": "BIOINORGANIC AND BIOPHYSICAL CHEMISTRY",
+        "subjectCode": "PBC103"
+    },
+    "PBC104": {
+        "name": "BIOANALYTICAL TECHNIQUES",
+        "subjectCode": "PBC104"
+    },
+    "PBC107": {
+        "name": "BIOMOLECULES, ENZYMOLOGY AND BIOENERGETICS",
+        "subjectCode": "PBC107"
+    },
+    "PBC204": {
+        "name": "CELLULAR METABOLISM",
+        "subjectCode": "PBC204"
+    },
+    "PBC310": {
+        "name": "NEUROBIOCHEMISTRY",
+        "subjectCode": "PBC310"
+    },
+    "PBC311": {
+        "name": "SIGNAL TRANSDUCTION AND ENDOCRINOLOGY",
+        "subjectCode": "PBC311"
+    },
+    "PBC312": {
+        "name": "NANOBIOMATERIALS, BIOSENSING AND BIOMEDICAL APPLIC",
+        "subjectCode": "PBC312"
+    },
+    "PBC401": {
+        "name": "ENVIRONMENTAL BIOCHEMISTRY AND ECOLOGY",
+        "subjectCode": "PBC401"
+    },
+    "PBC442": {
+        "name": "BIOCATALYSIS",
+        "subjectCode": "PBC442"
+    },
+    "PBT103": {
+        "name": "BIOCHEMISTRY",
+        "subjectCode": "PBT103"
+    },
+    "PBT107": {
+        "name": "INTRODUCTION TO LIFE SCIENCES (FOR NON-MEDICAL GRO",
+        "subjectCode": "PBT107"
+    },
+    "PBT109": {
+        "name": "BIOTECHNIQUES AND INSTRUMENTATION",
+        "subjectCode": "PBT109"
+    },
+    "PBT110": {
+        "name": "MICROBIOLOGY",
+        "subjectCode": "PBT110"
+    },
+    "PBT111": {
+        "name": "CELL AND MOLECULAR BIOLOGY",
+        "subjectCode": "PBT111"
+    },
+    "PBT202": {
+        "name": "BIOPROCESS TECHNOLOGY",
+        "subjectCode": "PBT202"
+    },
+    "PBT204": {
+        "name": "GENETIC AND METABOLIC ENGINEERING ",
+        "subjectCode": "PBT204"
+    },
+    "PBT205": {
+        "name": "IMMUNOLOGY",
+        "subjectCode": "PBT205"
+    },
+    "PBT206": {
+        "name": "MICROBIAL TECHNOLOGY",
+        "subjectCode": "PBT206"
+    },
+    "PBT207": {
+        "name": "BIOSTATISTICS AND  COMPUTATIONAL BIOLOGY",
+        "subjectCode": "PBT207"
+    },
+    "PBT209": {
+        "name": "FOOD PROCESSING",
+        "subjectCode": "PBT209"
+    },
+    "PBT210": {
+        "name": "IMMUNOLOGY AND IMMUNOTHERAPY",
+        "subjectCode": "PBT210"
+    },
+    "PBT302": {
+        "name": "BIOINFORMATICS",
+        "subjectCode": "PBT302"
+    },
+    "PBT304": {
+        "name": "PHARMACEUTICAL TECHNOLOGY",
+        "subjectCode": "PBT304"
+    },
+    "PBT305": {
+        "name": "PLANT BIOTECHNOLOGY",
+        "subjectCode": "PBT305"
+    },
+    "PBT306": {
+        "name": "ANIMAL AND STEM CELL TECHNOLOGY",
+        "subjectCode": "PBT306"
+    },
+    "PBT307": {
+        "name": "BIOPROCESS TECHNOLOGY",
+        "subjectCode": "PBT307"
+    },
+    "PBT309": {
+        "name": "CLINICAL BIOCHEMISTRY",
+        "subjectCode": "PBT309"
+    },
+    "PBT311": {
+        "name": "GENOMICS, METAGENOMICS AND PROTEOMICS",
+        "subjectCode": "PBT311"
+    },
+    "PBT313": {
+        "name": "MOLECULAR MEDICINE AND DIAGNOSTICS",
+        "subjectCode": "PBT313"
+    },
+    "PBT322": {
+        "name": "HUMAN NUTRITION AND DIETETICS",
+        "subjectCode": "PBT322"
+    },
+    "PBY101": {
+        "name": "MOLECULAR BIOLOGY & RDNA TECHNOLOGY",
+        "subjectCode": "PBY101"
+    },
+    "PBY102": {
+        "name": "BIOPROCESS ENGINEERING",
+        "subjectCode": "PBY102"
+    },
+    "PBY104": {
+        "name": "APPLIED IMMUNOLOGY AND VACCINE TECHNOLOGY",
+        "subjectCode": "PBY104"
+    },
+    "PBY201": {
+        "name": "DOWNSTREAM PROCESSING",
+        "subjectCode": "PBY201"
+    },
+    "PBY202": {
+        "name": "BIOPHARMACEUTICAL & PHARMACEUTICAL TECHNOLOGY",
+        "subjectCode": "PBY202"
+    },
+    "PBY204": {
+        "name": "INDUSTRIAL ENZYME TECHNOLOGY",
+        "subjectCode": "PBY204"
+    },
+    "PBY205": {
+        "name": "ADVANCED PLANT  BIOTECHNOLOGY",
+        "subjectCode": "PBY205"
+    },
+    "PBY207": {
+        "name": "FOOD PROCESSING TECHNOLOGY",
+        "subjectCode": "PBY207"
+    },
+    "PBY208": {
+        "name": "BIOINFORMATICS AND SYSTEM BIOLOGY",
+        "subjectCode": "PBY208"
+    },
+    "PBY209": {
+        "name": "ANIMAL CELL CULTURE AND TRANSGENIC TECHNOLOGY",
+        "subjectCode": "PBY209"
+    },
+    "PCA209": {
+        "name": "DATA STRUCTURES",
+        "subjectCode": "PCA209"
+    },
+    "PCA301": {
+        "name": "SOFTWARE ENGINEERING",
+        "subjectCode": "PCA301"
+    },
+    "PCA306": {
+        "name": "DATA BASE MANAGEMENT SYSTEMS",
+        "subjectCode": "PCA306"
+    },
+    "PCA316": {
+        "name": "SOFTWARE ENGINEERING AND PROJECT MANAGEMENT",
+        "subjectCode": "PCA316"
+    },
+    "PCA317": {
+        "name": "OPERATING SYSTEMS",
+        "subjectCode": "PCA317"
+    },
+    "PCA406": {
+        "name": "AUTOMATA THEORY AND COMPUTABILITY",
+        "subjectCode": "PCA406"
+    },
+    "PCA407": {
+        "name": "GRAPHICS AND VISUAL COMPUTING",
+        "subjectCode": "PCA407"
+    },
+    "PCA408": {
+        "name": "MOBILE APPLICATION DEVELOPMENT",
+        "subjectCode": "PCA408"
+    },
+    "PCA409": {
+        "name": "BIG DATA ANALYTICS AND BUSINESS INTELLIGENCE",
+        "subjectCode": "PCA409"
+    },
+    "PCA410": {
+        "name": "ARTIFICIAL INTELLIGENCE",
+        "subjectCode": "PCA410"
+    },
+    "PCA423": {
+        "name": "PARALLEL AND DISTRIBUTED COMPUTING",
+        "subjectCode": "PCA423"
+    },
+    "PCA504": {
+        "name": "NETWORK SECURITY",
+        "subjectCode": "PCA504"
+    },
+    "PCA508": {
+        "name": "CLOUD INFRASTRUCTURE AND SERVICES",
+        "subjectCode": "PCA508"
+    },
+    "PCA511": {
+        "name": "COMPILER CONSTRUCTION",
+        "subjectCode": "PCA511"
+    },
+    "PCA513": {
+        "name": "COMPUTER GRAPHICS",
+        "subjectCode": "PCA513"
+    },
+    "PCA523": {
+        "name": "MACHINE LEARNING",
+        "subjectCode": "PCA523"
+    },
+    "PCA524": {
+        "name": "IT PROJECT MANAGEMENT",
+        "subjectCode": "PCA524"
+    },
+    "PCA526": {
+        "name": "DEEP LEARNING",
+        "subjectCode": "PCA526"
+    },
+    "PCA535": {
+        "name": "DATA ANALYTICS AND VISUALIZATION",
+        "subjectCode": "PCA535"
+    },
+    "PCA603": {
+        "name": "ENTERPRISE RESOURCE PLANNING",
+        "subjectCode": "PCA603"
+    },
+    "PCD103": {
+        "name": "MECHATRONICS",
+        "subjectCode": "PCD103"
+    },
+    "PCD105": {
+        "name": "COMPUTER AIDED MANUFACTURING",
+        "subjectCode": "PCD105"
+    },
+    "PCD107": {
+        "name": "FINITE ELEMENT METHODS",
+        "subjectCode": "PCD107"
+    },
+    "PCD108": {
+        "name": "MACHINE TOOL DESIGN",
+        "subjectCode": "PCD108"
+    },
+    "PCD202": {
+        "name": "COMPUTER AIDED DESIGN",
+        "subjectCode": "PCD202"
+    },
+    "PCD204": {
+        "name": "INDUSTRIAL AUTOMATION",
+        "subjectCode": "PCD204"
+    },
+    "PCD206": {
+        "name": "COMPUTER INTEGRATED MANUFACTURING SYSTEMS",
+        "subjectCode": "PCD206"
+    },
+    "PCD208": {
+        "name": "MODERN CONTROL OF DYNAMIC SYSTEMS",
+        "subjectCode": "PCD208"
+    },
+    "PCD209": {
+        "name": "ROBOTICS",
+        "subjectCode": "PCD209"
+    },
+    "PCD212": {
+        "name": "RAPID PROTOTYPING",
+        "subjectCode": "PCD212"
+    },
+    "PCD312": {
+        "name": "COMPUTATIONAL FLUID DYNAMICS",
+        "subjectCode": "PCD312"
+    },
+    "PCD313": {
+        "name": "MACHINE TOOL DESIGN",
+        "subjectCode": "PCD313"
+    },
+    "PCD315": {
+        "name": "MODELLING AND SIMULATION OF DYNAMIC SYSTEMS",
+        "subjectCode": "PCD315"
+    },
+    "PCE101": {
+        "name": "ADVANCED STRUCTURAL ANALYSIS",
+        "subjectCode": "PCE101"
+    },
+    "PCE102": {
+        "name": "ADVANCED SOLID MECHANICS",
+        "subjectCode": "PCE102"
+    },
+    "PCE103": {
+        "name": "ADVANCED STRUCTURAL DESIGN",
+        "subjectCode": "PCE103"
+    },
+    "PCE104": {
+        "name": "STRUCTURAL MATERIALS",
+        "subjectCode": "PCE104"
+    },
+    "PCE105": {
+        "name": "ADVANCED FOUNDATION ENGINEERING",
+        "subjectCode": "PCE105"
+    },
+    "PCE201": {
+        "name": "FINITE ELEMENT METHODS IN STRUCTURAL ANALYSIS",
+        "subjectCode": "PCE201"
+    },
+    "PCE202": {
+        "name": "PRE-STRESSED CONCRETE",
+        "subjectCode": "PCE202"
+    },
+    "PCE203": {
+        "name": "PLATES AND SHELLS",
+        "subjectCode": "PCE203"
+    },
+    "PCE204": {
+        "name": "STRUCTURAL DYNAMICS",
+        "subjectCode": "PCE204"
+    },
+    "PCE211": {
+        "name": "ADVANCED BRIDGE DESIGN",
+        "subjectCode": "PCE211"
+    },
+    "PCE212": {
+        "name": "TALL STRUCTURES",
+        "subjectCode": "PCE212"
+    },
+    "PCE301": {
+        "name": "EARTHQUAKE RESISTANT DESIGN OF STRUCTURES",
+        "subjectCode": "PCE301"
+    },
+    "PCE323": {
+        "name": "INDUSTRIAL STRUCTURES ",
+        "subjectCode": "PCE323"
+    },
+    "PCE324": {
+        "name": "STRUCTURAL HEALTH MONITORING AND RETROFITTING",
+        "subjectCode": "PCE324"
+    },
+    "PCE327": {
+        "name": "ANALYSIS OF COMPOSITES PLATE",
+        "subjectCode": "PCE327"
+    },
+    "PCH101": {
+        "name": "CHEMICAL ENGINEERING THERMODYNAMICS ",
+        "subjectCode": "PCH101"
+    },
+    "PCH214": {
+        "name": "PROCESS INTEGRATION",
+        "subjectCode": "PCH214"
+    },
+    "PCH217": {
+        "name": "ENVIRONMENTAL  POLLUTION CONTROL",
+        "subjectCode": "PCH217"
+    },
+    "PCL105": {
+        "name": "STATISTICAL METHODS AND ALGORITHMS",
+        "subjectCode": "PCL105"
+    },
+    "PCL108": {
+        "name": "STATISTICAL METHODS AND ALGORITHMS",
+        "subjectCode": "PCL108"
+    },
+    "PCP101": {
+        "name": "PSYCHOLOGY OF PERSONAL GROWTH & ADJUSTMENT",
+        "subjectCode": "PCP101"
+    },
+    "PCP102": {
+        "name": "ADVANCED COUNSELING PSYCHOLOGY",
+        "subjectCode": "PCP102"
+    },
+    "PCP103": {
+        "name": "ADVANCED CLINICAL PSYCHOLOGY",
+        "subjectCode": "PCP103"
+    },
+    "PCP104": {
+        "name": "PSYCHOPATHOLOGY OF CHILDHOOD & ADOLESCENCE & GERIA",
+        "subjectCode": "PCP104"
+    },
+    "PCP105": {
+        "name": "BIOPSYCHOLOGY AND PSYCHOPHARMACOLOGY",
+        "subjectCode": "PCP105"
+    },
+    "PCP201": {
+        "name": "PSYCHOTHERAPEUTIC INTERVENTIONS",
+        "subjectCode": "PCP201"
+    },
+    "PCP202": {
+        "name": "PSYCHOLOGY OF ADDICTION AND SUBSTANCE ABUSE",
+        "subjectCode": "PCP202"
+    },
+    "PCP203": {
+        "name": "RESEARCH METHODS AND STATISTICS FOR PSYCHOLOGY",
+        "subjectCode": "PCP203"
+    },
+    "PCS103": {
+        "name": "ADVANCED ARTIFICIAL INTELLIGENCE",
+        "subjectCode": "PCS103"
+    },
+    "PCS108": {
+        "name": "ADVANCED DATA STRUCTURES",
+        "subjectCode": "PCS108"
+    },
+    "PCS109": {
+        "name": "ADVANCED ALGORITHMS",
+        "subjectCode": "PCS109"
+    },
+    "PCS110": {
+        "name": "DATA SCIENCE FOUNDATIONS",
+        "subjectCode": "PCS110"
+    },
+    "PCS111": {
+        "name": "SOFTWARE PROJECT MANAGEMENT",
+        "subjectCode": "PCS111"
+    },
+    "PCS112": {
+        "name": "APPLIED  STATISTICAL METHODS",
+        "subjectCode": "PCS112"
+    },
+    "PCS205": {
+        "name": "BIG DATA ANALYTICS AND BUSINESS INTELLIGENCE",
+        "subjectCode": "PCS205"
+    },
+    "PCS206": {
+        "name": "MACHINE LEARNING",
+        "subjectCode": "PCS206"
+    },
+    "PCS207": {
+        "name": "SOFTWARE ENGINEERING AND PROJECT MANAGEMENT",
+        "subjectCode": "PCS207"
+    },
+    "PCS208": {
+        "name": "RECOMMENDER SYSTEM",
+        "subjectCode": "PCS208"
+    },
+    "PCS210": {
+        "name": "BLOCK CHAIN TECHNOLOGIES",
+        "subjectCode": "PCS210"
+    },
+    "PCS216": {
+        "name": "ADVANCED COMPUTER ARCHITECTURE",
+        "subjectCode": "PCS216"
+    },
+    "PCS221": {
+        "name": "CLOUD INFRASTRUCTURE AND SERVICES",
+        "subjectCode": "PCS221"
+    },
+    "PCS224": {
+        "name": "NATURAL LANGUAGE PROCESSING",
+        "subjectCode": "PCS224"
+    },
+    "PCS233": {
+        "name": "DATA MINING AND KNOWLEDGE MANAGEMENT",
+        "subjectCode": "PCS233"
+    },
+    "PCS251": {
+        "name": "DISTRIBUTED DATABASE",
+        "subjectCode": "PCS251"
+    },
+    "PCS254": {
+        "name": "HUMAN CENTERED COMPUTING",
+        "subjectCode": "PCS254"
+    },
+    "PCS333": {
+        "name": "MESHUPS",
+        "subjectCode": "PCS333"
+    },
+    "PCY101": {
+        "name": "ANALYTICAL CHEMISTRY",
+        "subjectCode": "PCY101"
+    },
+    "PCY102": {
+        "name": "INORGANIC CHEMISTRY",
+        "subjectCode": "PCY102"
+    },
+    "PCY104": {
+        "name": "QUANTUM CHEMISTRY",
+        "subjectCode": "PCY104"
+    },
+    "PCY108": {
+        "name": "CHEMICAL BIOLOGY",
+        "subjectCode": "PCY108"
+    },
+    "PCY109": {
+        "name": "STEREOCHEMISTRY AND PHOTOCHEMISTRY",
+        "subjectCode": "PCY109"
+    },
+    "PCY110": {
+        "name": "THERMODYNAMICS AND CHEMICAL KINETICS",
+        "subjectCode": "PCY110"
+    },
+    "PCY202": {
+        "name": "COORDINATION CHEMISTRY  ",
+        "subjectCode": "PCY202"
+    },
+    "PCY203": {
+        "name": "ORGANIC REACTION MECHANISMS  ",
+        "subjectCode": "PCY203"
+    },
+    "PCY211": {
+        "name": "MEDICINAL AND PHARMACEUTICAL CHEMISTRY",
+        "subjectCode": "PCY211"
+    },
+    "PCY212": {
+        "name": "SYNTHETIC AND NATURAL POLYMERS",
+        "subjectCode": "PCY212"
+    },
+    "PCY215": {
+        "name": "MOLECULAR SPECTROSCOPY",
+        "subjectCode": "PCY215"
+    },
+    "PCY218": {
+        "name": "MATERIAL CHEMISTRY",
+        "subjectCode": "PCY218"
+    },
+    "PCY220": {
+        "name": "MEDICINAL AND PHARMACEUTICAL CHEMISTRY",
+        "subjectCode": "PCY220"
+    },
+    "PCY222": {
+        "name": "SUPRAMOLECULAR CHEMISTRY",
+        "subjectCode": "PCY222"
+    },
+    "PCY302": {
+        "name": "SYMMETRY AND GROUP THEORY ",
+        "subjectCode": "PCY302"
+    },
+    "PCY304": {
+        "name": "INTERPRETATIVE SPECTROSCOPY",
+        "subjectCode": "PCY304"
+    },
+    "PCY307": {
+        "name": "CATALYSIS AND REAGENTS",
+        "subjectCode": "PCY307"
+    },
+    "PCY321": {
+        "name": "REARRANGEMENTS AND RETROSYNTHESIS",
+        "subjectCode": "PCY321"
+    },
+    "PCY322": {
+        "name": "PHOTOPHYSICAL CHEMISTRY",
+        "subjectCode": "PCY322"
+    },
+    "PCY324": {
+        "name": "STATISTICAL THERMODYNAMICS",
+        "subjectCode": "PCY324"
+    },
+    "PCY325": {
+        "name": "INORGANIC SPECTROSCOPY",
+        "subjectCode": "PCY325"
+    },
+    "PCY326": {
+        "name": "COMPUTATIONAL CHEMISTRY",
+        "subjectCode": "PCY326"
+    },
+    "PCY327": {
+        "name": "ORGANOMETALLIC CHEMISTRY",
+        "subjectCode": "PCY327"
+    },
+    "PCY402": {
+        "name": "ADVANCED TOPICS IN CHEMISTRY",
+        "subjectCode": "PCY402"
+    },
+    "PCY403": {
+        "name": "HETEROCYCLIC CHEMISTRY AND NATURAL PRODUCTS",
+        "subjectCode": "PCY403"
+    },
+    "PEC106": {
+        "name": "OPTICAL COMMUNICATION NETWORKS",
+        "subjectCode": "PEC106"
+    },
+    "PEC108": {
+        "name": "EMBEDDED SYSTEM DESIGN",
+        "subjectCode": "PEC108"
+    },
+    "PEC110": {
+        "name": "ADVANCED WIRELESS COMMUNICATION SYSTEMS",
+        "subjectCode": "PEC110"
+    },
+    "PEC111": {
+        "name": "ADVANCED DIGITAL SIGNAL PROCESSING",
+        "subjectCode": "PEC111"
+    },
+    "PEC112": {
+        "name": "RANDOM PROCESSES: DETECTION, AND ESTIMATION",
+        "subjectCode": "PEC112"
+    },
+    "PEC113": {
+        "name": "MACHINE INTELLIGENCE AND LEARNING",
+        "subjectCode": "PEC113"
+    },
+    "PEC114": {
+        "name": "ADVANCED ANTENNA SYSTEM",
+        "subjectCode": "PEC114"
+    },
+    "PEC206": {
+        "name": "MACHINE LEARNING",
+        "subjectCode": "PEC206"
+    },
+    "PEC208": {
+        "name": "MIMO COMMUNICATION SYSTEM",
+        "subjectCode": "PEC208"
+    },
+    "PEC212": {
+        "name": "AUDIO AND SPEECH PROCESSING",
+        "subjectCode": "PEC212"
+    },
+    "PEC216": {
+        "name": "ADVANCED COMPUTER NETWORKS AND PROTOCOLS",
+        "subjectCode": "PEC216"
+    },
+    "PEC223": {
+        "name": "EMBEDDED SYSTEMS",
+        "subjectCode": "PEC223"
+    },
+    "PEC232": {
+        "name": "DESIGN FOR IOT",
+        "subjectCode": "PEC232"
+    },
+    "PEC247": {
+        "name": "MICROWAVE MEASUREMENTS AND DESIGN",
+        "subjectCode": "PEC247"
+    },
+    "PEC304": {
+        "name": "CLOUD COMPUTING",
+        "subjectCode": "PEC304"
+    },
+    "PEC339": {
+        "name": "IMAGE PROCESSING AND COMPUTER VISION",
+        "subjectCode": "PEC339"
+    },
+    "PEC340": {
+        "name": "IMAGE PROCESSING AND COMPUTER VISION",
+        "subjectCode": "PEC340"
+    },
+    "PEE105": {
+        "name": "ADVANCED POWER ELECTRONICS",
+        "subjectCode": "PEE105"
+    },
+    "PEE106": {
+        "name": "MODELLING AND ANALYSIS OF POWER SYSTEM",
+        "subjectCode": "PEE106"
+    },
+    "PEE109": {
+        "name": "POWER SYSTEM DYNAMICS AND STABILITY",
+        "subjectCode": "PEE109"
+    },
+    "PEE110": {
+        "name": "PROTECTIVE RELAYING",
+        "subjectCode": "PEE110"
+    },
+    "PEE111": {
+        "name": "HIGH VOLTAGE TECHNOLOGY",
+        "subjectCode": "PEE111"
+    },
+    "PEE203": {
+        "name": "ELECTRIC DRIVES AND CONTROL",
+        "subjectCode": "PEE203"
+    },
+    "PEE205": {
+        "name": "INTELLIGENT ALGORITHMS IN POWER SYSTEMS",
+        "subjectCode": "PEE205"
+    },
+    "PEE206": {
+        "name": "POWER SYSTEM OPERATION & CONTROL",
+        "subjectCode": "PEE206"
+    },
+    "PEE207": {
+        "name": "POWER SYSTEM PLANNING AND RESTRUCTURING",
+        "subjectCode": "PEE207"
+    },
+    "PEE208": {
+        "name": "HIGH VOLTAGE TECHNOLOGY",
+        "subjectCode": "PEE208"
+    },
+    "PEE209": {
+        "name": "REAL TIME SIMULATION OF ENERGY SYSTEMS",
+        "subjectCode": "PEE209"
+    },
+    "PEE210": {
+        "name": "ADVANCED POWER CONVERTERS",
+        "subjectCode": "PEE210"
+    },
+    "PEE212": {
+        "name": "FACTS CONTROLLERS AND MODELLING",
+        "subjectCode": "PEE212"
+    },
+    "PEE216": {
+        "name": "DIGITAL CONTROL SYSTEMS",
+        "subjectCode": "PEE216"
+    },
+    "PEE221": {
+        "name": "FACTS CONTROLLERS AND MODELLING",
+        "subjectCode": "PEE221"
+    },
+    "PEE232": {
+        "name": "MICRO AND SMART GRID",
+        "subjectCode": "PEE232"
+    },
+    "PEE236": {
+        "name": "LOAD AND ENERGY MANAGEMENT",
+        "subjectCode": "PEE236"
+    },
+    "PEE242": {
+        "name": "RENEWABLE ENERGY SYSTEMS",
+        "subjectCode": "PEE242"
+    },
+    "PEE341": {
+        "name": "POWER QUALITY AND CUSTOM POWER",
+        "subjectCode": "PEE341"
+    },
+    "PEE343": {
+        "name": "RENEWABLE ENERGY SYSTEMS",
+        "subjectCode": "PEE343"
+    },
+    "PEI102": {
+        "name": "INDUSTRIAL INSTRUMENTATION AND CONTROL",
+        "subjectCode": "PEI102"
+    },
+    "PEI107": {
+        "name": "DIGITAL SIGNAL PROCESSING AND TECHNIQUES",
+        "subjectCode": "PEI107"
+    },
+    "PEI109": {
+        "name": "INTELLIGENT TECHNIQUES AND APPLICATIONS",
+        "subjectCode": "PEI109"
+    },
+    "PEI110": {
+        "name": "MEASUREMENT TECHNIQUES",
+        "subjectCode": "PEI110"
+    },
+    "PEI111": {
+        "name": "MICROCONTROLLER AND EMBEDDED SYSTEMS",
+        "subjectCode": "PEI111"
+    },
+    "PEI112": {
+        "name": "PROCESS MODELLING SIMULATION AND CONTROL",
+        "subjectCode": "PEI112"
+    },
+    "PEI234": {
+        "name": "EMBEDDED CONTROL SYSTEM",
+        "subjectCode": "PEI234"
+    },
+    "PES110": {
+        "name": "ELEMENTS OF ENVIRONMENTAL SCIENCES",
+        "subjectCode": "PES110"
+    },
+    "PES111": {
+        "name": "AIR QUALITY MODELLING AND CLIMATE CHANGE",
+        "subjectCode": "PES111"
+    },
+    "PES112": {
+        "name": "WASTEWATER TREATMENT TECHNOLOGIES",
+        "subjectCode": "PES112"
+    },
+    "PES204": {
+        "name": "WATER AND WASTEWATER TREATMENT TECHNOLOGIES-II",
+        "subjectCode": "PES204"
+    },
+    "PES205": {
+        "name": "AIR POLLUTION CONTROL ENGINEERING",
+        "subjectCode": "PES205"
+    },
+    "PES206": {
+        "name": "WATER QUALITY MODELLING AND TREATMENT",
+        "subjectCode": "PES206"
+    },
+    "PES207": {
+        "name": "SOLID AND HAZARDOUS WASTE MANAGEMENT",
+        "subjectCode": "PES207"
+    },
+    "PES213": {
+        "name": "ENVIRONMENTAL SAFETY AND MANAGEMENT",
+        "subjectCode": "PES213"
+    },
+    "PES216": {
+        "name": "SUSTAINABILITY AND CLEANER TECHNOLOGIES",
+        "subjectCode": "PES216"
+    },
+    "PES218": {
+        "name": "ENVIRONMENTAL SAFETY AND MANAGEMENT",
+        "subjectCode": "PES218"
+    },
+    "PES225": {
+        "name": "ENVIRONMENTAL LEGISLATION AND IMPACT ASSESSMENT",
+        "subjectCode": "PES225"
+    },
+    "PES231": {
+        "name": "CLEANER TECHNOLOGIES",
+        "subjectCode": "PES231"
+    },
+    "PES232": {
+        "name": "WATER QUALITY MONITORING AND MODELLING",
+        "subjectCode": "PES232"
+    },
+    "PET101": {
+        "name": "CONVENTIONAL ENERGY TECHNOLOGIES",
+        "subjectCode": "PET101"
+    },
+    "PET108": {
+        "name": "ENERGY CONSERVATION IN THERMAL UTILITIES",
+        "subjectCode": "PET108"
+    },
+    "PET109": {
+        "name": "ENERGY AUDITING AND MANAGEMENT",
+        "subjectCode": "PET109"
+    },
+    "PET110": {
+        "name": "FUNDAMENTALS OF ENERGY ENGINEERING",
+        "subjectCode": "PET110"
+    },
+    "PET111": {
+        "name": "RENEWABLE ENERGY TECHNOLOGIES - I",
+        "subjectCode": "PET111"
+    },
+    "PHU003": {
+        "name": "PROFESSIONAL COMMUNICATION",
+        "subjectCode": "PHU003"
+    },
+    "PHU004": {
+        "name": "RESEARCH METHODOLOGY, ETHICS AND IPR",
+        "subjectCode": "PHU004"
+    },
+    "PHU301": {
+        "name": "ENTREPRENEURSHIP AND IPR ",
+        "subjectCode": "PHU301"
+    },
+    "PIM101": {
+        "name": "BASIC MATHEMATICS",
+        "subjectCode": "PIM101"
+    },
+    "PIN102": {
+        "name": "INFRASTRUCTURE PLANNING AND MANAGEMENT",
+        "subjectCode": "PIN102"
+    },
+    "PIN103": {
+        "name": "REMOTE SENSING AND GIS",
+        "subjectCode": "PIN103"
+    },
+    "PIN104": {
+        "name": "DESIGN OF HYDRAULIC STRUCTURES",
+        "subjectCode": "PIN104"
+    },
+    "PIN113": {
+        "name": "DESIGN OF WATER SUPPLY AND SEWERAGE SYSTEMS",
+        "subjectCode": "PIN113"
+    },
+    "PIN202": {
+        "name": "TRANSPORTATION PLANNING AND ECONOMICS",
+        "subjectCode": "PIN202"
+    },
+    "PIN212": {
+        "name": "MASS TRANSPORTATION SYSTEMS",
+        "subjectCode": "PIN212"
+    },
+    "PIN226": {
+        "name": "DESIGN OF PAVEMENTS",
+        "subjectCode": "PIN226"
+    },
+    "PIN314": {
+        "name": "ADVANCED RAILWAY AND AIRPORT ENGINEERING",
+        "subjectCode": "PIN314"
+    },
+    "PIS105": {
+        "name": "SECURE CODING",
+        "subjectCode": "PIS105"
+    },
+    "PIS205": {
+        "name": "NETWORK SECURITY AND ETHICAL HACKING",
+        "subjectCode": "PIS205"
+    },
+    "PMA102": {
+        "name": "RESEARCH METHODOLOGY",
+        "subjectCode": "PMA102"
+    },
+    "PMA107": {
+        "name": "REAL ANALYSIS",
+        "subjectCode": "PMA107"
+    },
+    "PMA108": {
+        "name": "ALGEBRA I",
+        "subjectCode": "PMA108"
+    },
+    "PMA109": {
+        "name": "ORDINARY DIFFERENTIAL EQUATIONS",
+        "subjectCode": "PMA109"
+    },
+    "PMA110": {
+        "name": "MECHANICS",
+        "subjectCode": "PMA110"
+    },
+    "PMA111": {
+        "name": "COMPUTER PROGRAMMING",
+        "subjectCode": "PMA111"
+    },
+    "PMA112": {
+        "name": "LINEAR ALGEBRA AND RANDOM PROCESSES",
+        "subjectCode": "PMA112"
+    },
+    "PMA204": {
+        "name": "MEASURE THEORY AND INTEGRATION",
+        "subjectCode": "PMA204"
+    },
+    "PMA205": {
+        "name": "ALGEBRA II",
+        "subjectCode": "PMA205"
+    },
+    "PMA206": {
+        "name": "PARTIAL DIFFERENTIAL EQUATIONS",
+        "subjectCode": "PMA206"
+    },
+    "PMA207": {
+        "name": "COMPLEX ANALYSIS",
+        "subjectCode": "PMA207"
+    },
+    "PMA208": {
+        "name": "NUMERICAL ANALYSIS",
+        "subjectCode": "PMA208"
+    },
+    "PMA301": {
+        "name": "FUNCTIONAL ANALYSIS",
+        "subjectCode": "PMA301"
+    },
+    "PMA302": {
+        "name": "TOPOLOGY",
+        "subjectCode": "PMA302"
+    },
+    "PMA303": {
+        "name": "PROBABILITY AND STATISTICS",
+        "subjectCode": "PMA303"
+    },
+    "PMA304": {
+        "name": "MATHEMATICAL PROGRAMMING",
+        "subjectCode": "PMA304"
+    },
+    "PMA322": {
+        "name": "INTRODUCTION TO ASTRONOMY AND ASTROPHYSICS",
+        "subjectCode": "PMA322"
+    },
+    "PMA325": {
+        "name": "ADVANCED FUNCTIONAL ANALYSIS",
+        "subjectCode": "PMA325"
+    },
+    "PMA329": {
+        "name": "ADVANCED NUMERICAL OPTIMIZATION TECHNIQUES",
+        "subjectCode": "PMA329"
+    },
+    "PMA401": {
+        "name": "NUMBER THEORY",
+        "subjectCode": "PMA401"
+    },
+    "PMA402": {
+        "name": "MATHEMATICAL METHODS",
+        "subjectCode": "PMA402"
+    },
+    "PMA424": {
+        "name": "ASYMPTOTIC METHODS AND PERTURBATION THEORY",
+        "subjectCode": "PMA424"
+    },
+    "PMA428": {
+        "name": "FIXED POINT THEORY",
+        "subjectCode": "PMA428"
+    },
+    "PMC103": {
+        "name": "COMPLEX ANALYSIS",
+        "subjectCode": "PMC103"
+    },
+    "PMC105": {
+        "name": "DISCRETE MATHEMATICAL STRUCTURE",
+        "subjectCode": "PMC105"
+    },
+    "PMC201": {
+        "name": "REAL ANALYSIS - II",
+        "subjectCode": "PMC201"
+    },
+    "PMC205": {
+        "name": "DATABASE MANAGEMENT SYSTEMS",
+        "subjectCode": "PMC205"
+    },
+    "PMC206": {
+        "name": "OPERATING SYSTEMS",
+        "subjectCode": "PMC206"
+    },
+    "PMC208": {
+        "name": "OPERATIONS RESEARCH",
+        "subjectCode": "PMC208"
+    },
+    "PMC209": {
+        "name": "NUMERICAL ANALYSIS",
+        "subjectCode": "PMC209"
+    },
+    "PMC210": {
+        "name": "DATA STRUCTURES AND ALGORITHMS",
+        "subjectCode": "PMC210"
+    },
+    "PMC211": {
+        "name": "COMPUTER ORGANISATION AND OPERATING SYSTEMS",
+        "subjectCode": "PMC211"
+    },
+    "PMC212": {
+        "name": "DATA STRUCTURE AND ALGORITHMS",
+        "subjectCode": "PMC212"
+    },
+    "PMC301": {
+        "name": "TOPOLOGY",
+        "subjectCode": "PMC301"
+    },
+    "PMC303": {
+        "name": "COMPUTER NETWORKS",
+        "subjectCode": "PMC303"
+    },
+    "PMC304": {
+        "name": "MECHANICS",
+        "subjectCode": "PMC304"
+    },
+    "PMC305": {
+        "name": "MATHEMATICAL METHODS",
+        "subjectCode": "PMC305"
+    },
+    "PMC306": {
+        "name": "PROBABILITY AND STATISTICS",
+        "subjectCode": "PMC306"
+    },
+    "PMC312": {
+        "name": "OBJECT ORIENTED PROGRAMMING",
+        "subjectCode": "PMC312"
+    },
+    "PMC313": {
+        "name": "GRAPH THEORY AND APPLICATIONS",
+        "subjectCode": "PMC313"
+    },
+    "PMC327": {
+        "name": "UNDERSTANDING MACHINE LEARNING",
+        "subjectCode": "PMC327"
+    },
+    "PMC401": {
+        "name": "FUNCTIONAL ANALYSIS",
+        "subjectCode": "PMC401"
+    },
+    "PMC402": {
+        "name": "ALGEBRA-II",
+        "subjectCode": "PMC402"
+    },
+    "PMC425": {
+        "name": "MATHEMATICAL METHODS",
+        "subjectCode": "PMC425"
+    },
+    "PMC426": {
+        "name": "NUMBER THEORY AND CRYPTOGRAPHY",
+        "subjectCode": "PMC426"
+    },
+    "PMC434": {
+        "name": "DATA ANALYSIS AND VISUALIZATION",
+        "subjectCode": "PMC434"
+    },
+    "PME403": {
+        "name": "ECONOMICS OF EDUCATION AND HEALTH",
+        "subjectCode": "PME403"
+    },
+    "PME404": {
+        "name": "ENERGY AND ENVIRONMENTAL ECONOMICS",
+        "subjectCode": "PME404"
+    },
+    "PMP101": {
+        "name": "HISTORY AND SYSTEMS OF PSYCHOLOGY",
+        "subjectCode": "PMP101"
+    },
+    "PMP102": {
+        "name": "INTRODUCTION TO EXPERIMENTAL PSYCHOLOGY",
+        "subjectCode": "PMP102"
+    },
+    "PMP103": {
+        "name": "DEVELOPMENTAL PSYCHOLOGY",
+        "subjectCode": "PMP103"
+    },
+    "PMP104": {
+        "name": "PHYSIOLOGICAL PSYCHOLOGY",
+        "subjectCode": "PMP104"
+    },
+    "PMP105": {
+        "name": "RESEARCH METHODS STATISTICS AND ETHICAL ISSUES IN ",
+        "subjectCode": "PMP105"
+    },
+    "PMP201": {
+        "name": "INTRODUCTION TO COGNITIVE PSYCHOLOGY",
+        "subjectCode": "PMP201"
+    },
+    "PMP202": {
+        "name": "GUIDANCE AND COUNSELING I",
+        "subjectCode": "PMP202"
+    },
+    "PMP203": {
+        "name": "PSYCHOPATHOLOGY",
+        "subjectCode": "PMP203"
+    },
+    "PMP204": {
+        "name": "PERSONALITY",
+        "subjectCode": "PMP204"
+    },
+    "PMP206": {
+        "name": "SOCIAL PSYCHOLOGY",
+        "subjectCode": "PMP206"
+    },
+    "PMP301": {
+        "name": "PSYCHODIAGNOSTICS AND TREATMENT",
+        "subjectCode": "PMP301"
+    },
+    "PMP302": {
+        "name": "GUIDANCE AND COUNSELLING II",
+        "subjectCode": "PMP302"
+    },
+    "PMP303": {
+        "name": "PSYCHOTHERAPEUTIC TECHNIQUES",
+        "subjectCode": "PMP303"
+    },
+    "PMP305": {
+        "name": "POSITIVE PSYCHOLOGY AND WELL BEING",
+        "subjectCode": "PMP305"
+    },
+    "PMP306": {
+        "name": "PSYCHOMETRICS AND PSYCHOLOGICAL ASSESSMENT",
+        "subjectCode": "PMP306"
+    },
+    "PMP401": {
+        "name": "NEUROPSYCHOLOGY",
+        "subjectCode": "PMP401"
+    },
+    "PMP402": {
+        "name": "COGNITIVE BEHAVIORAL THERAPY",
+        "subjectCode": "PMP402"
+    },
+    "PMP403": {
+        "name": "ADOLESCENT MARRIAGE AND FAMILY COUNSELING",
+        "subjectCode": "PMP403"
+    },
+    "PMP404": {
+        "name": "EDUCATIONAL AND VOCATIONAL COUNSELING",
+        "subjectCode": "PMP404"
+    },
+    "PPH101": {
+        "name": "CLASSICAL MECHANICS",
+        "subjectCode": "PPH101"
+    },
+    "PPH102": {
+        "name": "STATISTICAL MECHANICS",
+        "subjectCode": "PPH102"
+    },
+    "PPH103": {
+        "name": "QUANTUM MECHANICS",
+        "subjectCode": "PPH103"
+    },
+    "PPH104": {
+        "name": "MATHEMATICAL PHYSICS",
+        "subjectCode": "PPH104"
+    },
+    "PPH108": {
+        "name": "DIGITAL SYSTEMS AND MICROPROCESSORS",
+        "subjectCode": "PPH108"
+    },
+    "PPH109": {
+        "name": "COMPUTATIONAL METHODS IN PHYSICS",
+        "subjectCode": "PPH109"
+    },
+    "PPH201": {
+        "name": "CONDENSED MATTER PHYSICS",
+        "subjectCode": "PPH201"
+    },
+    "PPH203": {
+        "name": "ATOMIC AND MOLECULAR PHYSICS",
+        "subjectCode": "PPH203"
+    },
+    "PPH204": {
+        "name": "ELECTRODYNAMICS",
+        "subjectCode": "PPH204"
+    },
+    "PPH301": {
+        "name": "PARTICLE PHYSICS",
+        "subjectCode": "PPH301"
+    },
+    "PPH302": {
+        "name": "NUCLEAR PHYSICS",
+        "subjectCode": "PPH302"
+    },
+    "PPH303": {
+        "name": "SEMICONDUCTOR PHYSICS",
+        "subjectCode": "PPH303"
+    },
+    "PPH308": {
+        "name": "INSTRUMENTATION AND EXPERIMENT DESIGN",
+        "subjectCode": "PPH308"
+    },
+    "PPH312": {
+        "name": "ADVANCED QUANTUM MECHANICS",
+        "subjectCode": "PPH312"
+    },
+    "PPH324": {
+        "name": "NUCLEAR REACTOR PHYSICS ",
+        "subjectCode": "PPH324"
+    },
+    "PPH422": {
+        "name": "NANO-MATERIALS",
+        "subjectCode": "PPH422"
+    },
+    "PPH423": {
+        "name": "CHARACTERIZATION TECHNIQUES",
+        "subjectCode": "PPH423"
+    },
+    "PPH435": {
+        "name": "RADIATION TECHNOLOGY",
+        "subjectCode": "PPH435"
+    },
+    "PPH436": {
+        "name": "ADVANCED NUCLEAR PHYSICS",
+        "subjectCode": "PPH436"
+    },
+    "PPH445": {
+        "name": "PLASMA PHYSICS AND FUSION REACTOR",
+        "subjectCode": "PPH445"
+    },
+    "PPH449": {
+        "name": "STRUCTURE AND PROPERTIES OF MATERIALS",
+        "subjectCode": "PPH449"
+    },
+    "PPI103": {
+        "name": "QUALITY ENGINEERING",
+        "subjectCode": "PPI103"
+    },
+    "PPI201": {
+        "name": "ADVANCED MANUFACTURING PROCESSES",
+        "subjectCode": "PPI201"
+    },
+    "PPI204": {
+        "name": "OPERATIONS MANAGEMENT",
+        "subjectCode": "PPI204"
+    },
+    "PPI312": {
+        "name": "METAL CASTING AND JOINING",
+        "subjectCode": "PPI312"
+    },
+    "PPI313": {
+        "name": "METAL FORMING",
+        "subjectCode": "PPI313"
+    },
+    "PSE105": {
+        "name": "SOFTWARE DESIGN AND CONSTRUCTION",
+        "subjectCode": "PSE105"
+    },
+    "PSE106": {
+        "name": "SOFTWARE ENGINEERING CONCEPTS AND METHODOLOGIES",
+        "subjectCode": "PSE106"
+    },
+    "PSE205": {
+        "name": "SOFTWARE VERIFICATION AND VALIDATION TESTING",
+        "subjectCode": "PSE205"
+    },
+    "PSE206": {
+        "name": "SOFTWARE METRICS AND QUALITY MANAGEMENT",
+        "subjectCode": "PSE206"
+    },
+    "PTH101": {
+        "name": "ADVANCED THERMODYNAMICS",
+        "subjectCode": "PTH101"
+    },
+    "PTH102": {
+        "name": "HEAT TRANSFER",
+        "subjectCode": "PTH102"
+    },
+    "PTH103": {
+        "name": "INTERNAL COMBUSTION ENGINES",
+        "subjectCode": "PTH103"
+    },
+    "PTH104": {
+        "name": "ADVANCED FLUID MECHANICS",
+        "subjectCode": "PTH104"
+    },
+    "PTH202": {
+        "name": "REFRIGERATION AND AIR CONDITIONING SYSTEM DESIGN",
+        "subjectCode": "PTH202"
+    },
+    "PTH204": {
+        "name": "ADVANCED HEAT TRANSFER",
+        "subjectCode": "PTH204"
+    },
+    "PTH206": {
+        "name": "APPLIED SOLAR ENERGY",
+        "subjectCode": "PTH206"
+    },
+    "PTH207": {
+        "name": "ADVANCED POWER PLANT ENGINEERING  AND INDUSTRIAL U",
+        "subjectCode": "PTH207"
+    },
+    "PTH212": {
+        "name": "FUELS AND COMBUSTION",
+        "subjectCode": "PTH212"
+    },
+    "PTH214": {
+        "name": "DESIGN OF COMPRESSORS AND GAS TURBINES",
+        "subjectCode": "PTH214"
+    },
+    "PTH323": {
+        "name": "TWO-PHASE FLOW AND HEAT TRANSFER",
+        "subjectCode": "PTH323"
+    },
+    "PTH325": {
+        "name": "THERMAL SYSTEMS MODELING AND ANALYSIS",
+        "subjectCode": "PTH325"
+    },
+    "PVL103": {
+        "name": "DIGITAL VLSI DESIGN",
+        "subjectCode": "PVL103"
+    },
+    "PVL108": {
+        "name": "DEVICE PHYSICS AND TECHNOLOGY",
+        "subjectCode": "PVL108"
+    },
+    "PVL202": {
+        "name": "EMBEDDED SYSTEMS",
+        "subjectCode": "PVL202"
+    },
+    "PVL203": {
+        "name": "VLSI SIGNAL PROCESSING",
+        "subjectCode": "PVL203"
+    },
+    "PVL204": {
+        "name": "FPGA BASED SYSTEM DESIGN",
+        "subjectCode": "PVL204"
+    },
+    "PVL206": {
+        "name": "ANALOG IC DESIGN",
+        "subjectCode": "PVL206"
+    },
+    "PVL207": {
+        "name": "LOW POWER SYSTEM DESIGN",
+        "subjectCode": "PVL207"
+    },
+    "PVL208": {
+        "name": "VLSI TESTING AND VERIFICATION",
+        "subjectCode": "PVL208"
+    },
+    "PVL216": {
+        "name": "VLSI SUBSYSTEM DESIGN",
+        "subjectCode": "PVL216"
+    },
+    "PVL219": {
+        "name": "PHYSICAL DESIGN AUTOMATION",
+        "subjectCode": "PVL219"
+    },
+    "PVL220": {
+        "name": "CAD FOR VLSI DESIGN",
+        "subjectCode": "PVL220"
+    },
+    "PVL227": {
+        "name": "MOS DEVICE MODELING",
+        "subjectCode": "PVL227"
+    },
+    "PVL333": {
+        "name": "SYSTEM ON CHIP ",
+        "subjectCode": "PVL333"
+    },
+    "PVL334": {
+        "name": "HIGH SPEED VLSI DESIGN ",
+        "subjectCode": "PVL334"
+    },
+    "PVL340": {
+        "name": "SYSTEM VERILOG",
+        "subjectCode": "PVL340"
+    },
+    "PVL347": {
+        "name": "SOFT COMPUTING TECHNIQUES",
+        "subjectCode": "PVL347"
+    },
+    "PWC201": {
+        "name": "SPACE TIME WIRELESS COMMUNICATION",
+        "subjectCode": "PWC201"
+    },
+    "PWC203": {
+        "name": "ADVANCED WIRELESS COMMUNICATION SYSTEMS",
+        "subjectCode": "PWC203"
+    },
+    "PWC212": {
+        "name": "WIRELESS SECURITY",
+        "subjectCode": "PWC212"
+    },
+    "SM5301": {
+        "name": "BUSINESS ECONOMICS",
+        "subjectCode": "SM5301"
+    },
+    "SM6303": {
+        "name": "SUSTAINABILITY IN PRACTICE (ENERGY)",
+        "subjectCode": "SM6303"
+    },
+    "SM6307": {
+        "name": "SUSTAINABILITY IN PRACTICE - II",
+        "subjectCode": "SM6307"
+    },
+    "UBM001": {
+        "name": "INTRODUCTION TO BIOENGINEERING APPLICATIONS",
+        "subjectCode": "UBM001"
+    },
+    "UBM002": {
+        "name": "ORIENTATION AND INTRODUCTION TO BIOENGINEERING COM",
+        "subjectCode": "UBM002"
+    },
+    "UBM003": {
+        "name": "FUNDAMENTALS OF LIFE SCIENCE",
+        "subjectCode": "UBM003"
+    },
+    "UBM005": {
+        "name": "BIOMEDICAL QUALITY CONTROL",
+        "subjectCode": "UBM005"
+    },
+    "UBM006": {
+        "name": "INTRODUCTION TO BIOMECHANICS",
+        "subjectCode": "UBM006"
+    },
+    "UBM007": {
+        "name": "ADDITIVE MANUFACTURING IN BIOMEDICAL ENGINEERING",
+        "subjectCode": "UBM007"
+    },
+    "UBM008": {
+        "name": "BIOMATERIALS",
+        "subjectCode": "UBM008"
+    },
+    "UBM025": {
+        "name": "FRESHMAN DESIGN INNOVATION-II",
+        "subjectCode": "UBM025"
+    },
+    "UBM031": {
+        "name": "ELECTRICAL CIRCUITS",
+        "subjectCode": "UBM031"
+    },
+    "UBM032": {
+        "name": "ENGINEERING STATICS",
+        "subjectCode": "UBM032"
+    },
+    "UBM501": {
+        "name": "BASIC MEDICAL INSTRUMENTS",
+        "subjectCode": "UBM501"
+    },
+    "UBM502": {
+        "name": "ANATOMY AND PHYSIOLOGY \t",
+        "subjectCode": "UBM502"
+    },
+    "UBM503": {
+        "name": "FOUNDATIONS OF ARTIFICIAL INTELLIGENCE",
+        "subjectCode": "UBM503"
+    },
+    "UBM504": {
+        "name": "FUNDAMENTALS OF SIGNALS AND SYSTEM",
+        "subjectCode": "UBM504"
+    },
+    "UBM505": {
+        "name": "INTRODUCTION TO ANALOG CIRCUITS AND DEVICES",
+        "subjectCode": "UBM505"
+    },
+    "UBM601": {
+        "name": "BIOMEDICAL CONTROL SYSTEM",
+        "subjectCode": "UBM601"
+    },
+    "UBM602": {
+        "name": "INTRODUCTION TO DIGITAL  ELECTRONICS",
+        "subjectCode": "UBM602"
+    },
+    "UBM603": {
+        "name": "ADVANCED MEDICAL INSTRUMENTS",
+        "subjectCode": "UBM603"
+    },
+    "UBM604": {
+        "name": "BIOSIGNAL PROCESSING",
+        "subjectCode": "UBM604"
+    },
+    "UBM605": {
+        "name": "DATA STRUCTURE AND ALGORITHMS",
+        "subjectCode": "UBM605"
+    },
+    "UBM635": {
+        "name": "DEEP LEARNING AND ITS APPLICATIONS",
+        "subjectCode": "UBM635"
+    },
+    "UBM701": {
+        "name": "MEDICAL IMAGE PROCESSING",
+        "subjectCode": "UBM701"
+    },
+    "UBM702": {
+        "name": "HOSPITAL ENGINEERING AND MANAGMENT",
+        "subjectCode": "UBM702"
+    },
+    "UBM704": {
+        "name": "MODELING OF PHYSOLOGICAL SYSTEM",
+        "subjectCode": "UBM704"
+    },
+    "UBT003": {
+        "name": "INTRODUCTION TO BIOTECHNOLOGY",
+        "subjectCode": "UBT003"
+    },
+    "UBT004": {
+        "name": "BIOCHEMISTRY I",
+        "subjectCode": "UBT004"
+    },
+    "UBT005": {
+        "name": "CELL BIOLOGY AND GENETICS",
+        "subjectCode": "UBT005"
+    },
+    "UBT006": {
+        "name": "DEVELOPMENTAL BIOLOGY",
+        "subjectCode": "UBT006"
+    },
+    "UBT301": {
+        "name": "MICROBIOLOGY",
+        "subjectCode": "UBT301"
+    },
+    "UBT302": {
+        "name": "FOOD SCIENCE",
+        "subjectCode": "UBT302"
+    },
+    "UBT303": {
+        "name": "BIOCHEMISTRY II",
+        "subjectCode": "UBT303"
+    },
+    "UBT304": {
+        "name": "MOLECULAR BIOLOGY",
+        "subjectCode": "UBT304"
+    },
+    "UBT404": {
+        "name": "INDUSTRIAL BIOTECHNOLOGY",
+        "subjectCode": "UBT404"
+    },
+    "UBT501": {
+        "name": "BIOANALYTICAL TECHNIQUES",
+        "subjectCode": "UBT501"
+    },
+    "UBT503": {
+        "name": "GENETIC AND METABOLIC ENGINEERING",
+        "subjectCode": "UBT503"
+    },
+    "UBT504": {
+        "name": "IMMUNOTECHNOLOGY",
+        "subjectCode": "UBT504"
+    },
+    "UBT508": {
+        "name": "TRANSDUCERS AND BIOSENSORS",
+        "subjectCode": "UBT508"
+    },
+    "UBT601": {
+        "name": "ANIMAL BIOTECHNOLOGY",
+        "subjectCode": "UBT601"
+    },
+    "UBT602": {
+        "name": "BIOINFORMATICS AND BIOSTATISTICS",
+        "subjectCode": "UBT602"
+    },
+    "UBT603": {
+        "name": "BIOPROCESS ENGINEERING",
+        "subjectCode": "UBT603"
+    },
+    "UBT604": {
+        "name": "PHARMACEUTICAL TECHNOLOGY",
+        "subjectCode": "UBT604"
+    },
+    "UBT605": {
+        "name": "PLANT BIOTECHNOLOGY",
+        "subjectCode": "UBT605"
+    },
+    "UBT606": {
+        "name": "DOWNSTREAM PROCESSING",
+        "subjectCode": "UBT606"
+    },
+    "UBT607": {
+        "name": "STEM CELL TECHNOLOGY",
+        "subjectCode": "UBT607"
+    },
+    "UBT608": {
+        "name": "FOOD PROCESSING",
+        "subjectCode": "UBT608"
+    },
+    "UBT609": {
+        "name": "MEDICAL BIOTECHNOLOGY",
+        "subjectCode": "UBT609"
+    },
+    "UBT621": {
+        "name": "COMPUTATIONAL BIOLOGY",
+        "subjectCode": "UBT621"
+    },
+    "UBT622": {
+        "name": "CELL AND TISSUE ENGINEERING",
+        "subjectCode": "UBT622"
+    },
+    "UBT623": {
+        "name": "PROTEIN ENGINEERING AND ENZYME TECHNOLOGY",
+        "subjectCode": "UBT623"
+    },
+    "UBT702": {
+        "name": "INDUSTRIAL WASTE MANAGEMENT",
+        "subjectCode": "UBT702"
+    },
+    "UBT704": {
+        "name": "TRENDS IN FOOD BIOTECHNOLOGY",
+        "subjectCode": "UBT704"
+    },
+    "UBT801": {
+        "name": "BIOSAFETY, BIOETHICS AND IPR",
+        "subjectCode": "UBT801"
+    },
+    "UBT802": {
+        "name": "NANO-BIOTECHNOLOGY",
+        "subjectCode": "UBT802"
+    },
+    "UBT822": {
+        "name": "ENVIRONMENTAL BIOTECHNOLOGY",
+        "subjectCode": "UBT822"
+    },
+    "UBT823": {
+        "name": "GENOMICS AND PROTEOMICS",
+        "subjectCode": "UBT823"
+    },
+    "UBT832": {
+        "name": "CONCEPTS IN BIOMEDICAL INSTRUMENTATION",
+        "subjectCode": "UBT832"
+    },
+    "UBT834": {
+        "name": "BIOPROCESS EQUIPMENT DESIGN",
+        "subjectCode": "UBT834"
+    },
+    "UBT835": {
+        "name": "DRUG DESIGN AND DEVELOPMENT",
+        "subjectCode": "UBT835"
+    },
+    "UBT836": {
+        "name": "CANCER BIOLOGY AND INFECTIOUS  DISEASES",
+        "subjectCode": "UBT836"
+    },
+    "UBT841": {
+        "name": "MOLECULAR DIAGNOSTICS",
+        "subjectCode": "UBT841"
+    },
+    "UBT842": {
+        "name": "ADVANCES IN FOOD TECHNOLOGY",
+        "subjectCode": "UBT842"
+    },
+    "UCB029": {
+        "name": "GENERAL CHEMISTRY-II",
+        "subjectCode": "UCB029"
+    },
+    "UCE302": {
+        "name": "ARCHITECTURE AND BUILDING DRAWINGS",
+        "subjectCode": "UCE302"
+    },
+    "UCE305": {
+        "name": "FLUID MECHANICS ",
+        "subjectCode": "UCE305"
+    },
+    "UCE308": {
+        "name": "BUILDING MATERIALS",
+        "subjectCode": "UCE308"
+    },
+    "UCE403": {
+        "name": "SURVEYING",
+        "subjectCode": "UCE403"
+    },
+    "UCE404": {
+        "name": "STRUCTURAL ANALYSIS",
+        "subjectCode": "UCE404"
+    },
+    "UCE502": {
+        "name": "WATER SUPPLY ENGINEERING",
+        "subjectCode": "UCE502"
+    },
+    "UCE503": {
+        "name": "ADVANCED STRUCTURAL ANALYSIS",
+        "subjectCode": "UCE503"
+    },
+    "UCE504": {
+        "name": "STEEL STRUCTURE DESIGN - I",
+        "subjectCode": "UCE504"
+    },
+    "UCE505": {
+        "name": "TRANSPORTATION ENGINEERING - I",
+        "subjectCode": "UCE505"
+    },
+    "UCE506": {
+        "name": "CONSTRUCTION MANAGEMENT",
+        "subjectCode": "UCE506"
+    },
+    "UCE507": {
+        "name": "ADVANCED STRUCTURAL ANALYSIS",
+        "subjectCode": "UCE507"
+    },
+    "UCE508": {
+        "name": "DESIGN OF CONCRETE STRUCTURES-I",
+        "subjectCode": "UCE508"
+    },
+    "UCE509": {
+        "name": "TRANSPORTATION ENGINEERING - I",
+        "subjectCode": "UCE509"
+    },
+    "UCE603": {
+        "name": "HYDRAULIC ENGINEERING",
+        "subjectCode": "UCE603"
+    },
+    "UCE605": {
+        "name": "TRANSPORTATION ENGINEERING - II",
+        "subjectCode": "UCE605"
+    },
+    "UCE606": {
+        "name": "WATER AND WASTE WATER ENGINEERING",
+        "subjectCode": "UCE606"
+    },
+    "UCE607": {
+        "name": "FOUNDATION ENGINEERING",
+        "subjectCode": "UCE607"
+    },
+    "UCE608": {
+        "name": "DESIGN OF CONCRETE STRUCTURES- II",
+        "subjectCode": "UCE608"
+    },
+    "UCE609": {
+        "name": "DESIGN OF STEEL STRUCTURES - I",
+        "subjectCode": "UCE609"
+    },
+    "UCE610": {
+        "name": "HYDRUALIC ENGINEERING",
+        "subjectCode": "UCE610"
+    },
+    "UCE612": {
+        "name": "ENVIRONMENTAL LEGISLATION AND IMPACT ASSESSMENT",
+        "subjectCode": "UCE612"
+    },
+    "UCE613": {
+        "name": "FOUNDATION ENGINEERING",
+        "subjectCode": "UCE613"
+    },
+    "UCE701": {
+        "name": "GROUND IMPROVEMENT",
+        "subjectCode": "UCE701"
+    },
+    "UCE702": {
+        "name": "ADVANCED CONSTRUCTION TECHNOLOGY",
+        "subjectCode": "UCE702"
+    },
+    "UCE725": {
+        "name": "ADVANCED CONSTRUCTION MATERIALS AND TECHNIQUES",
+        "subjectCode": "UCE725"
+    },
+    "UCE803": {
+        "name": "IRRIGATION ENGINEERING",
+        "subjectCode": "UCE803"
+    },
+    "UCE804": {
+        "name": "SEISMIC ANALYSIS AND DESIGN",
+        "subjectCode": "UCE804"
+    },
+    "UCE805": {
+        "name": "DESIGN OF STEEL STRUCTURES II",
+        "subjectCode": "UCE805"
+    },
+    "UCE806": {
+        "name": "DESIGN OF HYDRAULIC STRUCTURES",
+        "subjectCode": "UCE806"
+    },
+    "UCE807": {
+        "name": "DESIGN OF STRUCTURES",
+        "subjectCode": "UCE807"
+    },
+    "UCE808": {
+        "name": "SEISMIC RESISTANT DESIGN OF STRUCTURES",
+        "subjectCode": "UCE808"
+    },
+    "UCE831": {
+        "name": "BRIDGE ENGINEERING",
+        "subjectCode": "UCE831"
+    },
+    "UCE832": {
+        "name": "GEO-TECHNIQUES",
+        "subjectCode": "UCE832"
+    },
+    "UCE833": {
+        "name": "WATER RESOURCES PLANNING AND MANAGEMENT",
+        "subjectCode": "UCE833"
+    },
+    "UCE834": {
+        "name": "ADVANCED TRANSPORTATION ENGINEERING",
+        "subjectCode": "UCE834"
+    },
+    "UCE837": {
+        "name": " SUSTAINABLE & SMART MATERIALS",
+        "subjectCode": "UCE837"
+    },
+    "UCE838": {
+        "name": "PRESTRESSED CONCRETE STRUCTURES",
+        "subjectCode": "UCE838"
+    },
+    "UCE844": {
+        "name": "REMOTE SENSING AND GIS",
+        "subjectCode": "UCE844"
+    },
+    "UCE845": {
+        "name": "PRESTRESSED CONCRETE",
+        "subjectCode": "UCE845"
+    },
+    "UCE848": {
+        "name": "TRANSPORTATION PLANNING & MANAGEMENT",
+        "subjectCode": "UCE848"
+    },
+    "UCE851": {
+        "name": "DESIGN OF SMART TRANSPORTATION SYSTEMS",
+        "subjectCode": "UCE851"
+    },
+    "UCE852": {
+        "name": "INTERNET OF THINGS (IOT) & SMART CITIES",
+        "subjectCode": "UCE852"
+    },
+    "UCE862": {
+        "name": "BUILDING INFRASTRUCTURES & CONSTRUCTION PRACTICES",
+        "subjectCode": "UCE862"
+    },
+    "UCE864": {
+        "name": "GEOTECHIQUES FOR DESIGN OF UNDERGROUND STRUCTURES",
+        "subjectCode": "UCE864"
+    },
+    "UCG731": {
+        "name": "GAME DESIGN & DEVELOPMENT",
+        "subjectCode": "UCG731"
+    },
+    "UCH303": {
+        "name": "CHEMICAL ENGINEERING THERMODYNAMICS",
+        "subjectCode": "UCH303"
+    },
+    "UCH407": {
+        "name": "UNIT OPERATIONS",
+        "subjectCode": "UCH407"
+    },
+    "UCH507": {
+        "name": "CHEMICAL PROCESS INDUSTRIES",
+        "subjectCode": "UCH507"
+    },
+    "UCH508": {
+        "name": "MASS TRANSFER-I",
+        "subjectCode": "UCH508"
+    },
+    "UCH602": {
+        "name": "MASS TRANSFER-II",
+        "subjectCode": "UCH602"
+    },
+    "UCH610": {
+        "name": "PROCESS EQUIPMENT DESIGN",
+        "subjectCode": "UCH610"
+    },
+    "UCH712": {
+        "name": "DISTILLATION PROCESSES",
+        "subjectCode": "UCH712"
+    },
+    "UCH716": {
+        "name": "FOOD ENGINEERING AND SCIENCE",
+        "subjectCode": "UCH716"
+    },
+    "UCH725": {
+        "name": "ADVANCED SEPARATION PROCESSES",
+        "subjectCode": "UCH725"
+    },
+    "UCH835": {
+        "name": "PROCESS OPTIMIZATION AND STATISTICAL ANALYSIS",
+        "subjectCode": "UCH835"
+    },
+    "UCH836": {
+        "name": "ENERGY MANAGEMENT IN PROCESS INDUSTRIES",
+        "subjectCode": "UCH836"
+    },
+    "UCH840": {
+        "name": "POLYMER SCIENCE AND TECHNOLOGY ENGINEERING",
+        "subjectCode": "UCH840"
+    },
+    "UCH844": {
+        "name": "PETROLEUM TECHNOLOGY",
+        "subjectCode": "UCH844"
+    },
+    "UCH846": {
+        "name": "CHEMICAL PROCESS OPTIMIZATION",
+        "subjectCode": "UCH846"
+    },
+    "UCH853": {
+        "name": "FUEL CELL TECHNOLOGY",
+        "subjectCode": "UCH853"
+    },
+    "UCH854": {
+        "name": "POLYMER SCIENCE AND TECHNOLOGY",
+        "subjectCode": "UCH854"
+    },
+    "UCH862": {
+        "name": "ENERGY MANAGEMENT",
+        "subjectCode": "UCH862"
+    },
+    "UCH863": {
+        "name": "POLYMER PROCESSING",
+        "subjectCode": "UCH863"
+    },
+    "UCS049": {
+        "name": "DATA STRUCTURES & ALGORITHMS",
+        "subjectCode": "UCS049"
+    },
+    "UCS304": {
+        "name": "INFORMATION MANAGEMENT SYSTEM",
+        "subjectCode": "UCS304"
+    },
+    "UCS312": {
+        "name": "DATABASE MANAGEMENT SYSTEMS",
+        "subjectCode": "UCS312"
+    },
+    "UCS314": {
+        "name": "OPERATING SYSTEMS",
+        "subjectCode": "UCS314"
+    },
+    "UCS401": {
+        "name": "COMPUTER SYSTEM ARCHITECTURE",
+        "subjectCode": "UCS401"
+    },
+    "UCS406": {
+        "name": "DATA STRUCTURES AND ALGORITHMS",
+        "subjectCode": "UCS406"
+    },
+    "UCS408": {
+        "name": "DATA STRUCTURES AND ALGORITHMS",
+        "subjectCode": "UCS408"
+    },
+    "UCS409": {
+        "name": "PROBABILITY AND STATISTICS",
+        "subjectCode": "UCS409"
+    },
+    "UCS507": {
+        "name": "COMPUTER ARCHITECTURE AND ORGANIZATION",
+        "subjectCode": "UCS507"
+    },
+    "UCS521": {
+        "name": "ARTIFICIAL INTELLIGENCE",
+        "subjectCode": "UCS521"
+    },
+    "UCS522": {
+        "name": "COMPUTER VISION",
+        "subjectCode": "UCS522"
+    },
+    "UCS524": {
+        "name": "ENGINEERING SOFTWARE AS A SERVICE",
+        "subjectCode": "UCS524"
+    },
+    "UCS533": {
+        "name": "DATA ANALYTICS & VISUALIZATION",
+        "subjectCode": "UCS533"
+    },
+    "UCS545": {
+        "name": "PARALLEL AND DISTRIBUTED COMPUTING",
+        "subjectCode": "UCS545"
+    },
+    "UCS604": {
+        "name": "DATA STRUCTURES & ANALYSIS",
+        "subjectCode": "UCS604"
+    },
+    "UCS608": {
+        "name": "PARALLEL AND DISTRIBUTED COMPUTING",
+        "subjectCode": "UCS608"
+    },
+    "UCS610": {
+        "name": "NETWORK SECURITY",
+        "subjectCode": "UCS610"
+    },
+    "UCS611": {
+        "name": "MACHINE LEARNING",
+        "subjectCode": "UCS611"
+    },
+    "UCS614": {
+        "name": "EMBEDDED SYSTEMS DESIGN",
+        "subjectCode": "UCS614"
+    },
+    "UCS615": {
+        "name": "IMAGE PROCESSING",
+        "subjectCode": "UCS615"
+    },
+    "UCS631": {
+        "name": "GPU COMPUTING",
+        "subjectCode": "UCS631"
+    },
+    "UCS632": {
+        "name": "3D MODELLING AND ANIMATION",
+        "subjectCode": "UCS632"
+    },
+    "UCS633": {
+        "name": "DATA ANALYTICS & VISUALIZATION",
+        "subjectCode": "UCS633"
+    },
+    "UCS634": {
+        "name": "SECURE CODING",
+        "subjectCode": "UCS634"
+    },
+    "UCS641": {
+        "name": "CLOUD COMPUTING",
+        "subjectCode": "UCS641"
+    },
+    "UCS643": {
+        "name": "CYBER FORENSICS",
+        "subjectCode": "UCS643"
+    },
+    "UCS653": {
+        "name": "DATA MINING AND VISUALIZATION",
+        "subjectCode": "UCS653"
+    },
+    "UCS703": {
+        "name": "ARTIFICIAL INTELLIGENCE AND ITS APPLICATIONS",
+        "subjectCode": "UCS703"
+    },
+    "UCS709": {
+        "name": "ADVANCED TOPICS IN SOFTWARE ENGINEERING",
+        "subjectCode": "UCS709"
+    },
+    "UCS713": {
+        "name": "MACHINE LEARNING AND IMAGE PROCESSING",
+        "subjectCode": "UCS713"
+    },
+    "UCS727": {
+        "name": "NETWORK SECURITY",
+        "subjectCode": "UCS727"
+    },
+    "UCS730": {
+        "name": "MOBILE APPLICATION DEVELOPMENT",
+        "subjectCode": "UCS730"
+    },
+    "UCS732": {
+        "name": "ADVANCED DATA STRUCTURES",
+        "subjectCode": "UCS732"
+    },
+    "UCS736": {
+        "name": "CLOUD COMPUTING",
+        "subjectCode": "UCS736"
+    },
+    "UCS740": {
+        "name": "DATA STRUCTURES AND ALGORITHMS",
+        "subjectCode": "UCS740"
+    },
+    "UCS741": {
+        "name": "SIMULATION & MODELLING",
+        "subjectCode": "UCS741"
+    },
+    "UCS742": {
+        "name": "DEEP LEARNING",
+        "subjectCode": "UCS742"
+    },
+    "UCS743": {
+        "name": "ADVANCED COMPUTER NETWORKS",
+        "subjectCode": "UCS743"
+    },
+    "UCS744": {
+        "name": "AUTONOMOUS SYSTEMS",
+        "subjectCode": "UCS744"
+    },
+    "UCS801": {
+        "name": "SOFTWARE PROJECT MANAGEMENT",
+        "subjectCode": "UCS801"
+    },
+    "UCS811": {
+        "name": "MOBILE APPLICATION DEVELOPMENT",
+        "subjectCode": "UCS811"
+    },
+    "UCS856": {
+        "name": "COMPUTER VISION AND AUGMENTED REALITY",
+        "subjectCode": "UCS856"
+    },
+    "UCT641": {
+        "name": "IMAGE RECOGNITION AND PATTERN RECOGNITION",
+        "subjectCode": "UCT641"
+    },
+    "UCY301": {
+        "name": "ANALYTICAL METHODS IN CHEMISTRY",
+        "subjectCode": "UCY301"
+    },
+    "UCY501": {
+        "name": "SUSTAINABLE CHEMISTRY",
+        "subjectCode": "UCY501"
+    },
+    "UCY502": {
+        "name": "PHYSICAL CHEMISTRY",
+        "subjectCode": "UCY502"
+    },
+    "UCY602": {
+        "name": "SPECTROSCOPIC TECHNIQUES",
+        "subjectCode": "UCY602"
+    },
+    "UEC309": {
+        "name": "MICROPROCESSORS",
+        "subjectCode": "UEC309"
+    },
+    "UEC405": {
+        "name": "MICROPROCESSORS AND THEIR APPLICATIONS",
+        "subjectCode": "UEC405"
+    },
+    "UEC408": {
+        "name": "PROBABILITY AND INFORMATION THEORY",
+        "subjectCode": "UEC408"
+    },
+    "UEC501": {
+        "name": "DIGITAL COMMUNICATION SYSTEMS",
+        "subjectCode": "UEC501"
+    },
+    "UEC505": {
+        "name": "MICROWAVE ENGINEERING",
+        "subjectCode": "UEC505"
+    },
+    "UEC507": {
+        "name": "MICROPROCESSORS AND MICROCONTROLLERS",
+        "subjectCode": "UEC507"
+    },
+    "UEC532": {
+        "name": "COMPUTER AND COMMUNICATION NETWORKS",
+        "subjectCode": "UEC532"
+    },
+    "UEC534": {
+        "name": "COMPUTER AND COMMUNICATION NETWORKS",
+        "subjectCode": "UEC534"
+    },
+    "UEC535": {
+        "name": "INTEGRATED SYSTEM DESIGN",
+        "subjectCode": "UEC535"
+    },
+    "UEC602": {
+        "name": "DATA COMMUNICATION",
+        "subjectCode": "UEC602"
+    },
+    "UEC605": {
+        "name": "EMBEDDED SYSTEMS",
+        "subjectCode": "UEC605"
+    },
+    "UEC606": {
+        "name": "DATA COMMUNICATION",
+        "subjectCode": "UEC606"
+    },
+    "UEC608": {
+        "name": "EMBEDDED SYSTEMS",
+        "subjectCode": "UEC608"
+    },
+    "UEC613": {
+        "name": "LINEAR INTEGRATED CIRCUIT ANALYSIS",
+        "subjectCode": "UEC613"
+    },
+    "UEC622": {
+        "name": "DSP PROCESSORS",
+        "subjectCode": "UEC622"
+    },
+    "UEC624": {
+        "name": "SOFT COMPUTING TECHNIQUES",
+        "subjectCode": "UEC624"
+    },
+    "UEC626": {
+        "name": "VIDEO SIGNAL PROCESSING",
+        "subjectCode": "UEC626"
+    },
+    "UEC636": {
+        "name": "WIRELESS AND MOBILE COMMUNICATION",
+        "subjectCode": "UEC636"
+    },
+    "UEC641": {
+        "name": "SYSTEM VERILOG",
+        "subjectCode": "UEC641"
+    },
+    "UEC702": {
+        "name": "MICROCONTROLLER AND EMBEDDED SYSTEMS",
+        "subjectCode": "UEC702"
+    },
+    "UEC704": {
+        "name": "SOFT COMPUTING",
+        "subjectCode": "UEC704"
+    },
+    "UEC705": {
+        "name": "IMAGE PROCESSING AND COMPUTER VISION",
+        "subjectCode": "UEC705"
+    },
+    "UEC706": {
+        "name": "DATA COMMUNICATION AND COMPUTER NETWORKS",
+        "subjectCode": "UEC706"
+    },
+    "UEC708": {
+        "name": "MICROWAVE ENGINEERING",
+        "subjectCode": "UEC708"
+    },
+    "UEC709": {
+        "name": "FIBER OPTIC COMMUNICATION",
+        "subjectCode": "UEC709"
+    },
+    "UEC710": {
+        "name": "BIOMEDICAL SIGNAL PROCESSING",
+        "subjectCode": "UEC710"
+    },
+    "UEC711": {
+        "name": "MACHINE LEARNING",
+        "subjectCode": "UEC711"
+    },
+    "UEC712": {
+        "name": "DATA COMMUNICATION AND PROTOCOLS",
+        "subjectCode": "UEC712"
+    },
+    "UEC714": {
+        "name": "FIBER OPTIC COMMUNICATION",
+        "subjectCode": "UEC714"
+    },
+    "UEC718": {
+        "name": "BIG DATA ANALYTICS",
+        "subjectCode": "UEC718"
+    },
+    "UEC721": {
+        "name": "ANALOG IC DESIGN",
+        "subjectCode": "UEC721"
+    },
+    "UEC722": {
+        "name": "SOFT COMPUTING",
+        "subjectCode": "UEC722"
+    },
+    "UEC723": {
+        "name": "LINEAR INTEGRATED CIRCUIT ANALYSIS",
+        "subjectCode": "UEC723"
+    },
+    "UEC725": {
+        "name": "IMAGE PROCESSING AND COMPUTER VISION",
+        "subjectCode": "UEC725"
+    },
+    "UEC726": {
+        "name": "ANALOG IC DESIGN",
+        "subjectCode": "UEC726"
+    },
+    "UEC727": {
+        "name": "NETWORK VIRTUALIZATION AND SOFTWARE DEFINED NETWOR",
+        "subjectCode": "UEC727"
+    },
+    "UEC738": {
+        "name": "DEEP LEARNING FOR COMPUTER VISION",
+        "subjectCode": "UEC738"
+    },
+    "UEC741": {
+        "name": "ARTIFICIAL INTELLIGENCE",
+        "subjectCode": "UEC741"
+    },
+    "UEC742": {
+        "name": "MEMS",
+        "subjectCode": "UEC742"
+    },
+    "UEC744": {
+        "name": "MEMS AND SENSOR TECHNOLOGY",
+        "subjectCode": "UEC744"
+    },
+    "UEC746": {
+        "name": "WIRELESS AND MOBILE COMMUNICATIONS",
+        "subjectCode": "UEC746"
+    },
+    "UEC747": {
+        "name": "ANTENNA & WAVE PROPAGATION",
+        "subjectCode": "UEC747"
+    },
+    "UEC749": {
+        "name": "INTEGRATED SYSTEM DESIGN",
+        "subjectCode": "UEC749"
+    },
+    "UEC751": {
+        "name": "DSP PROCESSORS",
+        "subjectCode": "UEC751"
+    },
+    "UEC754": {
+        "name": "IMAGE PROCESSING & COMPUTER VISION",
+        "subjectCode": "UEC754"
+    },
+    "UEC804": {
+        "name": "WIRELESS AND MOBILE COMMUNICATION",
+        "subjectCode": "UEC804"
+    },
+    "UEC812": {
+        "name": "WIRELESS SENSOR NETWORKS",
+        "subjectCode": "UEC812"
+    },
+    "UEC832": {
+        "name": "RADAR AND REMOTE SENSING",
+        "subjectCode": "UEC832"
+    },
+    "UEC852": {
+        "name": "WIRELESS SENSOR NETWORKS",
+        "subjectCode": "UEC852"
+    },
+    "UEC855": {
+        "name": "SPEECH PROCESSING",
+        "subjectCode": "UEC855"
+    },
+    "UEC858": {
+        "name": "MODERN CONTROL THEORY",
+        "subjectCode": "UEC858"
+    },
+    "UEC859": {
+        "name": "INTEGRATED SYSTEM DESIGN",
+        "subjectCode": "UEC859"
+    },
+    "UEC861": {
+        "name": "CLOUD COMPUTING",
+        "subjectCode": "UEC861"
+    },
+    "UEC862": {
+        "name": "IC FABRICATION TECHNOLOGY",
+        "subjectCode": "UEC862"
+    },
+    "UEE305": {
+        "name": "ELECTROMAGNETIC FIELDS AND WAVES",
+        "subjectCode": "UEE305"
+    },
+    "UEE306": {
+        "name": "ELECTRO-MECHANICAL ENERGY CONVERSION",
+        "subjectCode": "UEE306"
+    },
+    "UEE403": {
+        "name": "MEASUREMENT AND TRANSDUCERS",
+        "subjectCode": "UEE403"
+    },
+    "UEE404": {
+        "name": "TRANSMISSION AND DISTRIBUTION OF POWER",
+        "subjectCode": "UEE404"
+    },
+    "UEE406": {
+        "name": "POWER SYSTEM PRACTICES",
+        "subjectCode": "UEE406"
+    },
+    "UEE407": {
+        "name": "NETWORK THEORY AND DESIGN",
+        "subjectCode": "UEE407"
+    },
+    "UEE506": {
+        "name": "DIGITAL SIGNAL PROCESSING FUNDAMENTALS",
+        "subjectCode": "UEE506"
+    },
+    "UEE507": {
+        "name": "ENGINEERING ELECTROMAGNETICS",
+        "subjectCode": "UEE507"
+    },
+    "UEE510": {
+        "name": "HIGH VOLTAGE ENGINEERING",
+        "subjectCode": "UEE510"
+    },
+    "UEE521": {
+        "name": "ELECTRIC MACHINE DESIGN",
+        "subjectCode": "UEE521"
+    },
+    "UEE522": {
+        "name": "ENERGY AUDITING AND MANAGEMENT",
+        "subjectCode": "UEE522"
+    },
+    "UEE524": {
+        "name": "POWER QUALITY MONITORING AND CONDITIONING",
+        "subjectCode": "UEE524"
+    },
+    "UEE526": {
+        "name": "EMBEDDED SYSTEM DESIGN",
+        "subjectCode": "UEE526"
+    },
+    "UEE601": {
+        "name": "FLEXIBLE AC TRANSMISSION SYSTEMS",
+        "subjectCode": "UEE601"
+    },
+    "UEE603": {
+        "name": "SWITCHGEAR AND PROTECTION",
+        "subjectCode": "UEE603"
+    },
+    "UEE604": {
+        "name": "FLEXIBLE AC TRANSMISSION SYSTEMS",
+        "subjectCode": "UEE604"
+    },
+    "UEE605": {
+        "name": "POWER SYSTEM ANALYSIS AND STABILITY",
+        "subjectCode": "UEE605"
+    },
+    "UEE606": {
+        "name": "ELECTRICAL MACHINES AND DRIVES",
+        "subjectCode": "UEE606"
+    },
+    "UEE607": {
+        "name": "INDUSTRIAL DRIVES",
+        "subjectCode": "UEE607"
+    },
+    "UEE608": {
+        "name": "SOFT COMPUTING IN ELECTRICAL ENGINEERING",
+        "subjectCode": "UEE608"
+    },
+    "UEE610": {
+        "name": "POWER SYSTEM PROTECTION",
+        "subjectCode": "UEE610"
+    },
+    "UEE611": {
+        "name": "PRINCIPLES OF DIGITAL SIGNAL PROCESSING",
+        "subjectCode": "UEE611"
+    },
+    "UEE612": {
+        "name": "MACHINE LEARNING TECHNIQUES",
+        "subjectCode": "UEE612"
+    },
+    "UEE613": {
+        "name": "INDUSTRIAL DRIVES AND AUTOMATION",
+        "subjectCode": "UEE613"
+    },
+    "UEE631": {
+        "name": "HVDC TRANSMISSION SYSTEMS",
+        "subjectCode": "UEE631"
+    },
+    "UEE632": {
+        "name": "POWER GENERATION AND ECONOMICS",
+        "subjectCode": "UEE632"
+    },
+    "UEE634": {
+        "name": "REAL TIME POWER SYSTEMS",
+        "subjectCode": "UEE634"
+    },
+    "UEE635": {
+        "name": "ENERGY MANAGEMENT SYSTEMS AND SCADA",
+        "subjectCode": "UEE635"
+    },
+    "UEE636": {
+        "name": "SMART GRID SYSTEMS",
+        "subjectCode": "UEE636"
+    },
+    "UEE638": {
+        "name": "PLC AND SCADA",
+        "subjectCode": "UEE638"
+    },
+    "UEE701": {
+        "name": "POWER ELECTRONICS AND DRIVES",
+        "subjectCode": "UEE701"
+    },
+    "UEE702": {
+        "name": "INTELLIGENT TECHNIQUES IN ELECTRICAL ENGINEERING",
+        "subjectCode": "UEE702"
+    },
+    "UEE704": {
+        "name": "ELECTRIC VEHICLE AND SUSTAINABLE ENERGY SYSTEMS",
+        "subjectCode": "UEE704"
+    },
+    "UEE711": {
+        "name": "ALTERNATE SOURCES OF ENERGY",
+        "subjectCode": "UEE711"
+    },
+    "UEE712": {
+        "name": "ELECTRICAL ENGINEERING MATERIALS",
+        "subjectCode": "UEE712"
+    },
+    "UEE722": {
+        "name": "INTRODUCTION TO MACHINE LEARNING",
+        "subjectCode": "UEE722"
+    },
+    "UEE741": {
+        "name": "STOCHASTIC MODELING OF ELECTRICAL SYSTEMS",
+        "subjectCode": "UEE741"
+    },
+    "UEE742": {
+        "name": "DIGITAL CONTROLLERS FOR POWER APPLICATIONS",
+        "subjectCode": "UEE742"
+    },
+    "UEE743": {
+        "name": "CLOUD COMPUTING BASED ELECTRICAL SYSTEMS",
+        "subjectCode": "UEE743"
+    },
+    "UEE744": {
+        "name": "INDUSTRIAL ELECTRONICS",
+        "subjectCode": "UEE744"
+    },
+    "UEE801": {
+        "name": "ELECTRIC DRIVES",
+        "subjectCode": "UEE801"
+    },
+    "UEE804": {
+        "name": "OPERATION AND CONTROL OF POWER SYSTEMS",
+        "subjectCode": "UEE804"
+    },
+    "UEE805": {
+        "name": "POWER GENERATION AND ECONOMICS",
+        "subjectCode": "UEE805"
+    },
+    "UEE806": {
+        "name": "ALTERNATE SOURCES OF ENERGY",
+        "subjectCode": "UEE806"
+    },
+    "UEE841": {
+        "name": "INDUSTRIAL ELECTRONICS",
+        "subjectCode": "UEE841"
+    },
+    "UEE850": {
+        "name": "SMART GRID",
+        "subjectCode": "UEE850"
+    },
+    "UEI201": {
+        "name": "ANALOG ELECTRONIC DEVICES AND CIRCUITS",
+        "subjectCode": "UEI201"
+    },
+    "UEI301": {
+        "name": "DIGITAL ELECTRONICS",
+        "subjectCode": "UEI301"
+    },
+    "UEI303": {
+        "name": "TECHNIQUES ON SIGNALS AND SYSTEMS",
+        "subjectCode": "UEI303"
+    },
+    "UEI401": {
+        "name": "ARTIFICIAL INTELLIGENCE TECHNIQUES AND APPLICATION",
+        "subjectCode": "UEI401"
+    },
+    "UEI409": {
+        "name": "DIGITAL SIGNAL PROCESSING AND APPLICATIONS",
+        "subjectCode": "UEI409"
+    },
+    "UEI411": {
+        "name": "ANALOG AND DIGITAL COMMUNICATION",
+        "subjectCode": "UEI411"
+    },
+    "UEI502": {
+        "name": "DATA ACQUISITION SYSTEMS",
+        "subjectCode": "UEI502"
+    },
+    "UEI503": {
+        "name": "DIGITAL SIGNAL PROCESSING AND APPLICATIONS",
+        "subjectCode": "UEI503"
+    },
+    "UEI504": {
+        "name": "MICROPROCESSORS AND APPLICATIONS",
+        "subjectCode": "UEI504"
+    },
+    "UEI507": {
+        "name": "SENSORS AND SIGNAL CONDITIONING",
+        "subjectCode": "UEI507"
+    },
+    "UEI512": {
+        "name": "ROBOTICS AND RELATED INSTRUMENTATION",
+        "subjectCode": "UEI512"
+    },
+    "UEI517": {
+        "name": "MEDICAL IMAGE PROCESSING AND DEVICES",
+        "subjectCode": "UEI517"
+    },
+    "UEI605": {
+        "name": "PROCESS DYNAMICS AND CONTROL",
+        "subjectCode": "UEI605"
+    },
+    "UEI609": {
+        "name": "FUNDAMENTALS OF MICROPROCESSORS AND MICROCONTROLLE",
+        "subjectCode": "UEI609"
+    },
+    "UEI611": {
+        "name": "VIRTUAL  INSTRUMENTATION ",
+        "subjectCode": "UEI611"
+    },
+    "UEI612": {
+        "name": "ROBOTICS",
+        "subjectCode": "UEI612"
+    },
+    "UEI613": {
+        "name": "BIOMETRICS",
+        "subjectCode": "UEI613"
+    },
+    "UEI614": {
+        "name": "BIOMEDICAL SENSORS AND MEASUREMENT",
+        "subjectCode": "UEI614"
+    },
+    "UEI622": {
+        "name": "DATA NETWORKS",
+        "subjectCode": "UEI622"
+    },
+    "UEI625": {
+        "name": "ANALOG AND DIGITAL COMMUNICATION",
+        "subjectCode": "UEI625"
+    },
+    "UEI627": {
+        "name": "DATA ANALYTICS",
+        "subjectCode": "UEI627"
+    },
+    "UEI701": {
+        "name": "DATA ACQUISITION AND SYSTEM DESIGN",
+        "subjectCode": "UEI701"
+    },
+    "UEI703": {
+        "name": "MEASUREMENT SCIENCE",
+        "subjectCode": "UEI703"
+    },
+    "UEI704": {
+        "name": "SOFT COMPUTING TECHNIQUES",
+        "subjectCode": "UEI704"
+    },
+    "UEI718": {
+        "name": "VIRTUAL INSTRUMENTATION ENGINEERING",
+        "subjectCode": "UEI718"
+    },
+    "UEI720": {
+        "name": "ANALYTICAL INSTRUMENTATION",
+        "subjectCode": "UEI720"
+    },
+    "UEI721": {
+        "name": "DIGITAL IMAGE PROCESSING",
+        "subjectCode": "UEI721"
+    },
+    "UEI724": {
+        "name": "COMPUTER ARCHITECTURE AND OPERATING SYSTEM",
+        "subjectCode": "UEI724"
+    },
+    "UEI733": {
+        "name": "EMBEDDED SYSTEM DESIGN",
+        "subjectCode": "UEI733"
+    },
+    "UEI734": {
+        "name": "DIGITAL IMAGE PROCESSING",
+        "subjectCode": "UEI734"
+    },
+    "UEI742": {
+        "name": "SMART SENSOR NETWORKS",
+        "subjectCode": "UEI742"
+    },
+    "UEI801": {
+        "name": "ADVANCED PROCESS CONTROL",
+        "subjectCode": "UEI801"
+    },
+    "UEI805": {
+        "name": "ENVIRONMENTAL INSTRUMENTATION",
+        "subjectCode": "UEI805"
+    },
+    "UEI831": {
+        "name": "BIO-SENSOR AND MEMS",
+        "subjectCode": "UEI831"
+    },
+    "UEI833": {
+        "name": "OPTICAL INSTRUMENTATION",
+        "subjectCode": "UEI833"
+    },
+    "UEI841": {
+        "name": "ADVANCED CONTROL SYSTEMS",
+        "subjectCode": "UEI841"
+    },
+    "UEI844": {
+        "name": "VIRTUAL INSTRUMENTATION",
+        "subjectCode": "UEI844"
+    },
+    "UEI845": {
+        "name": "ROBUST CONTROLS",
+        "subjectCode": "UEI845"
+    },
+    "UEI847": {
+        "name": "ROBOTICS AND AUTOMATION",
+        "subjectCode": "UEI847"
+    },
+    "UES002": {
+        "name": "SOLID MECHANICS",
+        "subjectCode": "UES002"
+    },
+    "UES020": {
+        "name": "THERMO-FLUIDS",
+        "subjectCode": "UES020"
+    },
+    "UES032": {
+        "name": "MATERIAL SCIENCE AND ENGINEERING",
+        "subjectCode": "UES032"
+    },
+    "UES034": {
+        "name": "MEASUREMENT SCIENCE AND TECHNIQUES",
+        "subjectCode": "UES034"
+    },
+    "UHU009": {
+        "name": "INTRODUCTION TO COGNITIVE SCIENCE",
+        "subjectCode": "UHU009"
+    },
+    "UHU032": {
+        "name": "HUMAN VALUES, ETHICS AND IPR",
+        "subjectCode": "UHU032"
+    },
+    "UHU034": {
+        "name": "HUMAN VALUES, HUMAN RIGHTS & IPR",
+        "subjectCode": "UHU034"
+    },
+    "ULC664": {
+        "name": "CYBER AND NETWORK SECURITY",
+        "subjectCode": "ULC664"
+    },
+    "UMA001": {
+        "name": "MATHEMATICS - I",
+        "subjectCode": "UMA001"
+    },
+    "UMA002": {
+        "name": "MATHEMATICS - II",
+        "subjectCode": "UMA002"
+    },
+    "UMA003": {
+        "name": "MATHEMATICS - I",
+        "subjectCode": "UMA003"
+    },
+    "UMA005": {
+        "name": "INTRODUCTORY MATHEMATICS-I",
+        "subjectCode": "UMA005"
+    },
+    "UMA006": {
+        "name": "INTRODUCTORY MATHEMATICS II",
+        "subjectCode": "UMA006"
+    },
+    "UMA007": {
+        "name": "NUMERICAL ANALYSIS",
+        "subjectCode": "UMA007"
+    },
+    "UMA018": {
+        "name": "CALCULUS-III",
+        "subjectCode": "UMA018"
+    },
+    "UMA031": {
+        "name": "OPTIMIZATION TECHNIQUES",
+        "subjectCode": "UMA031"
+    },
+    "UMA032": {
+        "name": "NUMERICAL AND STATISTICAL METHODS",
+        "subjectCode": "UMA032"
+    },
+    "UMA061": {
+        "name": "ADVANCED NUMERICAL METHODS",
+        "subjectCode": "UMA061"
+    },
+    "UMC511": {
+        "name": "MATHEMATICAL MODELING AND SIMULATION",
+        "subjectCode": "UMC511"
+    },
+    "UMC631": {
+        "name": "FINANCIAL MATHEMATICS",
+        "subjectCode": "UMC631"
+    },
+    "UMC741": {
+        "name": "COMPUTATIONAL NUMBER THEORY",
+        "subjectCode": "UMC741"
+    },
+    "UME306": {
+        "name": "MECHANICS OF MACHINES",
+        "subjectCode": "UME306"
+    },
+    "UME402": {
+        "name": "DYNAMICS OF MACHINES",
+        "subjectCode": "UME402"
+    },
+    "UME407": {
+        "name": "INSPECTION AND QUALITY CONTROL",
+        "subjectCode": "UME407"
+    },
+    "UME501": {
+        "name": "APPLIED THERMODYNAMICS",
+        "subjectCode": "UME501"
+    },
+    "UME502": {
+        "name": "AUTOMOBILE ENGINEERING",
+        "subjectCode": "UME502"
+    },
+    "UME503": {
+        "name": "INDUSTRIAL METALLURGY AND MATERIALS",
+        "subjectCode": "UME503"
+    },
+    "UME505": {
+        "name": "MANUFACTURING TECHNOLOGY",
+        "subjectCode": "UME505"
+    },
+    "UME508": {
+        "name": "MACHINE DESIGN",
+        "subjectCode": "UME508"
+    },
+    "UME510": {
+        "name": "INDUSTRIAL AUTOMATION",
+        "subjectCode": "UME510"
+    },
+    "UME523": {
+        "name": "INDUSTRIAL AUTOMATION AND IOT",
+        "subjectCode": "UME523"
+    },
+    "UME605": {
+        "name": "RAPID MANUFACTURING",
+        "subjectCode": "UME605"
+    },
+    "UME702": {
+        "name": "COMPUTER AIDED MANUFACTURING",
+        "subjectCode": "UME702"
+    },
+    "UME703": {
+        "name": "FLUID MACHINERY",
+        "subjectCode": "UME703"
+    },
+    "UME705": {
+        "name": "MACHINING SCIENCE",
+        "subjectCode": "UME705"
+    },
+    "UME711": {
+        "name": "MACHINE DESIGN-II",
+        "subjectCode": "UME711"
+    },
+    "UME712": {
+        "name": "HEAT TRANSFER",
+        "subjectCode": "UME712"
+    },
+    "UME713": {
+        "name": "FLUID MECHANICS AND MACHINERY",
+        "subjectCode": "UME713"
+    },
+    "UME716": {
+        "name": "FLUID MECHANICS & MACHINERY",
+        "subjectCode": "UME716"
+    },
+    "UME721": {
+        "name": "TRIBOLOGY",
+        "subjectCode": "UME721"
+    },
+    "UME732": {
+        "name": "CAM & INDUSTRIAL AUTOMATION",
+        "subjectCode": "UME732"
+    },
+    "UME733": {
+        "name": "INDUSTRIAL METALLURGY",
+        "subjectCode": "UME733"
+    },
+    "UME802": {
+        "name": "MECHATRONICS",
+        "subjectCode": "UME802"
+    },
+    "UME803": {
+        "name": "REFRIGERATION AND AIR CONDITIONING",
+        "subjectCode": "UME803"
+    },
+    "UME806": {
+        "name": "MECHATRONICS",
+        "subjectCode": "UME806"
+    },
+    "UME807": {
+        "name": "GAS DYNAMICS & TURBO MACHINES",
+        "subjectCode": "UME807"
+    },
+    "UME831": {
+        "name": "COMPUTATIONAL FLUID DYNAMICS",
+        "subjectCode": "UME831"
+    },
+    "UME833": {
+        "name": "INSPECTION AND QUALITY CONTROL",
+        "subjectCode": "UME833"
+    },
+    "UME834": {
+        "name": "INTERNAL COMBUSTION ENGINES",
+        "subjectCode": "UME834"
+    },
+    "UME844": {
+        "name": "MACHINE TOOL DESIGN",
+        "subjectCode": "UME844"
+    },
+    "UME848": {
+        "name": "ADVANCED MECHANICAL VIBRATIONS",
+        "subjectCode": "UME848"
+    },
+    "UME853": {
+        "name": "SOLAR ENERGY ENGINEERING",
+        "subjectCode": "UME853"
+    },
+    "UME856": {
+        "name": "TOTAL QUALITY MANAGEMENT",
+        "subjectCode": "UME856"
+    },
+    "UME857": {
+        "name": "ADVANCED MECHANICAL VIBRATIONS",
+        "subjectCode": "UME857"
+    },
+    "UML602": {
+        "name": "NATURAL LANGUAGE PROCESSING",
+        "subjectCode": "UML602"
+    },
+    "UPE601": {
+        "name": "FACILITY PLANNING",
+        "subjectCode": "UPE601"
+    },
+    "UPE602": {
+        "name": "SUPPLY CHAIN MANAGEMENT",
+        "subjectCode": "UPE602"
+    },
+    "UPE702": {
+        "name": "METAL CASTING AND JOINING",
+        "subjectCode": "UPE702"
+    },
+    "UPE704": {
+        "name": "COMPUTER AIDED MANUFACTURING",
+        "subjectCode": "UPE704"
+    },
+    "UPE801": {
+        "name": "MICRO MACHINING PROCESSES",
+        "subjectCode": "UPE801"
+    },
+    "UPH001": {
+        "name": "PHYSICS",
+        "subjectCode": "UPH001"
+    },
+    "UPH063": {
+        "name": "NANO SCIENCE AND NANO-MATERIALS",
+        "subjectCode": "UPH063"
+    },
+    "UPH305": {
+        "name": "BIOPHYSICS",
+        "subjectCode": "UPH305"
+    },
+    "USE401": {
+        "name": "SOFTWARE METRICS AND QUALITY MANAGEMENT",
+        "subjectCode": "USE401"
+    },
+    "USE602": {
+        "name": "SOFTWARE VERIFICATION AND VALIDATION",
+        "subjectCode": "USE602"
+    },
+    "UTA001": {
+        "name": "ENGINEERING GRAPHICS",
+        "subjectCode": "UTA001"
+    },
+    "UTA007": {
+        "name": "COMPUTER PROGRAMMING - I",
+        "subjectCode": "UTA007"
+    },
+    "UTA008": {
+        "name": "ENGINEERING DESIGN - I",
+        "subjectCode": "UTA008"
+    },
+    "UTA009": {
+        "name": "COMPUTER PROGRAMMING - II",
+        "subjectCode": "UTA009"
+    },
+    "UTA012": {
+        "name": "INNOVATION AND ENTREPRENEURSHIP",
+        "subjectCode": "UTA012"
+    },
+    "UTA017": {
+        "name": "COMPUTER PROGRAMMING - I",
+        "subjectCode": "UTA017"
+    },
+    "UTA021": {
+        "name": "ENGINEERING DRAWING",
+        "subjectCode": "UTA021"
+    }
+}
