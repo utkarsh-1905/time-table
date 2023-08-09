@@ -8,6 +8,20 @@ import (
 	"github.com/xuri/excelize/v2"
 )
 
+const (
+	startRow = 5
+	endRow   = 144
+)
+
+var dayofweek = []string{
+	"Timings",
+	"Monday",
+	"Tuesday",
+	"Wednesday",
+	"Thursday",
+	"Friday",
+}
+
 type Data struct {
 	Course string `json:"course"`
 	Color  string `json:"color"`
@@ -15,7 +29,18 @@ type Data struct {
 
 func (d *Data) Append(cell string, regex *Regexs) {
 	cellbyte := regex.Sub.ReplaceAllStringFunc(cell, func(data string) string {
-		res := GetSubjectName(strings.Trim(data, " "))
+		str := strings.ReplaceAll(data, "/", "")
+		str = strings.ReplaceAll(str, " ", "")
+		if len(str) > 6 {
+			str = strings.TrimRightFunc(str, func(s rune) bool {
+				if s == 'L' || s == 'P' || s == 'T' {
+					return true
+				} else {
+					return false
+				}
+			})
+		}
+		res := GetSubjectName(str)
 		if res != "" {
 			return res
 		} else {
@@ -32,8 +57,7 @@ func (d *Data) Append(cell string, regex *Regexs) {
 	} else if eres {
 		d.Color = "info"
 	}
-	cell = cellbyte
-	d.Course += cell
+	d.Course += cellbyte
 }
 
 type Regexs struct {
@@ -45,26 +69,14 @@ type Regexs struct {
 
 func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 	// regexs
-	GetSubjectMapping()
 	lecture, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}\s?L`)
 	tut, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}\s?T`)
 	elective, _ := regexp.Compile(`^([A-Z]{3}[0-9]{3}(\/[A-Z]{3}[0-9]{3})+)\s?L`)
-	subSelect, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}`)
+	subSelect, _ := regexp.Compile(`[A-Z]{3}[0-9]{3}\s?[L,T,P]?`)
 
 	regex := Regexs{lecture, tut, elective, subSelect}
-
-	startRow := 5
-	endRow := 144
 	timings := [][]Data{}
 	freeTime := Data{Course: "", Color: "success"}
-	dayofweek := []string{
-		"Timings",
-		"Monday",
-		"Tuesday",
-		"Wednesday",
-		"Thursday",
-		"Friday",
-	}
 	var Days []Data
 	for _, d := range dayofweek {
 		temp := Data{
