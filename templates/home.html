@@ -49,6 +49,68 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script>
+      async function fetchContributors() {
+        try {
+          const response = await fetch('https://api.github.com/repos/utkarsh-1905/time-table/contributors');
+          const contributors = await response.json();
+    
+          const contributorsList = document.getElementById('contributors-list');
+    
+          contributors.forEach(contributor => {
+            const listItem = document.createElement('li');
+            listItem.innerHTML = `
+              <a href="${contributor.html_url}" target="_blank" class="contributor-link">
+              <img src="https://avatars.githubusercontent.com/${contributor.login}" alt="${contributor.login}" /></a>
+              <a class="contributor-info" href="${contributor.html_url}" target="_blank">${contributor.login}</a>
+            `;
+            contributorsList.appendChild(listItem);
+          });
+        } catch (error) {
+          console.error('Error fetching contributors:', error);
+        }
+      }
+    
+      fetchContributors();
+    </script>
+    
+    <style>
+      #contributors-list {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+      }
+
+      #contributors-list .contributor-info {
+        width: calc(50% - 20px); 
+        margin: 10px; 
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+      }
+
+      #contributors-list img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-bottom: 5px;
+      }
+
+      #contributors-list a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      #contributors-list .contributor-info {
+        font-size: 14px;
+        color: #ccc;
+        margin-top: 5px;
+      }
+
+    </style>
   </head>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SSECP1SFQX"></script>
@@ -198,10 +260,7 @@
       <p style="text-align: center;" class="text-warning">
         Project contributors
       </p>
-      <p style="text-align: center;">
-        <a href="https://github.com/utkarsh-1905/time-table/graphs/contributors">
-          <img src="https://contrib.rocks/image?repo=utkarsh-1905/time-table" />
-        </a>
+      <ul id="contributors-list" class="contributors-list"></ul>
       </p>
     </footer>
     <script>
