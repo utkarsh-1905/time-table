@@ -30,6 +30,13 @@
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/dgbkn">
+            <img src="https://avatars.githubusercontent.com/u/65810521?v=4" width="100;" alt="dgbkn"/>
+            <br />
+            <sub><b>Dev Goyal</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/michaelmuthomi">
             <img src="https://avatars.githubusercontent.com/u/108736931?v=4" width="100;" alt="michaelmuthomi"/>
             <br />
