@@ -17,6 +17,8 @@ import (
 
 func init() {
 	fmt.Println("Initializing server...")
+	// utils.GetSubjectMapping()
+	// utils.GenerateJson()
 	fmt.Println("Server initialized")
 }
 

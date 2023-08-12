@@ -8,19 +8,48 @@ import (
 	"github.com/xuri/excelize/v2"
 )
 
+const (
+	startRow = 5
+	endRow   = 144
+)
+
+var dayofweek = []string{
+	"Timings",
+	"Monday",
+	"Tuesday",
+	"Wednesday",
+	"Thursday",
+	"Friday",
+}
+
 type Data struct {
 	Course string `json:"course"`
 	Color  string `json:"color"`
 }
 
-func (d *Data) Append(cell string) {
-	lecture, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}\s?L`)
-	tut, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}\s?T`)
-	elective, _ := regexp.Compile(`^([A-Z]{3}[0-9]{3}(\/[A-Z]{3}[0-9]{3})+)\s?L`)
-	d.Course += cell
-	lres := lecture.MatchString(cell)
-	tres := tut.MatchString(cell)
-	eres := elective.MatchString(cell)
+func (d *Data) Append(cell string, regex *Regexs) {
+	cellbyte := regex.Sub.ReplaceAllStringFunc(cell, func(data string) string {
+		str := strings.ReplaceAll(data, "/", "")
+		str = strings.ReplaceAll(str, " ", "")
+		if len(str) > 6 {
+			str = strings.TrimRightFunc(str, func(s rune) bool {
+				if s == 'L' || s == 'P' || s == 'T' {
+					return true
+				} else {
+					return false
+				}
+			})
+		}
+		res := GetSubjectName(str)
+		if res != "" {
+			return res
+		} else {
+			return data
+		}
+	})
+	lres := regex.Lecture.MatchString(cell)
+	tres := regex.Tut.MatchString(cell)
+	eres := regex.Elective.MatchString(cell)
 	if lres {
 		d.Color = "danger"
 	} else if tres {
@@ -28,23 +57,26 @@ func (d *Data) Append(cell string) {
 	} else if eres {
 		d.Color = "info"
 	}
+	d.Course += cellbyte
 }
 
-// /^[A-Z]{3}[0-9]{3}/gm
+type Regexs struct {
+	Lecture  *regexp.Regexp
+	Tut      *regexp.Regexp
+	Elective *regexp.Regexp
+	Sub      *regexp.Regexp
+}
 
 func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
-	startRow := 5
-	endRow := 144
+	// regexs
+	lecture, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}\s?L`)
+	tut, _ := regexp.Compile(`^[A-Z]{3}[0-9]{3}\s?T`)
+	elective, _ := regexp.Compile(`^([A-Z]{3}[0-9]{3}(\/[A-Z]{3}[0-9]{3})+)\s?L`)
+	subSelect, _ := regexp.Compile(`[A-Z]{3}[0-9]{3}\s?[L,T,P]?`)
+
+	regex := Regexs{lecture, tut, elective, subSelect}
 	timings := [][]Data{}
 	freeTime := Data{Course: "", Color: "success"}
-	dayofweek := []string{
-		"Timings",
-		"Monday",
-		"Tuesday",
-		"Wednesday",
-		"Thursday",
-		"Friday",
-	}
 	var Days []Data
 	for _, d := range dayofweek {
 		temp := Data{
@@ -90,7 +122,7 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 				if j == 1 && cell == "Lab Continue" {
 					continue
 				}
-				temp.Append(cell + " ")
+				temp.Append(cell+" ", &regex)
 			} else {
 				// algo to get venue in a merged cell situation
 				if temp.Course != "" && j == 1 {
@@ -104,13 +136,13 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 						tcell, err = f.GetCellValue(sheet, cellId)
 						HandleError(err)
 						if tcell != "" {
-							temp.Append(tcell)
+							temp.Append(tcell, &regex)
 							break
 						}
 						maxIter--
 					}
 				}
-				temp.Append("")
+				temp.Append("", &regex)
 			}
 		}
 		if temp.Course == "" {
