@@ -42,6 +42,13 @@
             <br />
             <sub><b>Michael</b></sub>
         </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/MankiratSingh1315">
+            <img src="https://avatars.githubusercontent.com/u/120726854?v=4" width="100;" alt="MankiratSingh1315"/>
+            <br />
+            <sub><b>Mankirat Singh</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: utkarsh-1905,nimishmedatwal,dgbkn,contributors -end -->
