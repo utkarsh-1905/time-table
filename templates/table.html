@@ -67,6 +67,9 @@
   </script>
   <body>
     <style>
+      * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+      }
       body {
         background-image: url("/static/table-background.webp");
         background-size: no-repeat;
@@ -105,6 +108,29 @@
         }
       }
     </style>
+    <header
+      style="
+        margin: 1rem auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 95vw;
+      "
+    >
+      <a class="left" href="https://github.com/utkarsh-1905/time-table/issues">
+        <img
+          alt="GitHub issues"
+          src="https://img.shields.io/github/issues/utkarsh-1905/time-table?style=flat&logo=github"
+        />
+      </a>
+      <a class="right" href="https://github.com/utkarsh-1905/time-table">
+        <img
+          alt="GitHub Repo stars"
+          src="https://img.shields.io/github/stars/utkarsh-1905/time-table?style=flat&logo=github"
+        />
+      </a>
+    </header>
     <div class="table-responsive">
       <table class="table table-dark table-hover" id="table">
         {{range .Data}}
@@ -140,22 +166,6 @@
           >Linkedin</a
         >
         <a href="https://utkarsh.ninja" class="badge badge-dark">Website</a>
-      </p>
-      <p style="text-align: center" class="text-warning">
-        Don't forget to star the project
-        <a
-          href="https://github.com/utkarsh-1905/time-table"
-          class="badge badge-warning badge-pill"
-          >here</a
-        >
-      </p>
-      <p style="text-align: center" class="text-danger">
-        Raise an issue for this project
-        <a
-          href="https://github.com/utkarsh-1905/time-table/issues"
-          class="badge badge-danger badge-pill"
-          >here</a
-        >
       </p>
       <p style="text-align: center" class="text-warning">
         Project contributors
