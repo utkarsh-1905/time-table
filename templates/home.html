@@ -49,30 +49,6 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
-    <script>
-      async function fetchContributors() {
-        try {
-          const response = await fetch('https://api.github.com/repos/utkarsh-1905/time-table/contributors');
-          const contributors = await response.json();
-    
-          const contributorsList = document.getElementById('contributors-list');
-    
-          contributors.forEach(contributor => {
-            const listItem = document.createElement('li');
-            listItem.innerHTML = `
-              <a href="${contributor.html_url}" target="_blank" class="contributor-link">
-              <img src="https://avatars.githubusercontent.com/${contributor.login}" alt="${contributor.login}" /></a>
-              <a class="contributor-info" href="${contributor.html_url}" target="_blank">${contributor.login}</a>
-            `;
-            contributorsList.appendChild(listItem);
-          });
-        } catch (error) {
-          console.error('Error fetching contributors:', error);
-        }
-      }
-    
-      fetchContributors();
-    </script>
     
     <style>
       #contributors-list {
@@ -259,6 +235,30 @@
       <ul id="contributors-list" class="contributors-list"></ul>
       </p>
     </footer>
+    <script>
+      async function fetchContributors() {
+        try {
+          const response = await fetch('https://api.github.com/repos/utkarsh-1905/time-table/contributors');
+          const contributors = await response.json();
+    
+          const contributorsList = document.getElementById('contributors-list');
+    
+          contributors.forEach(contributor => {
+            const listItem = document.createElement('li');
+            listItem.innerHTML = `
+              <a href="${contributor.html_url}" target="_blank" class="contributor-link">
+              <img src="https://avatars.githubusercontent.com/${contributor.login}" alt="${contributor.login}" /></a>
+              <a class="contributor-info" href="${contributor.html_url}" target="_blank">${contributor.login}</a>
+            `;
+            contributorsList.appendChild(listItem);
+          });
+        } catch (error) {
+          console.error('Error fetching contributors:', error);
+        }
+      }
+    
+      fetchContributors();
+    </script>
     <script>
       const form = document.getElementById("form");
       const sheets = document.getElementById("sheets");
