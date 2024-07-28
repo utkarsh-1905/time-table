@@ -290,7 +290,7 @@
 
       renderLinks();
 
-      save.addEventListener("click", (e) => {
+      save.addEventListener("click", async (e) => {
         e.preventDefault();
         const sheet = sheets.options[sheets.selectedIndex].value;
         const classname = classes.options[classes.selectedIndex].value;
@@ -298,6 +298,7 @@
           alert("Please select a valid option");
           return;
         }
+        await gtag("save_button_click",{click: true});
         const url = {
           url: `https://timetable.mlsctiet.com/timetable?sheet=${sheet}&classname=${classname}`,
           classname,
@@ -341,7 +342,7 @@
         }
       }
 
-      form.addEventListener("submit", (e) => {
+      form.addEventListener("submit", async (e) => {
         e.preventDefault();
         const sheet = sheets.options[sheets.selectedIndex].value;
         const classname = classes.options[classes.selectedIndex].value;
@@ -349,6 +350,7 @@
           alert("Please select a valid option");
           return;
         }
+        await gtag("get_button_click",{click: true});
         window.location.href = `/timetable?sheet=${sheet}&classname=${classname}`;
       });
     </script>

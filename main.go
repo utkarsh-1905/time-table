@@ -19,8 +19,8 @@ func init() {
 	fmt.Println("Initializing server...")
 	// UNCOMMENT THIS TO RE-GENERATE THE TIMETABLE
 	// BE CAUTIOUS WHEN USING THIS
-	utils.GetSubjectMapping()
-	utils.GenerateJson()
+	// utils.GetSubjectMapping()
+	// utils.GenerateJson()
 	fmt.Println("Server initialized")
 }
 

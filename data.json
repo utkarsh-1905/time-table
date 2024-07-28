@@ -123531,8 +123531,8 @@
 					"color": "primary"
 				},
 				{
-					"course": "MACHINE LEARNING ML ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -123557,15 +123557,15 @@
 					"color": ""
 				},
 				{
-					"course": "LAB AA ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "NETWORK PROGRAMMING LT403 ",
+					"course": "NETWORK PROGRAMMING LT403",
 					"color": "danger"
 				}
 			],
@@ -123575,7 +123575,7 @@
 					"color": "dark"
 				},
 				{
-					"course": "COMPUTER VISION/SOURCE CODE MANAGEMENT/UI \u0026 UX SPECIALIST/EDGE AI AND ROBOTICS: ACCELERATED DATA SCIENCE/FINANCE ACCOUNTING AND VALUATION F101/LP109/LT402/LT403/LT102",
+					"course": "COMPUTER VISION/SOURCE CODE MANAGEMENT/UI \u0026 UX SPECIALIST/EDGE AI AND ROBOTICS: ACCELERATED DATA SCIENCE/FINANCE ACCOUNTING AND VALUATION ST/NT2/MKB/JHB/KUC ",
 					"color": "danger"
 				},
 				{
@@ -123583,15 +123583,15 @@
 					"color": "danger"
 				},
 				{
-					"course": "NETWORK PROGRAMMING LT403 ",
+					"course": "NETWORK PROGRAMMING SUS ",
 					"color": "danger"
 				},
 				{
-					"course": "COMPUTER VISION/SOURCE CODE MANAGEMENT/UI \u0026 UX SPECIALIST F101/LP109/LT402",
+					"course": "COMPUTER VISION/SOURCE CODE MANAGEMENT/UI \u0026 UX SPECIALIST ST/NT2/MKB ",
 					"color": "danger"
 				},
 				{
-					"course": "CLOUD COMPUTING LT403 ",
+					"course": "CLOUD COMPUTING LT403",
 					"color": "danger"
 				}
 			],
@@ -123601,19 +123601,19 @@
 					"color": "dark"
 				},
 				{
-					"course": "COMPUTER \u0026 NETWORK SECURITY/UCS551L/FOUNDATIONS OF DATA SCIENCE/MATHEMATIC MODELING AND SIMULATION/NETWORK DEFENCE LP108/LT301/LT402/LP109/F206",
+					"course": "COMPUTER \u0026 NETWORK SECURITY/UCS551L/FOUNDATIONS OF DATA SCIENCE/MATHEMATIC MODELING AND SIMULATION/NETWORK DEFENCE MAN/MAK/ARN/SPN /NAA ",
 					"color": "danger"
 				},
 				{
-					"course": "UMA401 L LT403 ",
+					"course": "UMA401 L LT403",
 					"color": "danger"
 				},
 				{
-					"course": "MACHINE LEARNING LT403 ",
+					"course": "MACHINE LEARNING AA ",
 					"color": "danger"
 				},
 				{
-					"course": "COMPUTER \u0026 NETWORK SECURITY/UCS551L/FOUNDATIONS OF DATA SCIENCE/MATHEMATIC MODELING AND SIMULATION LP108/LT301/LT402/LP109",
+					"course": "COMPUTER \u0026 NETWORK SECURITY/UCS551L/FOUNDATIONS OF DATA SCIENCE/MATHEMATIC MODELING AND SIMULATION MAN/MAK/ARN/ ",
 					"color": "danger"
 				},
 				{
@@ -123631,20 +123631,20 @@
 					"color": "success"
 				},
 				{
-					"course": "MACHINE LEARNING LT403 ",
+					"course": "MACHINE LEARNING LT403",
 					"color": "danger"
 				},
 				{
-					"course": "SOURCE CODE MANAGEMENT/EDGE AI AND ROBOTICS: ACCELERATED DATA SCIENCE/MATHEMATIC MODELING AND SIMULATION/FOUNDATIONS OF DATA SCIENCE/UI \u0026 UX SPECIALIST/COMPUTER \u0026 NETWORK SECURITY/NETWORK DEFENCE/ UCS551P\nGC1 LAB/PG ACTIVITY SPACE-2/GC2 LAB/IS1 LAB/IS2 LAB/NS1 LAB/NS2 LAB/ES1 LAB\nNT2/JHB/ /AMR-RA/RIS-RA/RAK/NAA/JS ",
+					"course": "SOURCE CODE MANAGEMENT/EDGE AI AND ROBOTICS: ACCELERATED DATA SCIENCE/MATHEMATIC MODELING AND SIMULATION/FOUNDATIONS OF DATA SCIENCE/UI \u0026 UX SPECIALIST/COMPUTER \u0026 NETWORK SECURITY/NETWORK DEFENCE/ UCS551P\nGC1 LAB/PG ACTIVITY SPACE-2/GC2 LAB/IS1 LAB/IS2 LAB/NS1 LAB/NS2 LAB/ES2 LAB\nNT2/JHB/ /AMR-RA/RIS-RA/RAK/NAA/MAK ",
 					"color": ""
 				},
 				{
-					"course": "MACHINE LEARNING LT403 ",
+					"course": "MACHINE LEARNING LT403",
 					"color": "danger"
 				},
 				{
-					"course": "NETWORK PROGRAMMING NS-1 ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				}
 			],
 			[
@@ -123665,12 +123665,12 @@
 					"color": ""
 				},
 				{
-					"course": "UMA401 L LT403 ",
+					"course": "UMA401 L LT403",
 					"color": "danger"
 				},
 				{
-					"course": "LAB SR ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				}
 			],
 			[
@@ -123705,7 +123705,7 @@
 					"color": "dark"
 				},
 				{
-					"course": "CLOUD COMPUTING L LT403 ",
+					"course": "CLOUD COMPUTING L LT403",
 					"color": ""
 				},
 				{
@@ -123717,8 +123717,8 @@
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "UMA401 P CG-2 ",
+					"color": ""
 				},
 				{
 					"course": "",
@@ -123731,7 +123731,7 @@
 					"color": "dark"
 				},
 				{
-					"course": "UMA401 L LT403 ",
+					"course": "UMA401 L LT403",
 					"color": "danger"
 				},
 				{
@@ -123743,8 +123743,8 @@
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "LAB TA27 ",
+					"color": ""
 				},
 				{
 					"course": "",
@@ -123761,12 +123761,12 @@
 					"color": "success"
 				},
 				{
-					"course": "CLOUD COMPUTING IOT ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
-					"course": "UMA401 P CG-1 ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "COMPUTER VISION\nGAMING LAB\nST ",
@@ -123787,12 +123787,12 @@
 					"color": "success"
 				},
 				{
-					"course": "LAB JAS-RA ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
-					"course": "LAB TA26 ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "Lab Continue ",
@@ -154495,8 +154495,8 @@
 					"color": "dark"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION GC-1 ",
+					"color": ""
 				},
 				{
 					"course": "",
@@ -154521,8 +154521,8 @@
 					"color": "dark"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "LAB CHK-RA ",
+					"color": ""
 				},
 				{
 					"course": "",
@@ -154547,16 +154547,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/RKT/KNP-RA/RGB\nGAMING LAB/IS1 LAB/DT LAB/DBMS2 LAB/ES1 LAB ",
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/MNS/ANB-RA/RGB\nGAMING LAB/IS1 LAB/PG LAB/DBMS1 LAB/ES1 LAB ",
 					"color": ""
+				},
+				{
+					"course": "COGNITIVE COMPUTING T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
 					"color": "success"
-				},
-				{
-					"course": "COMPILER CONSTRUCTION GC-1 ",
-					"color": ""
 				},
 				{
 					"course": "UCS760P/UCS750P/SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/COMPUTATIONAL NUMBER THEORY\nSR/NAA/GS/ MR\nPG ACTIVITY SPACE-2/NS1 LAB/GC1 LAB/GC2 LAB ",
@@ -154577,12 +154577,12 @@
 					"color": ""
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
-					"course": "LAB RUB ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "Lab Continue ",
@@ -154603,20 +154603,20 @@
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				}
 			],
 			[
@@ -154629,20 +154629,20 @@
 					"color": "success"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS SSH/NRJ/RKT/KUC/SMG ",
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
 					"color": "danger"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS SSH/NRJ/RKT/KUC/SMG ",
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
 					"color": "danger"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COGNITIVE COMPUTING L T106",
+					"color": ""
 				}
 			],
 			[
@@ -154655,16 +154655,16 @@
 					"color": "success"
 				},
 				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY GS/RGB/SR/NAA/MR ",
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
 					"color": "danger"
 				},
 				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY GS/RGB/SR/NAA/MR ",
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
 					"color": "danger"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -154677,10 +154677,6 @@
 					"color": "dark"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS E107 ",
-					"color": ""
-				},
-				{
 					"course": "",
 					"color": "success"
 				},
@@ -154689,8 +154685,12 @@
 					"color": "success"
 				},
 				{
-					"course": "COGNITIVE COMPUTING T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -154703,10 +154703,6 @@
 					"color": "dark"
 				},
 				{
-					"course": "LAB LC3 ",
-					"color": ""
-				},
-				{
 					"course": "",
 					"color": "success"
 				},
@@ -154715,8 +154711,12 @@
 					"color": "success"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -154729,16 +154729,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
+					"course": "HUMANITIES FOR ENGINEERS E107 ",
+					"color": ""
 				},
 				{
 					"course": "",
@@ -154755,16 +154755,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "COGNITIVE COMPUTING T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "LAB LC2 ",
+					"color": ""
 				},
 				{
 					"course": "",
