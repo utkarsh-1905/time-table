@@ -9,8 +9,8 @@ import (
 )
 
 const (
-	startRow = 5
-	endRow   = 144
+	startRow = 7
+	endRow   = 147
 )
 
 var dayofweek = []string{
@@ -88,20 +88,13 @@ func GetTableData(sheet string, class int, f *excelize.File) [][]Data {
 
 	col, err := excelize.ColumnNumberToName(class)
 	HandleError(err)
-	timeValue := []string{}
-	for i := 5; i < 32; i += 2 {
-		timeCell := fmt.Sprintf("C%d", i)
-		time, _ := f.GetCellValue(sheet, timeCell)
-		time = strings.ToLower(time)
-		time = strings.ReplaceAll(time, " ", "")
-		timeValue = append(timeValue, time)
-	}
+	timeValue := []string{"8:00am", " 8:50:am", "9:40:am", "10:30:am", "11:20am", "12:10pm", "1:00pm", "1:50pm", "2:40pm", "3:30pm", "4:20pm", "5:10pm", "6:00pm", "6:50pm"}
 
 	tempMap := []Data{}
 
 	check := ""
 	for i := startRow; i < endRow; i += 2 {
-		timeCell := fmt.Sprintf("C%d", i)
+		timeCell := fmt.Sprintf("D%d", i)
 		time, _ := f.GetCellValue(sheet, timeCell)
 		time = strings.ToLower(time)
 		time = strings.ReplaceAll(time, " ", "")

@@ -24,7 +24,7 @@ func GenerateJson() {
 		for i, d := range rows {
 			if i == 3 {
 				for j, k := range d {
-					if k != "" && k != "DAY" && k != "HOURS" && k != "SR NO" && k != "SR.NO" {
+					if k != "" && k != "DAY" && k != "HOURS" && k != "SR NO" && k != "SR.NO" && k != "TUTORIAL" {
 						temp[j+1] = k
 					}
 				}

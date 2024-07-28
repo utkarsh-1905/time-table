@@ -80,14 +80,9 @@ func main() {
 		sheet := r.URL.Query().Get("sheet")
 
 		flag := true
-		for i, d := range classes {
-			if strings.Trim(i, " ") == strings.Trim(sheet, " ") {
-				for _, k := range d {
-					if class == k {
-						flag = false
-					}
-				}
-				break
+		for _, d := range classes[sheet] {
+			if class == d {
+				flag = false
 			}
 		}
 		if flag {
@@ -105,6 +100,5 @@ func main() {
 	http.Handle("/static/", http.StripPrefix("/static/", fs))
 
 	fmt.Println("Server Running at http://localhost:3000")
-	err := http.ListenAndServe(":3000", nil)
-	utils.HandleError(err)
+	utils.HandleError(http.ListenAndServe(":3000", nil))
 }
