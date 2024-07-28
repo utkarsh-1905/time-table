@@ -11,6 +11,8 @@ services:
     restart: always
 
 networks:
+  bridge:
+    driver: bridge
   web:
     name: web
     external: true
