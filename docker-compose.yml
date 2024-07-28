@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  time-table:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+      - bridge
+      - web
+    restart: always
+
+networks:
+  web:
+    name: web
+    external: true
