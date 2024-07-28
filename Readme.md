@@ -12,7 +12,7 @@
 
 ### Collaborators
 
-<!-- readme: utkarsh-1905,nimishmedatwal,dgbkn,contributors -start -->
+<!-- readme: utkarsh-1905,nimishmedatwal,dgbkn,SmartKapila,contributors -start -->
 <table>
 <tr>
     <td align="center">

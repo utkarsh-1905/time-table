@@ -153327,7 +153327,399 @@
 					"color": "success"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS G317 ",
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": " 8:50:am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "9:40:am",
+					"color": "dark"
+				},
+				{
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/MNS/ANB-RA/RGB\nGAMING LAB/IS1 LAB/PG LAB/DBMS1 LAB/ES1 LAB ",
+					"color": ""
+				},
+				{
+					"course": "COMPILER CONSTRUCTION GC-2 ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "UCS760P/UCS750P/SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/COMPUTATIONAL NUMBER THEORY\nSR/NAA/GS/ MR\nPG ACTIVITY SPACE-2/NS1 LAB/GC1 LAB/GC2 LAB ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "10:30:am",
+					"color": "dark"
+				},
+				{
+					"course": "Lab Continue ",
+					"color": ""
+				},
+				{
+					"course": "LAB GEK ",
+					"color": ""
+				},
+				{
+					"course": "UHU004 P E107 ",
+					"color": ""
+				},
+				{
+					"course": "Lab Continue ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "11:20am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "LAB STP ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "12:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
+					"color": "danger"
+				},
+				{
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "1:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
+					"color": "danger"
+				},
+				{
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
+					"color": "danger"
+				},
+				{
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "1:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "COGNITIVE COMPUTING T106",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "2:40pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "3:30pm",
+					"color": "dark"
+				},
+				{
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "4:20pm",
+					"color": "dark"
+				},
+				{
+					"course": "COGNITIVE COMPUTING T106",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "5:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE\nPL4 LAB\nKUC ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "Lab Continue ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			]
+		],
+		"4Q13": [
+			[
+				{
+					"course": "Timings",
+					"color": "dark"
+				},
+				{
+					"course": "Monday",
+					"color": "dark"
+				},
+				{
+					"course": "Tuesday",
+					"color": "dark"
+				},
+				{
+					"course": "Wednesday",
+					"color": "dark"
+				},
+				{
+					"course": "Thursday",
+					"color": "dark"
+				},
+				{
+					"course": "Friday",
+					"color": "dark"
+				}
+			],
+			[
+				{
+					"course": "8:00am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "HUMANITIES FOR ENGINEERS B223 ",
 					"color": ""
 				},
 				{
@@ -153353,7 +153745,7 @@
 					"color": "success"
 				},
 				{
-					"course": "LAB LC3 ",
+					"course": "LAB LC4 ",
 					"color": ""
 				},
 				{
@@ -153387,8 +153779,8 @@
 					"color": ""
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION GC-1 ",
+					"color": ""
 				}
 			],
 			[
@@ -153413,8 +153805,8 @@
 					"color": ""
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "LAB SKH ",
+					"color": ""
 				}
 			],
 			[
@@ -153423,8 +153815,8 @@
 					"color": "dark"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION GC-2 ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "HUMANITIES FOR ENGINEERS T106",
@@ -153449,8 +153841,8 @@
 					"color": "dark"
 				},
 				{
-					"course": "LAB SCS-RA ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301 ",
@@ -153678,398 +154070,6 @@
 				}
 			]
 		],
-		"4Q13": [
-			[
-				{
-					"course": "Timings",
-					"color": "dark"
-				},
-				{
-					"course": "Monday",
-					"color": "dark"
-				},
-				{
-					"course": "Tuesday",
-					"color": "dark"
-				},
-				{
-					"course": "Wednesday",
-					"color": "dark"
-				},
-				{
-					"course": "Thursday",
-					"color": "dark"
-				},
-				{
-					"course": "Friday",
-					"color": "dark"
-				}
-			],
-			[
-				{
-					"course": "8:00am",
-					"color": "dark"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "COMPILER CONSTRUCTION GC-1 ",
-					"color": ""
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": " 8:50:am",
-					"color": "dark"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "LAB DIS-RA ",
-					"color": ""
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "9:40:am",
-					"color": "dark"
-				},
-				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/RKT/KNP-RA/RGB\nGAMING LAB/IS1 LAB/DT LAB/DBMS2 LAB/ES1 LAB ",
-					"color": ""
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "UCS760P/UCS750P/SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/COMPUTATIONAL NUMBER THEORY\nSR/NAA/GS/ MR\nPG ACTIVITY SPACE-2/NS1 LAB/GC1 LAB/GC2 LAB ",
-					"color": ""
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "10:30:am",
-					"color": "dark"
-				},
-				{
-					"course": "Lab Continue ",
-					"color": ""
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "Lab Continue ",
-					"color": ""
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "11:20am",
-					"color": "dark"
-				},
-				{
-					"course": "HUMANITIES FOR ENGINEERS E107 ",
-					"color": ""
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "12:10pm",
-					"color": "dark"
-				},
-				{
-					"course": "LAB STP ",
-					"color": ""
-				},
-				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
-					"color": "danger"
-				},
-				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
-					"color": "danger"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "1:00pm",
-					"color": "dark"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
-					"color": "danger"
-				},
-				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
-					"color": "danger"
-				},
-				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "1:50pm",
-					"color": "dark"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "COGNITIVE COMPUTING T106",
-					"color": "danger"
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "2:40pm",
-					"color": "dark"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "3:30pm",
-					"color": "dark"
-				},
-				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "4:20pm",
-					"color": "dark"
-				},
-				{
-					"course": "COGNITIVE COMPUTING T106",
-					"color": "danger"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "5:10pm",
-					"color": "dark"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE\nPL4 LAB\nKUC ",
-					"color": ""
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "6:00pm",
-					"color": "dark"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "Lab Continue ",
-					"color": ""
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			],
-			[
-				{
-					"course": "6:50pm",
-					"color": "dark"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "",
-					"color": "success"
-				}
-			]
-		],
 		"4Q14": [
 			[
 				{
@@ -154111,12 +154111,12 @@
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS G123 ",
+					"color": ""
 				},
 				{
-					"course": "COMPILER CONSTRUCTION GC-2 ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -154137,12 +154137,12 @@
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "LAB LC7 ",
+					"color": ""
 				},
 				{
-					"course": "LAB JBD ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -154155,12 +154155,12 @@
 					"color": "dark"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/RKT/KNP-RA/RGB\nGAMING LAB/IS1 LAB/DT LAB/DBMS2 LAB/ES1 LAB ",
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/SJ/SMG/RGB\nGAMING LAB/IS1 LAB/ML LAB/IoT LAB/ES1 LAB ",
 					"color": ""
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COGNITIVE COMPUTING T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -154171,8 +154171,8 @@
 					"color": ""
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION GC-2 ",
+					"color": ""
 				}
 			],
 			[
@@ -154185,8 +154185,8 @@
 					"color": ""
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -154197,8 +154197,8 @@
 					"color": ""
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "LAB AKU ",
+					"color": ""
 				}
 			],
 			[
@@ -154211,20 +154211,20 @@
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				}
 			],
 			[
@@ -154245,12 +154245,12 @@
 					"color": "danger"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COGNITIVE COMPUTING L T106",
+					"color": ""
 				}
 			],
 			[
@@ -154263,16 +154263,16 @@
 					"color": "success"
 				},
 				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY GS/RGB/SR/NAA/MR ",
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
 					"color": "danger"
 				},
 				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY GS/RGB/SR/NAA/MR ",
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
 					"color": "danger"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -154297,8 +154297,8 @@
 					"color": "success"
 				},
 				{
-					"course": "COGNITIVE COMPUTING T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -154323,8 +154323,8 @@
 					"color": "success"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -154337,16 +154337,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS E107 ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -154363,16 +154363,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "COGNITIVE COMPUTING T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
-					"course": "LAB RRM ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
