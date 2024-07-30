@@ -180,22 +180,43 @@
 
       <!-- dom manipulation logic start -->
       <script>
-        var course_local = localStorage.getItem("course");
-        console.log(course_local);
-
-        var tablemainElements = document.getElementsByClassName("tablemain");
-        var textArray = [];
-        for (var i = 0; i < tablemainElements.length; i++) {
-          var text = tablemainElements[i].textContent.trim();
-          var words = text.split(" ");
-          if (words.includes("UMA022")) {
-            var index = words.indexOf("UMA022");
-            words[index] += " (hello)";
-            tablemainElements[i].textContent = words.join(" ");
+        document.addEventListener("DOMContentLoaded", function () {
+          var courseLocal = localStorage.getItem("course");
+          codeArray = [];
+          nameArray = [];
+          if (courseLocal) {
+            var courseArray = JSON.parse(courseLocal);
+            var codeArray = courseArray.map(function (course) {
+              return course.code;
+            });
+            var nameArray = courseArray.map(function (course) {
+              return course.name;
+            });
           }
-          textArray.push(words);
-        }
-        // console.log(textArray);
+
+          var tablemainElements = document.getElementsByClassName("tablemain");
+          var textArray = [];
+          for (var i = 0; i < tablemainElements.length; i++) {
+            var text = tablemainElements[i].textContent.trim();
+            var words = text.split(" ");
+            if (codeArray.some((code) => words.includes(code))) {
+              var indexes = [];
+              codeArray.forEach((code) => {
+                var index = words.findIndex((word) => word === code);
+                if (index !== -1) {
+                  indexes.push(index);
+                }
+              });
+              indexes.forEach((index) => {
+                ci = codeArray.findIndex((code) => code === words[index]);
+                words[index] = words[index] + " (" + nameArray[ci] + ")";
+              });
+
+              tablemainElements[i].textContent = words.join(" ");
+            }
+            textArray.push(words);
+          }
+        });
       </script>
       <!-- dom manipulation logic end -->
     </footer>

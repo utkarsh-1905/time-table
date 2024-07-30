@@ -60,8 +60,8 @@
           var courseCode = document.getElementById("courseCode").value;
           var courseName = document.getElementById("courseName").value;
           var course = {
-            code: courseCode,
-            name: courseName,
+            code: courseCode.trim(),
+            name: courseName.trim(),
           };
           let courseLocal = localStorage.getItem("course");
           courseArray = [];
@@ -69,7 +69,6 @@
             courseArray = JSON.parse(courseLocal);
           }
           courseArray.push(course);
-          console.log(courseArray);
           localStorage.setItem("course", JSON.stringify(courseArray));
           alert("Course saved successfully!");
           document.getElementById("courseForm").reset();
