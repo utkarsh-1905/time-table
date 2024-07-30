@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add course name</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-dark">
+    <div
+      class="d-flex flex-column justify-content-center align-items-center vh-100"
+    >
+      <form id="courseForm">
+        <div class="form-group">
+          <label for="courseCode text-white"
+            ><p class="text-white">Course Code:</p></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="courseCode"
+            name="courseCode"
+            required
+          />
+        </div>
+        <div class="form-group mt-2">
+          <label for="courseName text-white"
+            ><p class="text-white">Course Name:</p></label
+          >
+          <input
+            type="text"
+            class="form-control"
+            id="courseName"
+            name="courseName"
+            required
+          />
+        </div>
+        <button type="submit" class="btn btn-primary w-100 mt-2">Save</button>
+      </form>
+      <a href="/" class="text-center text-white mt-4 btn btn-outline-secondary"
+        >Go to home</a
+      >
+    </div>
+
+    <script>
+      document
+        .getElementById("courseForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          var courseCode = document.getElementById("courseCode").value;
+          var courseName = document.getElementById("courseName").value;
+          var course = {
+            code: courseCode,
+            name: courseName,
+          };
+          localStorage.setItem("course", JSON.stringify(course));
+          alert("Course saved successfully!");
+          document.getElementById("courseForm").reset();
+        });
+    </script>
+  </body>
+</html>

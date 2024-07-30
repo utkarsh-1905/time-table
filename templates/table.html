@@ -178,6 +178,24 @@
           <img src="https://contrib.rocks/image?repo=utkarsh-1905/time-table" />
         </a>
       </p>
+      <script>
+        // var course_local = localStorage.getItem("course");
+        // console.log(course_local);
+
+        var tablemainElements = document.getElementsByClassName("tablemain");
+        var textArray = [];
+        for (var i = 0; i < tablemainElements.length; i++) {
+          var text = tablemainElements[i].textContent.trim();
+          var words = text.split(" ");
+          if (words.includes("UMA022")) {
+            var index = words.indexOf("UMA022");
+            words[index] += " (hello)";
+            tablemainElements[i].textContent = words.join(" ");
+          }
+          textArray.push(words);
+        }
+        // console.log(textArray);
+      </script>
     </footer>
   </body>
 </html>

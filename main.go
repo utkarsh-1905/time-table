@@ -33,6 +33,7 @@ func main() {
 	defer dataFile.Close()
 	table, _ := template.ParseFiles("./templates/table.html")
 	home, _ := template.ParseFiles("./templates/home.html")
+	courseNameCode, _ := template.ParseFiles("./templates/course-name-code.html")
 	errorPage, _ := template.ParseFiles("./templates/error.html")
 
 	type HomeData struct {
@@ -94,6 +95,10 @@ func main() {
 			ClassName: class,
 		}
 		table.Execute(w, data)
+	})
+
+	http.HandleFunc("/course", func(w http.ResponseWriter, r *http.Request) {
+		courseNameCode.Execute(w, h)
 	})
 
 	fs := http.FileServer(http.Dir("assets/"))
