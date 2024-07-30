@@ -148,7 +148,6 @@
             "
           >
             {{.Course}}
-            <p class="inserted-course-name"></p>
           </td>
           {{end}}
         </tr>
@@ -178,6 +177,8 @@
           <img src="https://contrib.rocks/image?repo=utkarsh-1905/time-table" />
         </a>
       </p>
+
+      <!-- dom manipulation logic start -->
       <script>
         var course_local = localStorage.getItem("course");
         console.log(course_local);
@@ -196,6 +197,7 @@
         }
         // console.log(textArray);
       </script>
+      <!-- dom manipulation logic end -->
     </footer>
   </body>
 </html>

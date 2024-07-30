@@ -97,6 +97,7 @@ func main() {
 		table.Execute(w, data)
 	})
 
+	// handler to serve add course page
 	http.HandleFunc("/course", func(w http.ResponseWriter, r *http.Request) {
 		courseNameCode.Execute(w, h)
 	})
