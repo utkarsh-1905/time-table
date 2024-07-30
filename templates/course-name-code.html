@@ -63,7 +63,14 @@
             code: courseCode,
             name: courseName,
           };
-          localStorage.setItem("course", JSON.stringify(course));
+          let courseLocal = localStorage.getItem("course");
+          courseArray = [];
+          if (courseLocal) {
+            courseArray = JSON.parse(courseLocal);
+          }
+          courseArray.push(course);
+          console.log(courseArray);
+          localStorage.setItem("course", JSON.stringify(courseArray));
           alert("Course saved successfully!");
           document.getElementById("courseForm").reset();
         });
