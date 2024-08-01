@@ -58414,6 +58414,1574 @@
 		]
 	},
 	"2ND YEAR B": {
+		"2 TCD": [
+			[
+				{
+					"course": "Timings",
+					"color": "dark"
+				},
+				{
+					"course": "Monday",
+					"color": "dark"
+				},
+				{
+					"course": "Tuesday",
+					"color": "dark"
+				},
+				{
+					"course": "Wednesday",
+					"color": "dark"
+				},
+				{
+					"course": "Thursday",
+					"color": "dark"
+				},
+				{
+					"course": "Friday",
+					"color": "dark"
+				}
+			],
+			[
+				{
+					"course": "8:00am",
+					"color": "dark"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT101",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": " 8:50:am",
+					"color": "dark"
+				},
+				{
+					"course": "DATA STRUCTURES LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "MECHANICS D115 ",
+					"color": "danger"
+				},
+				{
+					"course": "MECHANICS D115 ",
+					"color": "danger"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES B307 ",
+					"color": "primary"
+				}
+			],
+			[
+				{
+					"course": "9:40:am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT101",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "10:30:am",
+					"color": "dark"
+				},
+				{
+					"course": "SOLIDS AND STRUCTURES F109 ",
+					"color": "danger"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "DATA STRUCTURES LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "SOLIDS AND STRUCTURES F109 ",
+					"color": "danger"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING LT101 ",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "11:20am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "SOLIDS AND STRUCTURES SM ",
+					"color": ""
+				},
+				{
+					"course": "MECHANICS F306 ",
+					"color": "primary"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "12:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "SOLIDS AND STRUCTURES F109 ",
+					"color": "danger"
+				},
+				{
+					"course": "LAB KKH ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "UMA021 L LT101",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "1:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "1:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "DATA STRUCTURES GC-2 ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "UMA021 L LT103",
+					"color": "danger"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT103",
+					"color": "danger"
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) F308/MFT ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "2:40pm",
+					"color": "dark"
+				},
+				{
+					"course": "LAB RMT ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DATA STRUCTURES LT103 ",
+					"color": "danger"
+				},
+				{
+					"course": "LAB PKC/APC-7 ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "3:30pm",
+					"color": "dark"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING GC-2 ",
+					"color": ""
+				},
+				{
+					"course": "UMA021 P IS2 ",
+					"color": ""
+				},
+				{
+					"course": "SOLIDS AND STRUCTURES F101 ",
+					"color": "primary"
+				},
+				{
+					"course": "UMA021 L LT103",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "4:20pm",
+					"color": "dark"
+				},
+				{
+					"course": "LAB SRR ",
+					"color": ""
+				},
+				{
+					"course": "LAB TA-1 ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) GTS/PKN ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "5:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			]
+		],
+		"2 UNSW": [
+			[
+				{
+					"course": "Timings",
+					"color": "dark"
+				},
+				{
+					"course": "Monday",
+					"color": "dark"
+				},
+				{
+					"course": "Tuesday",
+					"color": "dark"
+				},
+				{
+					"course": "Wednesday",
+					"color": "dark"
+				},
+				{
+					"course": "Thursday",
+					"color": "dark"
+				},
+				{
+					"course": "Friday",
+					"color": "dark"
+				}
+			],
+			[
+				{
+					"course": "8:00am",
+					"color": "dark"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT101",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS EL ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B302 ",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": " 8:50:am",
+					"color": "dark"
+				},
+				{
+					"course": "DATA STRUCTURES LT101",
+					"color": "danger"
+				},
+				{
+					"course": "COMPUTER AND COMMUNICATION NETWORKS B301 ",
+					"color": "danger"
+				},
+				{
+					"course": "LAB MFD ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES B311 ",
+					"color": "primary"
+				}
+			],
+			[
+				{
+					"course": "9:40:am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING LT101",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT101",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "10:30:am",
+					"color": "dark"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B302 ",
+					"color": "danger"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING LT101",
+					"color": "danger"
+				},
+				{
+					"course": "DATA STRUCTURES LT101",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING LT101",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "11:20am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "UMA021 P NA-2 ",
+					"color": ""
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B302 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "COMPUTER AND COMMUNICATION NETWORKS B301 ",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "12:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B311 ",
+					"color": "primary"
+				},
+				{
+					"course": "LAB PRO ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "COMPUTER AND COMMUNICATION NETWORKS B301 ",
+					"color": "danger"
+				},
+				{
+					"course": "UMA021 L LT101",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "1:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "1:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "DATA STRUCTURES GC-2 ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "UMA021 L LT103",
+					"color": "danger"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT103",
+					"color": "danger"
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) F308/MFT ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "2:40pm",
+					"color": "dark"
+				},
+				{
+					"course": "LAB RMT ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DATA STRUCTURES LT103",
+					"color": "danger"
+				},
+				{
+					"course": "LAB PKC/APC-7 ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "3:30pm",
+					"color": "dark"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING GC-2 ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "UMA021 L LT103",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "4:20pm",
+					"color": "dark"
+				},
+				{
+					"course": "LAB SRR ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) GTS/PKN ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "5:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			]
+		],
+		"2 UoQ": [
+			[
+				{
+					"course": "Timings",
+					"color": "dark"
+				},
+				{
+					"course": "Monday",
+					"color": "dark"
+				},
+				{
+					"course": "Tuesday",
+					"color": "dark"
+				},
+				{
+					"course": "Wednesday",
+					"color": "dark"
+				},
+				{
+					"course": "Thursday",
+					"color": "dark"
+				},
+				{
+					"course": "Friday",
+					"color": "dark"
+				}
+			],
+			[
+				{
+					"course": "8:00am",
+					"color": "dark"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "SOFTWARE ENGINEERING GC-1 ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "SOFTWARE ENGINEERING B307 ",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": " 8:50:am",
+					"color": "dark"
+				},
+				{
+					"course": "DATA STRUCTURES LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "LAB HMK ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES B307 ",
+					"color": "primary"
+				}
+			],
+			[
+				{
+					"course": "9:40:am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT101 ",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "10:30:am",
+					"color": "dark"
+				},
+				{
+					"course": "OPERATING SYSTEMS LT102 ",
+					"color": "danger"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "DATA STRUCTURES LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING LT101 ",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "11:20am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "12:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "SOFTWARE ENGINEERING B311 ",
+					"color": "danger"
+				},
+				{
+					"course": "SOFTWARE ENGINEERING B311 ",
+					"color": "danger"
+				},
+				{
+					"course": "UMA021 L LT101 ",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "1:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "1:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "OBJECT ORIENTED PROGRAMMING GC-1 ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "UMA021 L LT103 ",
+					"color": "danger"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT103 ",
+					"color": "danger"
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) F307/C ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "2:40pm",
+					"color": "dark"
+				},
+				{
+					"course": "LAB ISP-RA ",
+					"color": ""
+				},
+				{
+					"course": "OPERATING SYSTEMS LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "OPERATING SYSTEMS LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "DATA STRUCTURES LT103 ",
+					"color": "danger"
+				},
+				{
+					"course": "LAB GTS/APC6 ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "3:30pm",
+					"color": "dark"
+				},
+				{
+					"course": "DATA STRUCTURES GC-1 ",
+					"color": ""
+				},
+				{
+					"course": "UMA021 P IS2 ",
+					"color": ""
+				},
+				{
+					"course": "OPERATING SYSTEMS PL-3 ",
+					"color": ""
+				},
+				{
+					"course": "UMA021 L LT103 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "4:20pm",
+					"color": "dark"
+				},
+				{
+					"course": "LAB HSM-RA ",
+					"color": ""
+				},
+				{
+					"course": "LAB BHU ",
+					"color": ""
+				},
+				{
+					"course": "LAB PRY-RA ",
+					"color": ""
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) LT101",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "5:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "UHU050 L PKN",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			]
+		],
+		"2 UoT": [
+			[
+				{
+					"course": "Timings",
+					"color": "dark"
+				},
+				{
+					"course": "Monday",
+					"color": "dark"
+				},
+				{
+					"course": "Tuesday",
+					"color": "dark"
+				},
+				{
+					"course": "Wednesday",
+					"color": "dark"
+				},
+				{
+					"course": "Thursday",
+					"color": "dark"
+				},
+				{
+					"course": "Friday",
+					"color": "dark"
+				}
+			],
+			[
+				{
+					"course": "8:00am",
+					"color": "dark"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT101",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DATA STRUCTURES (WITH JAVA) B311 ",
+					"color": "danger"
+				},
+				{
+					"course": "DATA STRUCTURES (WITH JAVA) B311 ",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": " 8:50:am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES B311 ",
+					"color": "primary"
+				}
+			],
+			[
+				{
+					"course": "9:40:am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DATA STRUCTURES (WITH JAVA) B311 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT101",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "10:30:am",
+					"color": "dark"
+				},
+				{
+					"course": "OPERATING SYSTEMS LT102 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DIGITAL SYSTEM DESIGN B311 ",
+					"color": "primary"
+				}
+			],
+			[
+				{
+					"course": "11:20am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "UMA021 P NA-2 ",
+					"color": ""
+				},
+				{
+					"course": "DIGITAL SYSTEM DESIGN B307 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "12:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "DIGITAL SYSTEM DESIGN B307 ",
+					"color": "danger"
+				},
+				{
+					"course": "LAB PRO ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DIGITAL SYSTEM DESIGN B307 ",
+					"color": "danger"
+				},
+				{
+					"course": "UMA021 L LT101",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "1:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "1:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "UMA021 L LT103",
+					"color": "danger"
+				},
+				{
+					"course": "DISCRETE MATHEMATICAL STRUCTURES LT103",
+					"color": "danger"
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) F308/MFT ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "2:40pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "OPERATING SYSTEMS LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "OPERATING SYSTEMS LT101 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "LAB PKC/APC-7 ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "3:30pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "DIGITAL SYSTEM DESIGN C ",
+					"color": ""
+				},
+				{
+					"course": "OPERATING SYSTEMS PL-3 ",
+					"color": ""
+				},
+				{
+					"course": "UMA021 L LT103",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "4:20pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "LAB APC6 ",
+					"color": ""
+				},
+				{
+					"course": "LAB PRY-RA ",
+					"color": ""
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) GTS/PKN ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "5:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			]
+		],
 		"2C11": [
 			[
 				{
@@ -77148,6 +78716,790 @@
 				},
 				{
 					"course": "LAB MB ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "5:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) LT102",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			]
+		],
+		"2NC TCD": [
+			[
+				{
+					"course": "Timings",
+					"color": "dark"
+				},
+				{
+					"course": "Monday",
+					"color": "dark"
+				},
+				{
+					"course": "Tuesday",
+					"color": "dark"
+				},
+				{
+					"course": "Wednesday",
+					"color": "dark"
+				},
+				{
+					"course": "Thursday",
+					"color": "dark"
+				},
+				{
+					"course": "Friday",
+					"color": "dark"
+				}
+			],
+			[
+				{
+					"course": "8:00am",
+					"color": "dark"
+				},
+				{
+					"course": "ENGINEERING MATERIALS B311 ",
+					"color": "primary"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "MEASUREMENT SCIENCE AND TECHNIQUES IOT ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS EL ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": " 8:50:am",
+					"color": "dark"
+				},
+				{
+					"course": "ENGINEERING MATERIALS B304 ",
+					"color": "danger"
+				},
+				{
+					"course": "COMPUTER AND COMMUNICATION NETWORKS B301 ",
+					"color": "danger"
+				},
+				{
+					"course": "LAB MIS ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "LAB APC8 ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "9:40:am",
+					"color": "dark"
+				},
+				{
+					"course": "MEASUREMENT SCIENCE AND TECHNIQUES F201 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "NUMERICAL ANALYSIS F109 ",
+					"color": "danger"
+				},
+				{
+					"course": "ENGINEERING MATERIALS B308 ",
+					"color": "danger"
+				},
+				{
+					"course": "NUMERICAL ANALYSIS MED CAM ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "10:30:am",
+					"color": "dark"
+				},
+				{
+					"course": "SOLIDS AND STRUCTURES/010 L F109 ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "MEASUREMENT SCIENCE AND TECHNIQUES F201 ",
+					"color": "danger"
+				},
+				{
+					"course": "SOLIDS AND STRUCTURES/010 L F109 ",
+					"color": ""
+				},
+				{
+					"course": "LAB AKL ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "11:20am",
+					"color": "dark"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B301 ",
+					"color": "danger"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B301 ",
+					"color": "danger"
+				},
+				{
+					"course": "SOLIDS AND STRUCTURES/010 P SM ",
+					"color": ""
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B301 ",
+					"color": "danger"
+				},
+				{
+					"course": "COMPUTER AND COMMUNICATION NETWORKS B301 ",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "12:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "SOLIDS AND STRUCTURES/010 L F109 ",
+					"color": ""
+				},
+				{
+					"course": "LAB NF-2",
+					"color": ""
+				},
+				{
+					"course": "COMPUTER AND COMMUNICATION NETWORKS B301 ",
+					"color": "danger"
+				},
+				{
+					"course": "MEASUREMENT SCIENCE AND TECHNIQUES F201 ",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "1:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "1:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "ENGINEERING MATERIALS B304 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "2:40pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "3:30pm",
+					"color": "dark"
+				},
+				{
+					"course": "NUMERICAL ANALYSIS F109 ",
+					"color": "danger"
+				},
+				{
+					"course": "NUMERICAL ANALYSIS F107 ",
+					"color": "danger"
+				},
+				{
+					"course": "SOLIDS AND STRUCTURES/010 T F101 ",
+					"color": ""
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) C/F307 ",
+					"color": ""
+				},
+				{
+					"course": "ENGINEERING MATERIALS LAB-1 ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "4:20pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B311 ",
+					"color": "primary"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "LAB PF6/ ",
+					"color": ""
+				},
+				{
+					"course": "LC-3 AKC",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "5:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) LT102 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "6:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			]
+		],
+		"2NC UNSW": [
+			[
+				{
+					"course": "Timings",
+					"color": "dark"
+				},
+				{
+					"course": "Monday",
+					"color": "dark"
+				},
+				{
+					"course": "Tuesday",
+					"color": "dark"
+				},
+				{
+					"course": "Wednesday",
+					"color": "dark"
+				},
+				{
+					"course": "Thursday",
+					"color": "dark"
+				},
+				{
+					"course": "Friday",
+					"color": "dark"
+				}
+			],
+			[
+				{
+					"course": "8:00am",
+					"color": "dark"
+				},
+				{
+					"course": "ENGINEERING MATERIALS B109 ",
+					"color": "primary"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS EL ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": " 8:50:am",
+					"color": "dark"
+				},
+				{
+					"course": "ENGINEERING MATERIALS B304",
+					"color": "danger"
+				},
+				{
+					"course": "COMPUTER AND COMMUNICATION NETWORKS B301",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "LAB APC8 ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "9:40:am",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "MANUFACTURING TECHNIQUES B311 ",
+					"color": "danger"
+				},
+				{
+					"course": "NUMERICAL ANALYSIS F109",
+					"color": "danger"
+				},
+				{
+					"course": "ENGINEERING MATERIALS B308",
+					"color": "danger"
+				},
+				{
+					"course": "NUMERICAL ANALYSIS MED CAM ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "10:30:am",
+					"color": "dark"
+				},
+				{
+					"course": "INFORMATION AND COMMUNICATION THEORY B107 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "LAB AKL ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "11:20am",
+					"color": "dark"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B301",
+					"color": "danger"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B301",
+					"color": "danger"
+				},
+				{
+					"course": "MANUFACTURING TECHNIQUES B311 ",
+					"color": "danger"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B301",
+					"color": "danger"
+				},
+				{
+					"course": "COMPUTER AND COMMUNICATION NETWORKS B301",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "12:10pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "COMPUTER AND COMMUNICATION NETWORKS B301",
+					"color": "danger"
+				},
+				{
+					"course": "INFORMATION AND COMMUNICATION THEORY B311 ",
+					"color": "danger"
+				}
+			],
+			[
+				{
+					"course": "1:00pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "1:50pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "ENGINEERING MATERIALS B304",
+					"color": "danger"
+				},
+				{
+					"course": "MANUFACTURING TECHNIQUES MFT/WORK SHOP ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "2:40pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "INFORMATION AND COMMUNICATION THEORY B311 ",
+					"color": "primary"
+				},
+				{
+					"course": "LAB MA/DMG ",
+					"color": ""
+				},
+				{
+					"course": "INFORMATION AND COMMUNICATION THEORY B109 ",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				}
+			],
+			[
+				{
+					"course": "3:30pm",
+					"color": "dark"
+				},
+				{
+					"course": "NUMERICAL ANALYSIS F109",
+					"color": "danger"
+				},
+				{
+					"course": "NUMERICAL ANALYSIS F107",
+					"color": "danger"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "ENGINEERING DESIGN PROJECT-I (MANGONEL) C/F307 ",
+					"color": ""
+				},
+				{
+					"course": "ENGINEERING MATERIALS LAB-1 ",
+					"color": ""
+				}
+			],
+			[
+				{
+					"course": "4:20pm",
+					"color": "dark"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "ANALOG ELECTRONIC CIRCUITS B311",
+					"color": "primary"
+				},
+				{
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "LAB PF6/ ",
+					"color": ""
+				},
+				{
+					"course": "LC-3 AKC",
 					"color": ""
 				}
 			],
@@ -153719,12 +156071,12 @@
 					"color": "success"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS B223 ",
-					"color": ""
-				},
-				{
 					"course": "",
 					"color": "success"
+				},
+				{
+					"course": "COMPILER CONSTRUCTION GC-1 ",
+					"color": ""
 				},
 				{
 					"course": "",
@@ -153745,12 +156097,12 @@
 					"color": "success"
 				},
 				{
-					"course": "LAB LC4 ",
-					"color": ""
-				},
-				{
 					"course": "",
 					"color": "success"
+				},
+				{
+					"course": "LAB DIS-RA ",
+					"color": ""
 				},
 				{
 					"course": "",
@@ -153763,12 +156115,12 @@
 					"color": "dark"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/SJ/SMG/RGB\nGAMING LAB/IS1 LAB/ML LAB/IoT LAB/ES1 LAB ",
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/RKT/KNP-RA/RGB\nGAMING LAB/IS1 LAB/DT LAB/DBMS2 LAB/ES1 LAB ",
 					"color": ""
 				},
 				{
-					"course": "COGNITIVE COMPUTING T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -153779,8 +156131,8 @@
 					"color": ""
 				},
 				{
-					"course": "COMPILER CONSTRUCTION GC-1 ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				}
 			],
 			[
@@ -153793,8 +156145,8 @@
 					"color": ""
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -153805,8 +156157,8 @@
 					"color": ""
 				},
 				{
-					"course": "LAB SKH ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				}
 			],
 			[
@@ -153815,24 +156167,24 @@
 					"color": "dark"
 				},
 				{
-					"course": "",
-					"color": "success"
-				},
-				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
+					"course": "HUMANITIES FOR ENGINEERS E107 ",
+					"color": ""
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
 				}
 			],
 			[
@@ -153841,24 +156193,24 @@
 					"color": "dark"
 				},
 				{
+					"course": "LAB STP ",
+					"color": ""
+				},
+				{
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
+					"color": "danger"
+				},
+				{
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
+					"color": "danger"
+				},
+				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301 ",
-					"color": "danger"
-				},
-				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301 ",
-					"color": "danger"
-				},
-				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
-				},
-				{
-					"course": "COGNITIVE COMPUTING L T106",
-					"color": ""
+					"course": "",
+					"color": "success"
 				}
 			],
 			[
@@ -153871,16 +156223,16 @@
 					"color": "success"
 				},
 				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402 ",
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
 					"color": "danger"
 				},
 				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402 ",
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
 					"color": "danger"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -153905,8 +156257,8 @@
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COGNITIVE COMPUTING T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -153931,8 +156283,8 @@
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -153945,16 +156297,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -153971,16 +156323,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COGNITIVE COMPUTING T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -154495,8 +156847,8 @@
 					"color": "dark"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION GC-1 ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -154521,8 +156873,8 @@
 					"color": "dark"
 				},
 				{
-					"course": "LAB CHK-RA ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -154547,16 +156899,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/MNS/ANB-RA/RGB\nGAMING LAB/IS1 LAB/PG LAB/DBMS1 LAB/ES1 LAB ",
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/RKT/KNP-RA/RGB\nGAMING LAB/IS1 LAB/DT LAB/DBMS2 LAB/ES1 LAB ",
 					"color": ""
-				},
-				{
-					"course": "COGNITIVE COMPUTING T106",
-					"color": "danger"
 				},
 				{
 					"course": "",
 					"color": "success"
+				},
+				{
+					"course": "COMPILER CONSTRUCTION GC-1 ",
+					"color": ""
 				},
 				{
 					"course": "UCS760P/UCS750P/SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/COMPUTATIONAL NUMBER THEORY\nSR/NAA/GS/ MR\nPG ACTIVITY SPACE-2/NS1 LAB/GC1 LAB/GC2 LAB ",
@@ -154577,12 +156929,12 @@
 					"color": ""
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
-				},
-				{
 					"course": "",
 					"color": "success"
+				},
+				{
+					"course": "LAB RUB ",
+					"color": ""
 				},
 				{
 					"course": "Lab Continue ",
@@ -154603,20 +156955,20 @@
 					"color": "success"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				}
 			],
 			[
@@ -154629,20 +156981,20 @@
 					"color": "success"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS SSH/NRJ/RKT/KUC/SMG ",
 					"color": "danger"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS SSH/NRJ/RKT/KUC/SMG ",
 					"color": "danger"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
-					"course": "COGNITIVE COMPUTING L T106",
-					"color": ""
+					"course": "",
+					"color": "success"
 				}
 			],
 			[
@@ -154655,16 +157007,16 @@
 					"color": "success"
 				},
 				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY GS/RGB/SR/NAA/MR ",
 					"color": "danger"
 				},
 				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY GS/RGB/SR/NAA/MR ",
 					"color": "danger"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -154677,8 +157029,8 @@
 					"color": "dark"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS E107 ",
+					"color": ""
 				},
 				{
 					"course": "",
@@ -154689,8 +157041,8 @@
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COGNITIVE COMPUTING T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -154703,8 +157055,8 @@
 					"color": "dark"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "LAB LC3 ",
+					"color": ""
 				},
 				{
 					"course": "",
@@ -154715,8 +157067,8 @@
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -154729,16 +157081,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS E107 ",
-					"color": ""
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -154755,16 +157107,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COGNITIVE COMPUTING T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "LAB LC2 ",
-					"color": ""
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
@@ -154939,24 +157291,24 @@
 					"color": "dark"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/RKT/KNP-RA/RGB\nGAMING LAB/IS1 LAB/DT LAB/DBMS2 LAB/ES1 LAB ",
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/CLOUD \u0026 DEVOPS/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS\nSSH/KRK-RA/MNS/ANB-RA/RGB\nGAMING LAB/IS1 LAB/PG LAB/DBMS1 LAB/ES1 LAB ",
 					"color": ""
+				},
+				{
+					"course": "COGNITIVE COMPUTING T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
 					"color": "success"
-				},
-				{
-					"course": "COMPILER CONSTRUCTION GC-2 ",
-					"color": ""
 				},
 				{
 					"course": "UCS760P/UCS750P/SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/COMPUTATIONAL NUMBER THEORY\nSR/NAA/GS/ MR\nPG ACTIVITY SPACE-2/NS1 LAB/GC1 LAB/GC2 LAB ",
 					"color": ""
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS E107 ",
+					"color": ""
 				}
 			],
 			[
@@ -154969,20 +157321,20 @@
 					"color": ""
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
-					"course": "LAB KAR ",
-					"color": ""
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "Lab Continue ",
 					"color": ""
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "LAB LC4 ",
+					"color": ""
 				}
 			],
 			[
@@ -154995,20 +157347,20 @@
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
 				},
 				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COMPILER CONSTRUCTION T106",
+					"color": "danger"
 				}
 			],
 			[
@@ -155021,20 +157373,20 @@
 					"color": "success"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS SSH/NRJ/RKT/KUC/SMG ",
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
 					"color": "danger"
 				},
 				{
-					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS SSH/NRJ/RKT/KUC/SMG ",
+					"course": "AUGMENTED AND VIRTUAL REALITY/BLOCKCHAIN TECHNOLOGY AND APPLICATIONS/DEEP LEARNING/QUANTITATIVE AND STATISTICAL METHODS FOR FINANCE/CLOUD \u0026 DEVOPS LP109/LP108/LT403/LP110/LT301",
 					"color": "danger"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "HUMANITIES FOR ENGINEERS T106",
+					"color": "danger"
 				},
 				{
-					"course": "",
-					"color": "success"
+					"course": "COGNITIVE COMPUTING L T106",
+					"color": ""
 				}
 			],
 			[
@@ -155047,16 +157399,16 @@
 					"color": "success"
 				},
 				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY GS/RGB/SR/NAA/MR ",
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
 					"color": "danger"
 				},
 				{
-					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY GS/RGB/SR/NAA/MR ",
+					"course": "SYSTEM PROVISIONING AND CONFIGURATION MANAGEMENT/CONVERSATIONAL AI: SPEECH PROCESSING AND SYNTHESIS/UCS760L/UCS750L/COMPUTATIONAL NUMBER THEORY LT401/LP108/PG ACTIVITY SPACE-2/LP110/LT402",
 					"color": "danger"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -155069,10 +157421,6 @@
 					"color": "dark"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS E102 ",
-					"color": ""
-				},
-				{
 					"course": "",
 					"color": "success"
 				},
@@ -155081,8 +157429,12 @@
 					"color": "success"
 				},
 				{
-					"course": "COGNITIVE COMPUTING T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -155095,10 +157447,6 @@
 					"color": "dark"
 				},
 				{
-					"course": "LAB LC2 ",
-					"color": ""
-				},
-				{
 					"course": "",
 					"color": "success"
 				},
@@ -155107,8 +157455,12 @@
 					"color": "success"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
+					"course": "",
+					"color": "success"
+				},
+				{
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -155121,16 +157473,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
-				},
-				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "HUMANITIES FOR ENGINEERS T106",
-					"color": "danger"
+					"course": "COMPILER CONSTRUCTION ES-2 ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
@@ -155147,16 +157499,16 @@
 					"color": "dark"
 				},
 				{
-					"course": "COGNITIVE COMPUTING T106",
-					"color": "danger"
-				},
-				{
 					"course": "",
 					"color": "success"
 				},
 				{
-					"course": "COMPILER CONSTRUCTION T106",
-					"color": "danger"
+					"course": "LAB AA ",
+					"color": ""
+				},
+				{
+					"course": "",
+					"color": "success"
 				},
 				{
 					"course": "",
