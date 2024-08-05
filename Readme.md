@@ -49,6 +49,13 @@
             <br />
             <sub><b>Mankirat Singh</b></sub>
         </a>
+        </td>
+        <td align="center">
+        <a href="https://github.com/madhavkapila">
+            <img src="https://avatars.githubusercontent.com/u/142913289?v=4" width="100;" alt="utkarsh-1905"/>
+            <br />
+            <sub><b>Madhav Kapila</b></sub>
+        </a>
     </td></tr>
 </table>
 <!-- readme: utkarsh-1905,nimishmedatwal,dgbkn,contributors -end -->
