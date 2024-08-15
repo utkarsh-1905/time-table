@@ -54,7 +54,7 @@
         <a href="https://github.com/yashrajpahwa">
             <img src="https://avatars.githubusercontent.com/u/59451283?v=4" width="100;" alt="yashrajpahwa"/>
             <br />
-            <sub><b>Yashraj Singh Pahwa</b></sub>
+            <sub><b>Yashraj Pahwa</b></sub>
         </a>
     </td>
     </tr>
