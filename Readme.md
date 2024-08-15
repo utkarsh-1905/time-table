@@ -49,7 +49,15 @@
             <br />
             <sub><b>Mankirat Singh</b></sub>
         </a>
-    </td></tr>
+    </td>
+    <td align="center">
+        <a href="https://github.com/yashrajpahwa">
+            <img src="https://avatars.githubusercontent.com/u/59451283?v=4" width="100;" alt="yashrajpahwa"/>
+            <br />
+            <sub><b>Yashraj Singh Pahwa</b></sub>
+        </a>
+    </td>
+    </tr>
 </table>
 <!-- readme: utkarsh-1905,nimishmedatwal,dgbkn,contributors -end -->
 
