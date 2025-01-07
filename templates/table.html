@@ -55,7 +55,6 @@
       }
 
       @media print {
-      /* Ensure content fits on one page */
         body {
           margin: 0;
           padding: 0;
@@ -75,7 +74,7 @@
 
         .table, .table td {
           font-size: 11px;
-          padding: 3px; 
+          padding: 3px;
           line-height: 1.4;
         }
 
@@ -91,53 +90,30 @@
           text-align: center;
           font-size: 8px;
           margin-top: 10px;
-          padding: 5px;
-          /* white-space: nowrap; */
-          page-break-before: auto;
+          padding: 5px 0;
           line-height: 1;
-          /* overflow: hidden;  */
+          page-break-before: auto;
         }
 
         footer p {
-          margin: 3px 0;
+          margin: 0;
         }
 
-        footer .badge {
-          margin: 0 3px;
-          font-size: 8px;
-        }
-
-        footer a {
-          color: white;
-          text-decoration: none;
+        footer .text-warning {
+          display: none; /* Removes "Project Contributors" line */
         }
 
         footer img {
-          width: 200px; 
-          height: 200px;
-          margin: 0 5px;
-          vertical-align: top;
-        }
-
-        footer .text-warning {
-          font-size: 10px;
-          margin-top: 2px;
-  }
-
-        footer .text-warning {
-          display: none;
-        }
-
-        footer p {
-          line-height: 1.2;
-          display: inline-block;
-          width: 100%;
+          display: block;
+          margin: 0 auto;
+          width: 200px;
+          height: auto;
         }
 
         footer .text-danger {
           font-size: 10px;
           line-height: 1.2;
-          display: inline-block;
+          margin-bottom: 5px;
         }
 
         #timetable {
@@ -156,10 +132,10 @@
         }
 
         footer {
-          margin-top: 10px;
-          max-height: 50px;
+          max-height: 100px; /* Compress banner height */
         }
       }
+
 
 
     </style>
