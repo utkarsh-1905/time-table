@@ -3,41 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <title>{{.ClassName}} Time Table</title>
-    <meta name="title" content="Time Table Generator" />
-    <meta
-      name="description"
-      content="Quick Time Table Generator for Thapar University Students"
-    />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://timetable.mlsctiet.com/" />
-    <meta property="og:title" content="Time Table Generator" />
-    <meta
-      property="og:description"
-      content="Quick Time Table Generator for Thapar University Students"
-    />
-    <meta
-      property="og:image"
-      content="https://www.utkarsh.ninja/favicon-32x32.png"
-    />
-
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://timetable.mlsctiet.com/" />
-    <meta property="twitter:title" content="Time Table Generator" />
-    <meta
-      property="twitter:description"
-      content="Quick Time Table Generator for Thapar University Students"
-    />
-    <meta
-      property="twitter:image"
-      content="https://www.utkarsh.ninja/favicon-32x32.png"
-    />
-
-    <link
-      rel="shortcut icon"
-      href="https://www.utkarsh.ninja/favicon-32x32.png"
-      type="image/x-icon"
-    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -49,65 +14,134 @@
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
+      integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <!-- Google tag (gtag.js) -->
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id=G-SSECP1SFQX"
-  ></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-
-    gtag("config", "G-SSECP1SFQX");
-  </script>
-  <body>
     <style>
-      * {
-        font-family: Verdana, Geneva, Tahoma, sans-serif !important;
-      }
       body {
         background-image: url("/static/table-background.webp");
-        background-size: no-repeat;
+        background-size: cover;
       }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      /* Center the buttons */
+      .button-container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+
       .table-responsive {
         padding: 3%;
-      }
-      ::-webkit-scrollbar {
-        width: 3px;
-        height: 3px;
+        max-width: 90%;
       }
 
-      /* Track */
-      ::-webkit-scrollbar-track {
-        background: #f1f1f1;
+      .contribution-banner {
+        background-color: #212529;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px;
+        margin-top: 20px;
+        font-size: 0.9rem;
       }
 
-      /* Handle */
-      ::-webkit-scrollbar-thumb {
-        background: #494949;
-      }
+      @media print {
+        body {
+          margin: 0;
+          padding: 0;
+          font-family: Arial, sans-serif;
+        }
 
-      /* Handle on hover */
-      ::-webkit-scrollbar-thumb:hover {
-        background: #555;
-      }
-      .tablemain {
-        opacity: 80%;
-      }
-      .tablemain:hover {
-        opacity: 100%;
-      }
-      @media (max-width: 576px) {
-        #table {
-          min-width: 175vw;
+        @page {
+          size: A4 portrait;
+          margin: 0.5in;
+        }
+
+        .table-responsive {
+          width: 100%;
+          max-width: 100%;
+          overflow: visible;
+        }
+
+        .table, .table td {
+          font-size: 11px;
+          padding: 3px;
+          line-height: 1.4;
+        }
+
+        #timetable {
+          margin-bottom: 5px;
+          page-break-before: auto;
+          page-break-after: auto;
+          max-width: 100%;
+        }
+
+        footer {
+          width: 100%;
+          text-align: center;
+          font-size: 8px;
+          margin-top: 10px;
+          padding: 5px 0;
+          line-height: 1;
+          page-break-before: auto;
+        }
+
+        footer p {
+          margin: 0;
+        }
+
+        footer .text-warning {
+          display: none; /* Removes "Project Contributors" line */
+        }
+
+        footer img {
+          display: block;
+          margin: 0 auto;
+          width: 200px;
+          height: auto;
+        }
+
+        footer .text-danger {
+          font-size: 10px;
+          line-height: 1.2;
+          margin-bottom: 5px;
+        }
+
+        #timetable {
+          margin-bottom: 5px;
+          page-break-before: auto; 
+          page-break-after: auto;
+        }
+
+        header {
+          display: none;
+        }
+
+        body {
+          padding: 0;
+          margin: 0;
+        }
+
+        footer {
+          max-height: 100px; /* Compress banner height */
         }
       }
+
+
+
     </style>
+  </head>
+
+  <body>
     <header
       style="
         margin: 1rem auto;
@@ -131,13 +165,20 @@
         />
       </a>
     </header>
-    <div class="table-responsive">
+
+    <!-- Center the Save as PNG and Print buttons -->
+    <div class="button-container">
+      <button id="saveAsPng" class="btn btn-primary">Save as PNG</button>
+      <button id="printPdf" class="btn btn-success">Print to PDF</button>
+    </div>
+
+    <div class="table-responsive" id="timetable">
       <table class="table table-dark table-hover" id="table">
         {{range .Data}}
         <tr class="row">
           {{range .}}
           <td
-            class="bg-{{.Color}} col  tablemain"
+            class="bg-{{.Color}} col tablemain"
             style="
               overflow-x: auto;
               overflow-y: auto;
@@ -154,6 +195,20 @@
         {{end}}
       </table>
     </div>
+
+    <!-- <footer class="footer mt-2 mb-2 pb-2 pt-2 bg-dark">
+      <p style="text-align: center" class="text-danger">
+        Made by Utkarsh Tripathi &nbsp;
+        <a href="https://github.com/utkarsh-1905" class="badge badge-success">Github</a>
+        <a
+          href="https://www.linkedin.com/in/utkarsh-tripathi-80a0ab192/"
+          class="badge badge-primary"
+          >Linkedin</a
+        >
+        <a href="https://utkarssh.tech" class="badge badge-dark">Website</a>
+      </p>
+    </footer> -->
+
     <footer class="footer mt-2 mb-2 pb-2 pt-2 bg-dark">
       <p style="text-align: center" class="text-danger">
         Made by Utkarsh Tripathi &nbsp;
@@ -177,48 +232,40 @@
           <img src="https://contrib.rocks/image?repo=utkarsh-1905/time-table" />
         </a>
       </p>
-
-      <!-- dom manipulation logic start -->
-      <script>
-        document.addEventListener("DOMContentLoaded", function () {
-          var courseLocal = localStorage.getItem("course");
-          codeArray = [];
-          nameArray = [];
-          if (courseLocal) {
-            var courseArray = JSON.parse(courseLocal);
-            var codeArray = courseArray.map(function (course) {
-              return course.code;
-            });
-            var nameArray = courseArray.map(function (course) {
-              return course.name;
-            });
-          }
-
-          var tablemainElements = document.getElementsByClassName("tablemain");
-          var textArray = [];
-          for (var i = 0; i < tablemainElements.length; i++) {
-            var text = tablemainElements[i].textContent.trim();
-            var words = text.split(" ");
-            if (codeArray.some((code) => words.includes(code))) {
-              var indexes = [];
-              codeArray.forEach((code) => {
-                var index = words.findIndex((word) => word === code);
-                if (index !== -1) {
-                  indexes.push(index);
-                }
-              });
-              indexes.forEach((index) => {
-                ci = codeArray.findIndex((code) => code === words[index]);
-                words[index] = words[index] + " (" + nameArray[ci] + ")";
-              });
-
-              tablemainElements[i].textContent = words.join(" ");
-            }
-            textArray.push(words);
-          }
-        });
-      </script>
-      <!-- dom manipulation logic end -->
     </footer>
+
+    <!-- Add JavaScript for Save as PNG and Print -->
+    <script>
+      // Save as PNG logic
+      document.getElementById("saveAsPng").addEventListener("click", function () {
+        const timetableElement = document.getElementById("timetable");
+
+        html2canvas(timetableElement, {
+          backgroundColor: null, // Ensures transparency matches your theme
+        }).then((canvas) => {
+          const link = document.createElement("a");
+          link.download = "timetable.png";
+          link.href = canvas.toDataURL("image/png");
+          link.click();
+        }).catch((error) => {
+          console.error("Error saving PNG:", error);
+        });
+      });
+
+      // Print to PDF logic
+      document.getElementById("printPdf").addEventListener("click", function () {
+        const originalContent = document.body.innerHTML;
+        const printContent = document.getElementById("timetable").outerHTML;
+        const footerContent = document.querySelector("footer").outerHTML;
+
+        document.body.innerHTML = printContent + footerContent;
+
+        window.print();
+
+        // Restore the original content after print
+        document.body.innerHTML = originalContent;
+        window.location.reload();
+      });
+    </script>
   </body>
 </html>
